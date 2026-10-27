@@ -19,3 +19,4 @@ Thanks for helping. Small, focused changes are easiest to review.
 - Rules and numbers need a source (poe2db, the game, a video or a post). Mark anything assumed as an assumption.
 - Do not add logins, session cookies, tokens or personal data. The tools only use public data.
 - Keep each tool runnable on its own, with Python 3 and no other installs.
+- By opening a pull request you agree that your contribution is licensed under the GNU General Public License v3.0, like the rest of the repository.

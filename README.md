@@ -23,4 +23,8 @@ Each tool is standalone: its own folder, README, launcher and copies of the shar
 See [CONTRIBUTING.md](CONTRIBUTING.md). Suggestions, bug reports and pull requests are welcome.
 
 ## License
-Not chosen yet.
+The code and writing in this repository are licensed under the GNU General Public License v3.0 (see [LICENSE](LICENSE)). You may use and change them, but anything
+you distribute that is built from them must stay open source under the same license.
+
+Not covered by that license: game and market data (it belongs to Grinding Gear Games and to the sites it comes from: poe2db, poe.ninja, Craft of Exile), and the
+eH_PiC banner artwork in each `theme/` folder.
