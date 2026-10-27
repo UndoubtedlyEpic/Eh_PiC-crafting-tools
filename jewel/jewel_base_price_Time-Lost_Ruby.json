@@ -1,0 +1,197 @@
+{
+ "base": "Time-Lost Ruby",
+ "errors": [],
+ "cases": {
+  "rage on melee hit | Very Large radius | no quality": {
+   "total": 58,
+   "cheapest_20": [
+    1.0,
+    1.0,
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    8.0,
+    10.0
+   ],
+   "median_cheapest_20": 3.0,
+   "n": 20
+  },
+  "rage on melee hit | Very Large radius | quality 15+": {
+   "total": 3,
+   "cheapest_20": [
+    1500.0
+   ],
+   "median_cheapest_20": 1500.0,
+   "n": 1
+  },
+  "rage on melee hit | no Very Large radius | no quality": {
+   "total": 2912,
+   "cheapest_20": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_cheapest_20": 0.0,
+   "n": 19
+  },
+  "rage on melee hit | no Very Large radius | quality 15+": {
+   "total": 7,
+   "cheapest_20": [
+    2800.0,
+    2888.0,
+    2888.0,
+    2888.0,
+    2888.0,
+    2888.0,
+    2888.0
+   ],
+   "median_cheapest_20": 2888.0,
+   "n": 7
+  },
+  "rage on melee hit + effect of small passives | Very Large radius | no quality": {
+   "total": 4,
+   "cheapest_20": [
+    33.0,
+    200.0,
+    300.0,
+    400.0
+   ],
+   "median_cheapest_20": 250.0,
+   "n": 4
+  },
+  "rage on melee hit + effect of small passives | Very Large radius | quality 15+": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  },
+  "rage on melee hit + effect of small passives | no Very Large radius | no quality": {
+   "total": 32,
+   "cheapest_20": [
+    0.0,
+    0.0,
+    0.0,
+    0.1,
+    0.2,
+    0.2,
+    1.0,
+    1.0,
+    2.0,
+    0.7,
+    5.0,
+    5.0,
+    10.0,
+    10.0,
+    10.0,
+    12.0,
+    15.0,
+    15.0,
+    15.0,
+    20.0
+   ],
+   "median_cheapest_20": 3.5,
+   "n": 20
+  },
+  "rage on melee hit + effect of small passives | no Very Large radius | quality 15+": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  },
+  "rage when hit | Very Large radius | no quality": {
+   "total": 39,
+   "cheapest_20": [
+    1.0,
+    2.0,
+    2.0,
+    3.0,
+    3.0,
+    4.0,
+    4.0,
+    4.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    5.0,
+    7.0,
+    9.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0
+   ],
+   "median_cheapest_20": 5.0,
+   "n": 20
+  },
+  "rage when hit | Very Large radius | quality 15+": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  },
+  "rage when hit | no Very Large radius | no quality": {
+   "total": 3099,
+   "cheapest_20": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "median_cheapest_20": 0.0,
+   "n": 20
+  },
+  "rage when hit | no Very Large radius | quality 15+": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  }
+ }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tablet pricing guide</title>
+<style>
+:root{--bg:#0f1115;--panel:#181b22;--panel2:#1f2430;--line:#2c3342;--fg:#d8dce6;--dim:#8a93a6;--acc:#e0b04a;--good:#5fbf7a;--bad:#e06c6c;--blue:#6aa7e8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,Segoe UI,sans-serif}
+header{padding:14px 20px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:18px;color:var(--acc)}header small{color:var(--dim)}
+main{padding:16px 20px;max-width:1200px;display:grid;gap:14px}
+section{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0;scroll-margin-top:12px}
+h2{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}h3{margin:12px 0 4px;font-size:13px}
+input,button,select,textarea{background:var(--panel2);color:var(--fg);border:1px solid var(--line);border-radius:5px;padding:6px 8px;font:inherit}
+button{cursor:pointer}button:hover{border-color:var(--acc)}button.primary{border-color:var(--acc);color:var(--acc)}
+textarea{width:100%;min-height:90px;font-family:Consolas,monospace;font-size:12px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0}
+.dim{color:var(--dim)}.good{color:var(--good)}.bad{color:var(--bad)}.hint{font-size:12px;color:var(--dim);margin-top:6px}
+table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--line);vertical-align:top}td.n,th.n{text-align:right}
+.tbl{overflow:auto;max-height:560px}
+#typeTabs{display:flex;flex-wrap:wrap;gap:6px}#typeTabs button.on{background:var(--acc);color:#14161b;border-color:var(--acc);font-weight:600}
+.vb{font-size:11px;font-weight:600;border-radius:8px;padding:0 7px;border:1px solid var(--line)}.vb.high{color:#14161b;background:var(--good);border-color:var(--good)}.vb.good{color:var(--good);border-color:var(--good)}.vb.low{color:var(--dim)}
+.verdict{padding:8px 12px;border-radius:6px;border-left:4px solid var(--line);margin:8px 0;background:rgba(255,255,255,.03)}.verdict.good{border-color:var(--good)}.verdict.ok{border-color:var(--acc)}.verdict.low{border-color:var(--bad)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
+[hidden]{display:none!important}
+</style>
+<link rel="stylesheet" href="theme/ehpic.css?v=4"></head><body>
+<header><h1>Tablet pricing guide</h1><small>Which affixes and combinations to look for on a Precursor Tablet, and what they sell for, from trade-site listings. Look at what you find in maps and decide what is worth listing. <a href="http://127.0.0.1:8766/jewel_sim.html">Jewel simulator</a> &middot; <a href="http://127.0.0.1:8765/index.html">Crafting advisor</a> &middot; <a href="http://127.0.0.1:8765/hub.html">All tools</a></small></header>
+<main>
+<div id="loadError" class="bad" hidden style="font-weight:600"></div>
+
+<section id="check"><h2>Check a tablet you found</h2>
+<div class="hint" style="margin:0 0 6px">Hover the tablet in game, press Ctrl+C, then paste it here (or press Ctrl+V anywhere on this page). It tells you whether it is worth listing and what it would need to be worth more.</div>
+<textarea id="pasteText" placeholder="Item Class: Tablets&#10;Rarity: Rare&#10;..."></textarea>
+<div class="row"><button id="pasteLoad" class="primary">Check this tablet</button><button id="pasteClip">Paste from clipboard</button><button id="pasteClear">Clear</button><span id="pasteMsg" class="hint"></span></div>
+<div id="checkOut"></div></section>
+
+<section id="guide"><h2>What to look for</h2>
+<div id="typeTabs"></div>
+<div class="row">Worth keeping from <input id="goodAt" type="number" min="0.1" step="any" value="2" style="width:70px"> div &nbsp; Listings needed <input id="minN" type="number" min="1" value="5" style="width:60px"> <label class="dim"><input type="checkbox" id="showLow"> also show cheap ones</label> <span class="dim" id="mktCount"></span></div>
+<div class="two">
+<div><h3>Affixes that sell: <span id="typeName"></span> tablets</h3><div class="tbl" id="mktMods"></div></div>
+<div><h3>Combinations that sell: <span class="dim">best first</span></h3><div class="tbl" id="mktCombos"></div></div>
+</div></section>
+
+<section><h2>Best across every tablet type</h2>
+<div class="two"><div><h3>Most valuable affixes</h3><div class="tbl" id="mktAcross"></div></div>
+<div><h3>Steadiest high-price combinations</h3><div class="tbl" id="mktAcrossCombos"></div></div></div>
+<div class="hint">Click a tablet name to open its guide. Numbers come from trade-site listings across the whole price range (divine, chaos and exalted), rare and magic tablets sampled evenly by price band. Prices are asks, not sales, and tablets list in round steps (1, 2, 10, 50 div), so medians cluster there. The listing counts are a sample, not market share.</div></section>
+</main>
+<script src="tablet_market.js"></script>
+<script src="tablet_sim.js?v=14"></script>
+</body></html>

@@ -1,0 +1,2847 @@
+{
+ "source": "poe2db.tw (ModsView JSON), weights all 1 (poe2db and Craft of Exile list 1 for tablet mods)",
+ "pools": {
+  "Breach Tablet": {
+   "implicit": "Adds an Otherworldy Breach to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "of the Flow",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachHivebloodQuantity"
+     ],
+     "weight": 1,
+     "text": "(30-60)% increased Quantity of Hiveblood found in Map",
+     "tpl": "(30-60)% increased Quantity of Hiveblood found in Map"
+    },
+    {
+     "name": "of the Form",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachWombgiftQuantity"
+     ],
+     "weight": 1,
+     "text": "(30-60)% increased Quantity of Wombgifts found in Map",
+     "tpl": "(30-60)% increased Quantity of Wombgifts found in Map"
+    },
+    {
+     "name": "of the Flesh",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachWombgiftLevelChance"
+     ],
+     "weight": 1,
+     "text": "Wombgifts have (10-30)% chance to drop one Level higher in Map",
+     "tpl": "Wombgifts have (10-30)% chance to drop one Level higher in Map"
+    },
+    {
+     "name": "of the Commander",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachBossChance"
+     ],
+     "weight": 1,
+     "text": "Unstable Breaches in Map have (20-50)% increased chance to contain Vruun, Marshal of Xesht",
+     "tpl": "Unstable Breaches in Map have (20-50)% increased chance to contain Vruun, Marshal of Xesht"
+    },
+    {
+     "name": "of the Invasion",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachAdditionalRares"
+     ],
+     "weight": 1,
+     "text": "Unstable Breaches in Map spawn (1-2) additional Rare Monsters when Stabilised",
+     "tpl": "Unstable Breaches in Map spawn (1-2) additional Rare Monsters when Stabilised"
+    },
+    {
+     "name": "of the Hand",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachRareMonsterPotency"
+     ],
+     "weight": 1,
+     "text": "(5-20)% increased Effectiveness of Rare Breach Monsters in Map",
+     "tpl": "(5-20)% increased Effectiveness of Rare Breach Monsters in Map"
+    },
+    {
+     "name": "of the Horde",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "BreachMonsterQuantity"
+     ],
+     "weight": 1,
+     "text": "Breaches in Map have (5-15)% increased Pack Size",
+     "tpl": "Breaches in Map have (5-15)% increased Pack Size"
+    }
+   ]
+  },
+  "Expedition Tablet": {
+   "implicit": "Adds a Kalguuran Expedition to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "of the Demolition",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionExplosionRadius"
+     ],
+     "weight": 1,
+     "text": "(5-10)% increased Expedition Explosive Area of Effect in Map",
+     "tpl": "(5-10)% increased Expedition Explosive Area of Effect in Map"
+    },
+    {
+     "name": "of Knowledge",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionLogbookIncrease"
+     ],
+     "weight": 1,
+     "text": "(15-25)% increased Quantity of Expedition Logbooks dropped by Runic Monsters in Map",
+     "tpl": "(15-25)% increased Quantity of Expedition Logbooks dropped by Runic Monsters in Map"
+    },
+    {
+     "name": "of Runes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionRunicMonsters"
+     ],
+     "weight": 1,
+     "text": "Map contains (15-25)% increased number of Runic Monster Markers",
+     "tpl": "Map contains (15-25)% increased number of Runic Monster Markers"
+    },
+    {
+     "name": "of Verisium",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionIncreasedVerisium"
+     ],
+     "weight": 1,
+     "text": "Monsters from Verisium Remnants drop (15-25)% increased Verisium",
+     "tpl": "Monsters from Verisium Remnants drop (15-25)% increased Verisium"
+    },
+    {
+     "name": "of Ancient Evil",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionUnearthedRares"
+     ],
+     "weight": 1,
+     "text": "The first (1-2) unearthed Runic Monsters will be Rare Monsters in Map",
+     "tpl": "The first (1-2) unearthed Runic Monsters will be Rare Monsters in Map"
+    },
+    {
+     "name": "of Sentinels",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionAdditionalSentinels"
+     ],
+     "weight": 1,
+     "text": "Expeditions contain (1-2) Additional Verisium Sentries in Map",
+     "tpl": "Expeditions contain (1-2) Additional Verisium Sentries in Map"
+    },
+    {
+     "name": "of Power",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionIncreasedMonsterRarity"
+     ],
+     "weight": 1,
+     "text": "(15-25)% increased Expedition Monster Rarity in Map / expedition elite pack size +% [20]",
+     "tpl": "(15-25)% increased Expedition Monster Rarity in Map / expedition elite pack size +% [20]"
+    },
+    {
+     "name": "of Preservation",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionFrozenBosses"
+     ],
+     "weight": 1,
+     "text": "Expeditions contain (1-2) Additional Bosses encased in ice in Map",
+     "tpl": "Expeditions contain (1-2) Additional Bosses encased in ice in Map"
+    },
+    {
+     "name": "of Treasure",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionBuriedStrongboxes"
+     ],
+     "weight": 1,
+     "text": "Expeditions contain (1-2) buried Strongboxes in Map",
+     "tpl": "Expeditions contain (1-2) buried Strongboxes in Map"
+    },
+    {
+     "name": "of the Past",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionVaalRemnants"
+     ],
+     "weight": 1,
+     "text": "Expeditions contain (1-2) Vaal Relics in Map",
+     "tpl": "Expeditions contain (1-2) Vaal Relics in Map"
+    },
+    {
+     "name": "of Remnants",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionChanceForVerisiumRemnant"
+     ],
+     "weight": 1,
+     "text": "Expeditions have +(30-40)% Surpassing chance to contain an additional Verisium Remnant",
+     "tpl": "Expeditions have +(30-40)% Surpassing chance to contain an additional Verisium Remnant"
+    },
+    {
+     "name": "of Twins",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "ExpeditionChanceForTwinnedElites"
+     ],
+     "weight": 1,
+     "text": "Expeditions have +(30-40)% Surpassing chance to Duplicate Runic Monsters in Map",
+     "tpl": "Expeditions have +(30-40)% Surpassing chance to Duplicate Runic Monsters in Map"
+    },
+    {
+     "name": "of Ancient Fiends",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "Expedition2RunicModPassoverChance"
+     ],
+     "weight": 1,
+     "text": "Verisium Remnants have +(25-35)% chance to add an additional Runic Modifier in Map",
+     "tpl": "Verisium Remnants have +(25-35)% chance to add an additional Runic Modifier in Map"
+    }
+   ]
+  },
+  "Delirium Tablet": {
+   "implicit": "Adds a Mirror of Delirium to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "of the Simulacrum",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumMonsterSplinterIncrease"
+     ],
+     "weight": 1,
+     "text": "(15-30)% increased Stack size of Simulacrum Splinters found in Map",
+     "tpl": "(15-30)% increased Stack size of Simulacrum Splinters found in Map"
+    },
+    {
+     "name": "of Eternity",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumFogDissipationDelay"
+     ],
+     "weight": 1,
+     "text": "Delirium Fog in Map lasts (6-12) additional seconds before dissipating",
+     "tpl": "Delirium Fog in Map lasts (6-12) additional seconds before dissipating"
+    },
+    {
+     "name": "of the Unending",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumFogPersistence"
+     ],
+     "weight": 1,
+     "text": "Delirium Fog in Map dissipates (20-30)% slower",
+     "tpl": "Delirium Fog in Map dissipates (20-30)% slower"
+    },
+    {
+     "name": "of Madness",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumDifficultyIncrease"
+     ],
+     "weight": 1,
+     "text": "Delirium Fog in Map applies (15-30)% increased Deliriousness to Players",
+     "tpl": "Delirium Fog in Map applies (15-30)% increased Deliriousness to Players"
+    },
+    {
+     "name": "of Persecution",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "Delirium Monsters in Map have (15-30)% increased Pack Size",
+     "tpl": "Delirium Monsters in Map have (15-30)% increased Pack Size"
+    },
+    {
+     "name": "of Mirrors",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumDoodadsIncrease"
+     ],
+     "weight": 1,
+     "text": "Delirium Fog in Map spawns (15-30)% increased Fracturing Mirrors",
+     "tpl": "Delirium Fog in Map spawns (15-30)% increased Fracturing Mirrors"
+    },
+    {
+     "name": "of Freeze Time",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumRareMonsterPause"
+     ],
+     "weight": 1,
+     "text": "Slaying Rare Monsters in Map pauses the Delirium Mirror Timer for (3-5) seconds",
+     "tpl": "Slaying Rare Monsters in Map pauses the Delirium Mirror Timer for (3-5) seconds"
+    },
+    {
+     "name": "of Phobia",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumBossChance"
+     ],
+     "weight": 1,
+     "text": "Delirium Encounters in Map are (15-30)% more likely to spawn Unique Bosses",
+     "tpl": "Delirium Encounters in Map are (15-30)% more likely to spawn Unique Bosses"
+    },
+    {
+     "name": "of Shattering",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "DeliriumAdditionalShardsChance"
+     ],
+     "weight": 1,
+     "text": "Delirium Fog in Map spawns (12-26)% increased Mirror Shards",
+     "tpl": "Delirium Fog in Map spawns (12-26)% increased Mirror Shards"
+    }
+   ]
+  },
+  "Ritual Tablet": {
+   "implicit": "Adds Ritual Altars to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "of Sacrifice",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualTributeIncrease"
+     ],
+     "weight": 1,
+     "text": "Monsters Sacrificed at Ritual Altars in Map grant (18-30)% increased Tribute",
+     "tpl": "Monsters Sacrificed at Ritual Altars in Map grant (18-30)% increased Tribute"
+    },
+    {
+     "name": "of the Dogma",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualRerollCostIncrease"
+     ],
+     "weight": 1,
+     "text": "Rerolling Favours at Ritual Altars in Map costs (20-30)% reduced Tribute",
+     "tpl": "Rerolling Favours at Ritual Altars in Map costs (20-30)% reduced Tribute"
+    },
+    {
+     "name": "of Devotion",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualDeferCostIncrease"
+     ],
+     "weight": 1,
+     "text": "Deferring Favours at Ritual Altars in Map costs (20-30)% reduced Tribute",
+     "tpl": "Deferring Favours at Ritual Altars in Map costs (20-30)% reduced Tribute"
+    },
+    {
+     "name": "of the Appeal",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualDeferSpeed"
+     ],
+     "weight": 1,
+     "text": "Favours Deferred at Ritual Altars in Map reappear (25-40)% sooner",
+     "tpl": "Favours Deferred at Ritual Altars in Map reappear (25-40)% sooner"
+    },
+    {
+     "name": "of Prayers",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualAdditionalReroll"
+     ],
+     "weight": 1,
+     "text": "Ritual Altars in Map allow rerolling Favours (1-3) additional times",
+     "tpl": "Ritual Altars in Map allow rerolling Favours (1-3) additional times"
+    },
+    {
+     "name": "of the Occult",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualChanceForNoCost"
+     ],
+     "weight": 1,
+     "text": "Favours Rerolled at Ritual Altars in Map have (3-6)% chance to cost no Tribute",
+     "tpl": "Favours Rerolled at Ritual Altars in Map have (3-6)% chance to cost no Tribute"
+    },
+    {
+     "name": "of the Foundling",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualRareMonsters"
+     ],
+     "weight": 1,
+     "text": "Revived Monsters from Ritual Altars in Map have (35-70)% increased chance to be Magic",
+     "tpl": "Revived Monsters from Ritual Altars in Map have (35-70)% increased chance to be Magic"
+    },
+    {
+     "name": "of the Cult",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualMagicMonsters"
+     ],
+     "weight": 1,
+     "text": "Revived Monsters from Ritual Altars in Map have (25-40)% increased chance to be Rare",
+     "tpl": "Revived Monsters from Ritual Altars in Map have (25-40)% increased chance to be Rare"
+    },
+    {
+     "name": "of Omens",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "RitualOmenChance"
+     ],
+     "weight": 1,
+     "text": "Ritual Favours in Map have (35-70)% increased chance to be Omens",
+     "tpl": "Ritual Favours in Map have (35-70)% increased chance to be Omens"
+    }
+   ]
+  },
+  "Irradiated Tablet": {
+   "implicit": "Adds Irradiated to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    }
+   ]
+  },
+  "Overseer Tablet": {
+   "implicit": "Empowers the Map Boss of a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "of Compartments",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map contains (1-2) additional Strongboxes",
+     "tpl": "Map contains (1-2) additional Strongboxes"
+    },
+    {
+     "name": "of Worship",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map contains (1-2) additional Shrines",
+     "tpl": "Map contains (1-2) additional Shrines"
+    },
+    {
+     "name": "of Crystals",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains (1-2) additional Essences",
+     "tpl": "Map contains (1-2) additional Essences"
+    },
+    {
+     "name": "of Wisps",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map contains (1-2) additional Azmeri Spirits",
+     "tpl": "Map contains (1-2) additional Azmeri Spirits"
+    },
+    {
+     "name": "of Pathways",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossWaystoneChance"
+     ],
+     "weight": 1,
+     "text": "(18-30)% increased Quantity of Waystones dropped by Map Bosses",
+     "tpl": "(18-30)% increased Quantity of Waystones dropped by Map Bosses"
+    },
+    {
+     "name": "of Conquering",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossExperience"
+     ],
+     "weight": 1,
+     "text": "Map Bosses grant (40-80)% increased Experience",
+     "tpl": "Map Bosses grant (40-80)% increased Experience"
+    },
+    {
+     "name": "of Treasure",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossRarity"
+     ],
+     "weight": 1,
+     "text": "(35-60)% increased Rarity of Items dropped by Map Bosses",
+     "tpl": "(35-60)% increased Rarity of Items dropped by Map Bosses"
+    },
+    {
+     "name": "of Hoards",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapBossQuantity"
+     ],
+     "weight": 1,
+     "text": "(13-20)% increased Quantity of Items dropped by Map Bosses",
+     "tpl": "(13-20)% increased Quantity of Items dropped by Map Bosses"
+    }
+   ]
+  },
+  "Abyss Tablet": {
+   "implicit": "Adds Abysses to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "of the Horde",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssMonsterIncrease"
+     ],
+     "weight": 1,
+     "text": "Abysses in Map spawn (20-30)% increased Monsters",
+     "tpl": "Abysses in Map spawn (20-30)% increased Monsters"
+    },
+    {
+     "name": "of Champions",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssRareMonsterIncrease"
+     ],
+     "weight": 1,
+     "text": "(2-3) additional Rare Monsters are spawned from Abysses in Map",
+     "tpl": "(2-3) additional Rare Monsters are spawned from Abysses in Map"
+    },
+    {
+     "name": "of Escalation",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssEnhancedMonstersPerChasm"
+     ],
+     "weight": 1,
+     "text": "Abyssal Monsters have (8-12)% increased Effectiveness for each closed Pit, up to 100%",
+     "tpl": "Abyssal Monsters have (8-12)% increased Effectiveness for each closed Pit, up to 100%"
+    },
+    {
+     "name": "of the Depths",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssDepthsChance"
+     ],
+     "weight": 1,
+     "text": "Abysses in Map have (10-20)% increased chance to lead to an Abyssal Depths",
+     "tpl": "Abysses in Map have (10-20)% increased chance to lead to an Abyssal Depths"
+    },
+    {
+     "name": "of Hollows",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssAdditionalChance"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Abysses",
+     "tpl": "Map contains 1 additional Abysses"
+    },
+    {
+     "name": "of Treasures",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssIncreasedRewards"
+     ],
+     "weight": 1,
+     "text": "Abyss Pits in Map are twice as likely to have Rewards",
+     "tpl": "Abyss Pits in Map are twice as likely to have Rewards"
+    },
+    {
+     "name": "of Schisms",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "Abyss4AdditionalChance"
+     ],
+     "weight": 1,
+     "text": "Map has (20-40)% chance to contain four additional Abysses",
+     "tpl": "Map has (20-40)% chance to contain four additional Abysses"
+    },
+    {
+     "name": "of Dark Power",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssExtraModifiers"
+     ],
+     "weight": 1,
+     "text": "(20-30)% increased chance for Abyssal monsters in Map to have Abyssal Modifiers",
+     "tpl": "(20-30)% increased chance for Abyssal monsters in Map to have Abyssal Modifiers"
+    },
+    {
+     "name": "of Ossification",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "AbyssExtraTickets"
+     ],
+     "weight": 1,
+     "text": "(20-30)% increased chance for Desecrated Currency from Abysses in Map",
+     "tpl": "(20-30)% increased chance for Desecrated Currency from Abysses in Map"
+    }
+   ]
+  },
+  "Temple Tablet": {
+   "implicit": "Adds Vaal Beacons to a Map",
+   "uses": 10,
+   "normal": [
+    {
+     "name": "Challenger's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterEffectiveness"
+     ],
+     "weight": 1,
+     "text": "Monsters have (10-15)% increased Effectiveness",
+     "tpl": "Monsters have (10-15)% increased Effectiveness"
+    },
+    {
+     "name": "Collector's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedItemRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "(8-12)% increased Rarity of Items found in Map",
+     "tpl": "(8-12)% increased Rarity of Items found in Map"
+    },
+    {
+     "name": "Breeding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapPackSizeIncrease"
+     ],
+     "weight": 1,
+     "text": "(5-7)% increased Pack Size in Map",
+     "tpl": "(5-7)% increased Pack Size in Map"
+    },
+    {
+     "name": "Teeming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMagicPackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (30-40)% increased Magic Monsters",
+     "tpl": "Map has (30-40)% increased Magic Monsters"
+    },
+    {
+     "name": "Brimming",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapRarePackIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (25-35)% increased number of Rare Monsters",
+     "tpl": "Map has (25-35)% increased number of Rare Monsters"
+    },
+    {
+     "name": "Abounding",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapMonsterRarityIncrease"
+     ],
+     "weight": 1,
+     "text": "Map has (15-20)% increased Monster Rarity",
+     "tpl": "Map has (15-20)% increased Monster Rarity"
+    },
+    {
+     "name": "Bountiful",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapDroppedGoldIncrease"
+     ],
+     "weight": 1,
+     "text": "(25-35)% increased Gold found in Map",
+     "tpl": "(25-35)% increased Gold found in Map"
+    },
+    {
+     "name": "Elevated",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapExperienceGainIncrease"
+     ],
+     "weight": 1,
+     "text": "(12-18)% increased Experience gain in Map",
+     "tpl": "(12-18)% increased Experience gain in Map"
+    },
+    {
+     "name": "Treasurer's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalChests"
+     ],
+     "weight": 1,
+     "text": "Map contains (2-3) additional Rare Chests",
+     "tpl": "Map contains (2-3) additional Rare Chests"
+    },
+    {
+     "name": "of the Cartographer",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapDroppedMapsIncrease"
+     ],
+     "weight": 1,
+     "text": "(30-40)% increased Quantity of Waystones found in Map",
+     "tpl": "(30-40)% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Shrines",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Shrines",
+     "tpl": "Map has (70-100)% increased chance to contain Shrines"
+    },
+    {
+     "name": "of the Devoted",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalShrine"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Shrines"
+    },
+    {
+     "name": "of Strongboxes",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Strongboxes",
+     "tpl": "Map has (70-100)% increased chance to contain Strongboxes"
+    },
+    {
+     "name": "of the Antiquarian",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStrongbox"
+     ],
+     "weight": 1,
+     "text": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes",
+     "tpl": "X% reduced Pack Size in Map / X% increased Quantity of Waystones found in Map / Map contains 1 additional Strongboxes"
+    },
+    {
+     "name": "of the Essence",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Essences",
+     "tpl": "Map has (70-100)% increased chance to contain Essences"
+    },
+    {
+     "name": "Crystallised",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalEssence"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map",
+     "tpl": "Map contains 1 additional Essences / X% increased Quantity of Waystones found in Map"
+    },
+    {
+     "name": "of Spirits",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalSpirit"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Azmeri Spirits",
+     "tpl": "Map has (70-100)% increased chance to contain Azmeri Spirits"
+    },
+    {
+     "name": "Azmeri's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalAzmeriWisp"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map contains 1 additional Azmeri Spirits"
+    },
+    {
+     "name": "of the Exile",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain Rogue Exiles",
+     "tpl": "Map has (70-100)% increased chance to contain Rogue Exiles"
+    },
+    {
+     "name": "Exiled",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalExile"
+     ],
+     "weight": 1,
+     "text": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles",
+     "tpl": "X% increased Quantity of Waystones found in Map / Map is inhabited by 1 additional Rogue Exiles"
+    },
+    {
+     "name": "Summoner's",
+     "level": 1,
+     "side": "P",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map contains 1 additional Summoning Circles",
+     "tpl": "Map contains 1 additional Summoning Circles"
+    },
+    {
+     "name": "of the Summoning",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalStoneCircle"
+     ],
+     "weight": 1,
+     "text": "Map has (70-100)% increased chance to contain a Summoning Circle",
+     "tpl": "Map has (70-100)% increased chance to contain a Summoning Circle"
+    },
+    {
+     "name": "of Undertaking",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalModifier"
+     ],
+     "weight": 1,
+     "text": "Map has (1-2) additional random Modifiers",
+     "tpl": "Map has (1-2) additional random Modifiers"
+    },
+    {
+     "name": "of Contest",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "MapAdditionalUniqueMonsterModifier"
+     ],
+     "weight": 1,
+     "text": "Unique Monsters have 1 additional Rare Modifiers",
+     "tpl": "Unique Monsters have 1 additional Rare Modifiers"
+    },
+    {
+     "name": "TowerIncursionPackSize",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionPackSize"
+     ],
+     "weight": 1,
+     "text": "(10-30)% increased Pack Size for Monsters around Vaal Beacons in Map",
+     "tpl": "(10-30)% increased Pack Size for Monsters around Vaal Beacons in Map"
+    },
+    {
+     "name": "TowerIncursionExtraPacks",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionExtraPacks"
+     ],
+     "weight": 1,
+     "text": "1 extra packs of Monsters around Vaal Beacons in Map",
+     "tpl": "1 extra packs of Monsters around Vaal Beacons in Map"
+    },
+    {
+     "name": "TowerIncursionExtraPacksChance",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionExtraPacks"
+     ],
+     "weight": 1,
+     "text": "(30-60)% chance for an extra packs of Monsters around Vaal Beacons in Map",
+     "tpl": "(30-60)% chance for an extra packs of Monsters around Vaal Beacons in Map"
+    },
+    {
+     "name": "TowerIncursionSecondaryEncounters",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionSecondaryEncounters"
+     ],
+     "weight": 1,
+     "text": "(25-50)% increased chance Vaal Beacons summon additional Monsters in Map",
+     "tpl": "(25-50)% increased chance Vaal Beacons summon additional Monsters in Map"
+    },
+    {
+     "name": "TowerIncursionTokenChance",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionTokenChance"
+     ],
+     "weight": 1,
+     "text": "(5-10)% chance to gain an additional Crystal from Vaal Beacons in Map",
+     "tpl": "(5-10)% chance to gain an additional Crystal from Vaal Beacons in Map"
+    },
+    {
+     "name": "TowerIncursionBossChance",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionBossChance"
+     ],
+     "weight": 1,
+     "text": "(10-25)% chance to add a Vaal Beacon Unique Monster to the Map",
+     "tpl": "(10-25)% chance to add a Vaal Beacon Unique Monster to the Map"
+    },
+    {
+     "name": "TowerIncursionRareChestChance",
+     "level": 1,
+     "side": "S",
+     "family": [
+      "IncursionRareChestChance"
+     ],
+     "weight": 1,
+     "text": "(30-60)% increased chance Vaal Beacon Chests are Rare in Map",
+     "tpl": "(30-60)% increased chance Vaal Beacon Chests are Rare in Map"
+    }
+   ]
+  }
+ }
+}

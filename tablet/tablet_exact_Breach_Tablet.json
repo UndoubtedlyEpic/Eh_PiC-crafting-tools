@@ -1,0 +1,598 @@
+[
+ {
+  "labels": [
+   "Experience gain",
+   "Magic Monsters",
+   "Rogue Exiles chance",
+   "Summoning Circle chance"
+  ],
+  "own_roll": false,
+  "total": 2,
+  "n": 2,
+  "cheapest": [
+   0.2978,
+   0.2978
+  ],
+  "median_first30": 0.2978,
+  "rows": [
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-09-11T16:54:12Z",
+    "mods": [
+     "16% increased Experience gain in Map",
+     "Map has 37% increased Magic Monsters",
+     "Map has 71% increased chance to contain Rogue Exiles",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-10-08T06:01:42Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "Map has 40% increased Magic Monsters",
+     "Map has 70% increased chance to contain Rogue Exiles",
+     "Map has 89% increased chance to contain a Summoning Circle"
+    ]
+   }
+  ]
+ },
+ {
+  "labels": [
+   "Experience gain",
+   "Magic Monsters",
+   "Rogue Exiles chance",
+   "Summoning Circle chance"
+  ],
+  "own_roll": true,
+  "total": 1,
+  "n": 1,
+  "cheapest": [
+   0.2978
+  ],
+  "median_first30": 0.2978,
+  "rows": [
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-10-08T06:01:42Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "Map has 40% increased Magic Monsters",
+     "Map has 70% increased chance to contain Rogue Exiles",
+     "Map has 89% increased chance to contain a Summoning Circle"
+    ]
+   }
+  ]
+ },
+ {
+  "labels": [
+   "Experience gain",
+   "Magic Monsters",
+   "Rogue Exiles chance"
+  ],
+  "own_roll": false,
+  "total": 48,
+  "n": 10,
+  "cheapest": [
+   0.0993,
+   0.0993,
+   0.0993,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985
+  ],
+  "median_first30": 0.1985,
+  "rows": [
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-09-24T10:39:33Z",
+    "mods": [
+     "14% increased Experience gain in Map",
+     "38% increased Quantity of Waystones found in Map",
+     "Map has 33% increased Magic Monsters",
+     "Map has 75% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-10-21T08:10:50Z",
+    "mods": [
+     "Unstable Breaches in Map have 22% increased chance to contain Vruun, Marshal of Xesht",
+     "14% increased Experience gain in Map",
+     "Map has 38% increased Magic Monsters",
+     "Map has 99% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-10-12T23:18:38Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "38% increased Quantity of Waystones found in Map",
+     "Map has 34% increased Magic Monsters",
+     "Map has 82% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-04T23:55:06Z",
+    "mods": [
+     "Unstable Breaches in Map have 33% increased chance to contain Vruun, Marshal of Xesht",
+     "15% increased Experience gain in Map",
+     "Map has 39% increased Magic Monsters",
+     "Map has 78% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-29T08:59:31Z",
+    "mods": [
+     "Unstable Breaches in Map have 25% increased chance to contain Vruun, Marshal of Xesht",
+     "16% increased Experience gain in Map",
+     "Map has 37% increased Magic Monsters",
+     "Map has 83% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-11T19:22:49Z",
+    "mods": [
+     "Wombgifts have 15% chance to drop one Level higher in Map",
+     "14% increased Experience gain in Map",
+     "Map has 34% increased Magic Monsters",
+     "Map has 100% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-08T06:01:42Z",
+    "mods": [
+     "9% increased Effectiveness of Rare Breach Monsters in Map",
+     "12% increased Experience gain in Map",
+     "Map has 36% increased Magic Monsters",
+     "Map has 90% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-15T05:19:49Z",
+    "mods": [
+     "Unstable Breaches in Map have 41% increased chance to contain Vruun, Marshal of Xesht",
+     "17% increased Experience gain in Map",
+     "Map has 31% increased Magic Monsters",
+     "Map has 86% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-30T14:41:59Z",
+    "mods": [
+     "Wombgifts have 14% chance to drop one Level higher in Map",
+     "15% increased Experience gain in Map",
+     "Map has 36% increased Magic Monsters",
+     "Map has 86% increased chance to contain Rogue Exiles"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-11T22:55:18Z",
+    "mods": [
+     "8% increased Effectiveness of Rare Breach Monsters in Map",
+     "15% increased Experience gain in Map",
+     "Map has 37% increased Magic Monsters",
+     "Map has 98% increased chance to contain Rogue Exiles"
+    ]
+   }
+  ]
+ },
+ {
+  "labels": [
+   "Experience gain",
+   "Magic Monsters",
+   "Summoning Circle chance"
+  ],
+  "own_roll": false,
+  "total": 66,
+  "n": 10,
+  "cheapest": [
+   0.0085,
+   0.0848,
+   0.0993,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.1985
+  ],
+  "median_first30": 0.1985,
+  "rows": [
+   {
+    "div": 0.0085,
+    "raw": "6 exalted",
+    "indexed": "2026-09-08T11:00:00Z",
+    "mods": [
+     "19% increased Effectiveness of Rare Breach Monsters in Map",
+     "16% increased Experience gain in Map",
+     "Map has 40% increased Magic Monsters",
+     "Map has 83% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-09-25T19:11:04Z",
+    "mods": [
+     "14% increased Experience gain in Map",
+     "Map has 36% increased Magic Monsters",
+     "Map has 99% increased chance to contain a Summoning Circle",
+     "Map has 83% increased chance to contain Azmeri Spirits"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-26T04:39:37Z",
+    "mods": [
+     "Breaches in Map have 5% increased Pack Size",
+     "12% increased Experience gain in Map",
+     "Map has 36% increased Magic Monsters",
+     "Map has 99% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-19T14:21:01Z",
+    "mods": [
+     "Breaches in Map have 7% increased Pack Size",
+     "15% increased Experience gain in Map",
+     "Map has 30% increased Magic Monsters",
+     "Map has 85% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-25T06:40:13Z",
+    "mods": [
+     "Unstable Breaches in Map have 49% increased chance to contain Vruun, Marshal of Xesht",
+     "16% increased Experience gain in Map",
+     "Map has 34% increased Magic Monsters",
+     "Map has 93% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-17T11:12:54Z",
+    "mods": [
+     "13% increased Experience gain in Map",
+     "Map has 88% increased chance to contain Essences",
+     "Map has 31% increased Magic Monsters",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-16T05:05:23Z",
+    "mods": [
+     "14% increased Experience gain in Map",
+     "36% increased Quantity of Waystones found in Map",
+     "Map has 39% increased Magic Monsters",
+     "Map has 90% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-29T23:21:14Z",
+    "mods": [
+     "13% increased Experience gain in Map",
+     "Map has 31% increased Magic Monsters",
+     "Map has 74% increased chance to contain a Summoning Circle",
+     "Unstable Breaches in Map spawn an additional Rare Monster when Stabilised"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-17T06:19:52Z",
+    "mods": [
+     "13% increased Experience gain in Map",
+     "30% increased Quantity of Waystones found in Map",
+     "Map has 31% increased Magic Monsters",
+     "Map has 90% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.0848,
+    "raw": "60 exalted",
+    "indexed": "2026-10-21T20:45:43Z",
+    "mods": [
+     "Wombgifts have 27% chance to drop one Level higher in Map",
+     "17% increased Experience gain in Map",
+     "Map has 30% increased Magic Monsters",
+     "Map has 73% increased chance to contain a Summoning Circle"
+    ]
+   }
+  ]
+ },
+ {
+  "labels": [
+   "Experience gain",
+   "Rogue Exiles chance",
+   "Summoning Circle chance"
+  ],
+  "own_roll": false,
+  "total": 16,
+  "n": 9,
+  "cheapest": [
+   0.0777,
+   0.0993,
+   0.2978,
+   0.2978,
+   0.2978,
+   0.8933,
+   0.9926,
+   1.0,
+   1.0
+  ],
+  "median_first30": 0.2978,
+  "rows": [
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-10-11T21:24:31Z",
+    "mods": [
+     "12% increased Experience gain in Map",
+     "Map has 17% increased Monster Rarity",
+     "Map has 98% increased chance to contain Rogue Exiles",
+     "Map has 100% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.0777,
+    "raw": "55 exalted",
+    "indexed": "2026-10-03T13:16:04Z",
+    "mods": [
+     "16% increased Experience gain in Map",
+     "Map has 19% increased Monster Rarity",
+     "Map has 95% increased chance to contain Rogue Exiles",
+     "Map has 96% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-09-11T17:08:45Z",
+    "mods": [
+     "14% increased Experience gain in Map",
+     "Map has 27% increased number of Rare Monsters",
+     "Map has 98% increased chance to contain Rogue Exiles",
+     "Map has 81% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-09-11T16:54:12Z",
+    "mods": [
+     "16% increased Experience gain in Map",
+     "Map has 37% increased Magic Monsters",
+     "Map has 71% increased chance to contain Rogue Exiles",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-10-08T06:01:42Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "Map has 40% increased Magic Monsters",
+     "Map has 70% increased chance to contain Rogue Exiles",
+     "Map has 89% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.8933,
+    "raw": "9 chaos",
+    "indexed": "2026-09-30T13:15:46Z",
+    "mods": [
+     "Map contains 2 additional Rare Chests",
+     "13% increased Experience gain in Map",
+     "Map has 71% increased chance to contain Rogue Exiles",
+     "Map has 75% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.9926,
+    "raw": "10 chaos",
+    "indexed": "2026-10-18T10:56:56Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "Map has 15% increased Monster Rarity",
+     "Map has 100% increased chance to contain Rogue Exiles",
+     "Map has 75% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 1.0,
+    "raw": "1 divine",
+    "indexed": "2026-09-28T17:23:39Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "30% increased Gold found in Map",
+     "Map has 88% increased chance to contain Rogue Exiles",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 1.0,
+    "raw": "1 divine",
+    "indexed": "2026-10-19T10:51:18Z",
+    "mods": [
+     "13% increased Experience gain in Map",
+     "Monsters have 13% increased Effectiveness",
+     "Map has 72% increased chance to contain Rogue Exiles",
+     "Map has 87% increased chance to contain a Summoning Circle"
+    ]
+   }
+  ]
+ },
+ {
+  "labels": [
+   "Magic Monsters",
+   "Rogue Exiles chance",
+   "Summoning Circle chance"
+  ],
+  "own_roll": false,
+  "total": 13,
+  "n": 10,
+  "cheapest": [
+   0.0993,
+   0.0993,
+   0.1985,
+   0.1985,
+   0.1985,
+   0.2978,
+   0.2978,
+   0.2978,
+   0.2978,
+   0.397
+  ],
+  "median_first30": 0.24815,
+  "rows": [
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-10-11T00:04:19Z",
+    "mods": [
+     "26% increased Gold found in Map",
+     "Map has 39% increased Magic Monsters",
+     "Map has 76% increased chance to contain Rogue Exiles",
+     "Map has 98% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.0993,
+    "raw": "1 chaos",
+    "indexed": "2026-09-15T12:38:26Z",
+    "mods": [
+     "Map contains 3 additional Rare Chests",
+     "Map has 38% increased Magic Monsters",
+     "Map has 87% increased chance to contain Rogue Exiles",
+     "Map has 82% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-26T00:33:47Z",
+    "mods": [
+     "Monsters have 11% increased Effectiveness",
+     "Map has 37% increased Magic Monsters",
+     "Map has 79% increased chance to contain Rogue Exiles",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-09-23T11:08:14Z",
+    "mods": [
+     "30% increased Gold found in Map",
+     "Map has 39% increased Magic Monsters",
+     "Map has 91% increased chance to contain Rogue Exiles",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.1985,
+    "raw": "2 chaos",
+    "indexed": "2026-10-18T10:06:07Z",
+    "mods": [
+     "5% increased Pack Size in Map",
+     "Map has 30% increased Magic Monsters",
+     "Map has 90% increased chance to contain Rogue Exiles",
+     "Map has 88% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-09-13T09:35:21Z",
+    "mods": [
+     "Monsters have 14% increased Effectiveness",
+     "Map has 36% increased Magic Monsters",
+     "Map has 72% increased chance to contain Rogue Exiles",
+     "Map has 98% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-09-12T21:47:21Z",
+    "mods": [
+     "35% increased Gold found in Map",
+     "Map has 35% increased Magic Monsters",
+     "Map has 97% increased chance to contain Rogue Exiles",
+     "Map has 84% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-10-08T06:01:42Z",
+    "mods": [
+     "15% increased Experience gain in Map",
+     "Map has 40% increased Magic Monsters",
+     "Map has 70% increased chance to contain Rogue Exiles",
+     "Map has 89% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.2978,
+    "raw": "3 chaos",
+    "indexed": "2026-09-11T16:54:12Z",
+    "mods": [
+     "16% increased Experience gain in Map",
+     "Map has 37% increased Magic Monsters",
+     "Map has 71% increased chance to contain Rogue Exiles",
+     "Map has 70% increased chance to contain a Summoning Circle"
+    ]
+   },
+   {
+    "div": 0.397,
+    "raw": "4 chaos",
+    "indexed": "2026-09-26T11:52:33Z",
+    "mods": [
+     "Monsters have 10% increased Effectiveness",
+     "Map has 38% increased Magic Monsters",
+     "Map has 79% increased chance to contain Rogue Exiles",
+     "Map has 91% increased chance to contain a Summoning Circle"
+    ]
+   }
+  ]
+ }
+]

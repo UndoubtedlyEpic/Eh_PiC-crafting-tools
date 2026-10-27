@@ -1,0 +1,17 @@
+# local data that must never be committed
+jewel/craftlog/
+jewel/trade_stats.json
+advisor/trade_stats.json
+*.log
+__pycache__/
+*.pyc
+jewel/share_dist/
+
+# raw video transcripts and downloads
+advisor/video_notes/*.txt
+advisor/video_notes/_vtt/
+
+# editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db

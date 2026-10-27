@@ -1,0 +1,58 @@
+[
+ {
+  "lift": 0.27134188107077883,
+  "n": 14,
+  "share_150": 0.7142857142857143,
+  "side": "P",
+  "text": "Upgrades Radius to Very Large",
+  "median": 180.0
+ },
+ {
+  "lift": 0.253937246000699,
+  "n": 20,
+  "share_150": 0.55,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 6% increased Critical Spell Damage Bonus",
+  "median": 150.0
+ },
+ {
+  "lift": 0.2197145050398781,
+  "n": 12,
+  "share_150": 0.5,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 2% increased Attack Speed",
+  "median": 137.5
+ },
+ {
+  "lift": 0.2127742843923106,
+  "n": 27,
+  "share_150": 0.6666666666666666,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 9% increased Critical Damage Bonus",
+  "median": 180.0
+ },
+ {
+  "lift": 0.20597552871456615,
+  "n": 15,
+  "share_150": 0.6666666666666666,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 7% increased Critical Hit Chance",
+  "median": 150.0
+ },
+ {
+  "lift": 0.19396645891112918,
+  "n": 27,
+  "share_150": 0.4444444444444444,
+  "side": "P",
+  "text": "+1 Suffix Modifier allowed",
+  "median": 115.0
+ },
+ {
+  "lift": 0.03792596266288717,
+  "n": 17,
+  "share_150": 0.35294117647058826,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 5% increased Critical Hit Chance for Spells",
+  "median": 100.0
+ }
+]

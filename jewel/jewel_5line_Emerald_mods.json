@@ -1,0 +1,458 @@
+[
+ {
+  "lift": 0.9621899103492493,
+  "n": 58,
+  "share_150": 0.6379310344827587,
+  "side": "S",
+  "text": "45% increased Effect of Prefixes",
+  "median": 150.0
+ },
+ {
+  "lift": 0.9416582260017785,
+  "n": 46,
+  "share_150": 0.717391304347826,
+  "side": "P",
+  "text": "57% increased Effect of Suffixes",
+  "median": 150.0
+ },
+ {
+  "lift": 0.603130501155106,
+  "n": 110,
+  "share_150": 0.4090909090909091,
+  "side": "S",
+  "text": "15% increased Critical Hit Chance for Attacks",
+  "median": 70.0
+ },
+ {
+  "lift": 0.5167726089201672,
+  "n": 128,
+  "share_150": 0.328125,
+  "side": "S",
+  "text": "10% increased Critical Damage Bonus for Attack Damage",
+  "median": 60.0
+ },
+ {
+  "lift": 0.45459560571032,
+  "n": 78,
+  "share_150": 0.358974358974359,
+  "side": "S",
+  "text": "11% increased Critical Damage Bonus with Spears",
+  "median": 70.0
+ },
+ {
+  "lift": 0.3938447505070535,
+  "n": 94,
+  "share_150": 0.3617021276595745,
+  "side": "P",
+  "text": "10% increased Attack Damage",
+  "median": 65.0
+ },
+ {
+  "lift": 0.3799210778691635,
+  "n": 63,
+  "share_150": 0.31746031746031744,
+  "side": "S",
+  "text": "3% increased Attack Speed with Spears",
+  "median": 60.0
+ },
+ {
+  "lift": 0.3469139200409428,
+  "n": 52,
+  "share_150": 0.1346153846153846,
+  "side": "P",
+  "text": "+1 Suffix Modifier allowed",
+  "median": 60.0
+ },
+ {
+  "lift": 0.31154932670885294,
+  "n": 137,
+  "share_150": 0.26277372262773724,
+  "side": "S",
+  "text": "3% increased Attack Speed",
+  "median": 60.0
+ },
+ {
+  "lift": 0.30714229804917936,
+  "n": 84,
+  "share_150": 0.30952380952380953,
+  "side": "P",
+  "text": "14% increased Elemental Damage",
+  "median": 40.0
+ },
+ {
+  "lift": 0.23547186613785187,
+  "n": 41,
+  "share_150": 0.4634146341463415,
+  "side": "P",
+  "text": "8% increased Damage with Quarterstaves",
+  "median": 69.0
+ },
+ {
+  "lift": 0.21983717020607463,
+  "n": 120,
+  "share_150": 0.25833333333333336,
+  "side": "P",
+  "text": "5% increased Projectile Damage",
+  "median": 60.0
+ },
+ {
+  "lift": 0.17196842392369005,
+  "n": 54,
+  "share_150": 0.24074074074074073,
+  "side": "P",
+  "text": "10% increased Damage with Hits against Rare and Unique Enemies",
+  "median": 40.0
+ },
+ {
+  "lift": 0.08180907018460482,
+  "n": 39,
+  "share_150": 0.1282051282051282,
+  "side": "P",
+  "text": "4% increased Projectile Speed",
+  "median": 60.0
+ },
+ {
+  "lift": 0.02099096862670735,
+  "n": 19,
+  "share_150": 0.10526315789473684,
+  "side": "S",
+  "text": "10% chance to Daze on Hit",
+  "median": 20.0
+ },
+ {
+  "lift": -0.007188155558222498,
+  "n": 65,
+  "share_150": 0.16923076923076924,
+  "side": "P",
+  "text": "13% increased Damage with Spears",
+  "median": 20.0
+ },
+ {
+  "lift": -0.0148798681283826,
+  "n": 44,
+  "share_150": 0.11363636363636363,
+  "side": "P",
+  "text": "9% increased Damage with Bows",
+  "median": 20.0
+ },
+ {
+  "lift": -0.05778922213767568,
+  "n": 87,
+  "share_150": 0.21839080459770116,
+  "side": "P",
+  "text": "10% increased Evasion Rating",
+  "median": 20.0
+ },
+ {
+  "lift": -0.13972699609778094,
+  "n": 39,
+  "share_150": 0.10256410256410256,
+  "side": "S",
+  "text": "4% increased Attack Speed with Bows",
+  "median": 20.0
+ },
+ {
+  "lift": -0.15335107643622692,
+  "n": 82,
+  "share_150": 0.1951219512195122,
+  "side": "P",
+  "text": "8% increased Lightning Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.16176282467959746,
+  "n": 31,
+  "share_150": 0.06451612903225806,
+  "side": "P",
+  "text": "Companions deal 15% increased Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.1675365803746749,
+  "n": 52,
+  "share_150": 0.057692307692307696,
+  "side": "S",
+  "text": "2% increased Attack Speed with Crossbows",
+  "median": 20.0
+ },
+ {
+  "lift": -0.1714352637152139,
+  "n": 35,
+  "share_150": 0.14285714285714285,
+  "side": "S",
+  "text": "2% increased Attack Speed with Quarterstaves",
+  "median": 5.0
+ },
+ {
+  "lift": -0.18340599188365858,
+  "n": 18,
+  "share_150": 0.1111111111111111,
+  "side": "P",
+  "text": "7% increased Magnitude of Ailments you inflict",
+  "median": 20.0
+ },
+ {
+  "lift": -0.18760914813636553,
+  "n": 30,
+  "share_150": 0.06666666666666667,
+  "side": "S",
+  "text": "+1 Prefix Modifier allowed",
+  "median": 12.5
+ },
+ {
+  "lift": -0.20610811346309954,
+  "n": 32,
+  "share_150": 0.09375,
+  "side": "P",
+  "text": "8% increased Damage with Crossbows",
+  "median": 12.5
+ },
+ {
+  "lift": -0.21172527800544338,
+  "n": 18,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "13% increased Magnitude of Poison you inflict",
+  "median": 5.0
+ },
+ {
+  "lift": -0.2744348266857426,
+  "n": 18,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "14% increased Crossbow Reload Speed",
+  "median": 5.0
+ },
+ {
+  "lift": -0.28041859174941675,
+  "n": 42,
+  "share_150": 0.047619047619047616,
+  "side": "P",
+  "text": "Damage Penetrates 8% Lightning Resistance",
+  "median": 5.0
+ },
+ {
+  "lift": -0.29159203772793985,
+  "n": 12,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "11% increased Magnitude of Shock you inflict",
+  "median": 12.5
+ },
+ {
+  "lift": -0.2930826607431979,
+  "n": 15,
+  "share_150": 0.2,
+  "side": "S",
+  "text": "Mark Skills have 30% increased Skill Effect Duration",
+  "median": 20.0
+ },
+ {
+  "lift": -0.29924635022765045,
+  "n": 25,
+  "share_150": 0.04,
+  "side": "P",
+  "text": "10% increased Damage while you have an active Charm",
+  "median": 5.0
+ },
+ {
+  "lift": -0.31164183057480366,
+  "n": 24,
+  "share_150": 0.041666666666666664,
+  "side": "S",
+  "text": "6% increased Mana Recovery from Flasks",
+  "median": 5.0
+ },
+ {
+  "lift": -0.3215865515555839,
+  "n": 14,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "13% increased Accuracy Rating with Bows",
+  "median": 5.0
+ },
+ {
+  "lift": -0.32246119179282884,
+  "n": 17,
+  "share_150": 0.058823529411764705,
+  "side": "S",
+  "text": "9% chance to Poison on Hit",
+  "median": 5.0
+ },
+ {
+  "lift": -0.39651349831165517,
+  "n": 36,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "Companions have 10% increased maximum Life",
+  "median": 5.0
+ },
+ {
+  "lift": -0.43444682449891225,
+  "n": 13,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "12% increased Pin Buildup",
+  "median": 20.0
+ },
+ {
+  "lift": -0.4365767951591387,
+  "n": 47,
+  "share_150": 0.0851063829787234,
+  "side": "P",
+  "text": "8% increased Accuracy Rating",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4474624144621022,
+  "n": 16,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "5% increased Duration of Ignite, Shock and Chill on Enemies",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4560940135051428,
+  "n": 19,
+  "share_150": 0.05263157894736842,
+  "side": "S",
+  "text": "8% increased Duration of Damaging Ailments on Enemies",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4693758829977347,
+  "n": 26,
+  "share_150": 0.07692307692307693,
+  "side": "S",
+  "text": "5% increased Flask Effect Duration",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4777325742778816,
+  "n": 30,
+  "share_150": 0.13333333333333333,
+  "side": "P",
+  "text": "Herald Skills deal 23% increased Damage",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4784408251054705,
+  "n": 18,
+  "share_150": 0.05555555555555555,
+  "side": "S",
+  "text": "5% chance to Blind Enemies on Hit with Attacks",
+  "median": 5.0
+ },
+ {
+  "lift": -0.48013511981925894,
+  "n": 30,
+  "share_150": 0.03333333333333333,
+  "side": "S",
+  "text": "7% increased Charm Effect Duration",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4911249903526249,
+  "n": 14,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "16% increased Stun Threshold if you haven't been Stunned Recently",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5024107312160139,
+  "n": 29,
+  "share_150": 0.06896551724137931,
+  "side": "P",
+  "text": "19% increased Projectile Damage if you've dealt a Melee Hit in the past eight seconds",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5035246360541641,
+  "n": 16,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "20% increased chance to Shock",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5321724601265243,
+  "n": 16,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "18% increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5322528816495231,
+  "n": 27,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "18% increased Elemental Ailment Threshold",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5707554002088151,
+  "n": 22,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "11% increased Hazard Damage",
+  "median": 5.0
+ },
+ {
+  "lift": -0.6109372365495269,
+  "n": 30,
+  "share_150": 0.06666666666666667,
+  "side": "S",
+  "text": "14% increased Life Recovery from Flasks",
+  "median": 5.0
+ },
+ {
+  "lift": -0.663832824774161,
+  "n": 17,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "8% increased Charm Charges gained",
+  "median": 5.0
+ },
+ {
+  "lift": -0.6641975189365613,
+  "n": 23,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Mark Skills have 7% increased Use Speed",
+  "median": 5.0
+ },
+ {
+  "lift": -0.6734558928867718,
+  "n": 25,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "5% increased amount of Mana Leeched",
+  "median": 5.0
+ },
+ {
+  "lift": -0.6956484680580618,
+  "n": 15,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "5% increased Damage with Plant Skills",
+  "median": 5.0
+ },
+ {
+  "lift": -0.7002838940238538,
+  "n": 17,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "7% increased Flask Charges gained",
+  "median": 1.0
+ },
+ {
+  "lift": -0.7784058551821803,
+  "n": 15,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "5% increased Poison Duration",
+  "median": 5.0
+ }
+]

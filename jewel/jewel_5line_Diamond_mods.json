@@ -1,0 +1,290 @@
+[
+ {
+  "lift": 0.9568743553639347,
+  "n": 35,
+  "share_150": 0.6285714285714286,
+  "side": "S",
+  "text": "51% increased Effect of Prefixes",
+  "median": 150.0
+ },
+ {
+  "lift": 0.9382217555818819,
+  "n": 22,
+  "share_150": 0.6363636363636364,
+  "side": "P",
+  "text": "47% increased Effect of Suffixes",
+  "median": 150.0
+ },
+ {
+  "lift": 0.5891648725175809,
+  "n": 46,
+  "share_150": 0.30434782608695654,
+  "side": "P",
+  "text": "12% increased maximum Energy Shield",
+  "median": 72.5
+ },
+ {
+  "lift": 0.5511144361543385,
+  "n": 36,
+  "share_150": 0.4166666666666667,
+  "side": "P",
+  "text": "18% increased Evasion Rating",
+  "median": 99.0
+ },
+ {
+  "lift": 0.5169810006845084,
+  "n": 25,
+  "share_150": 0.28,
+  "side": "S",
+  "text": "17% increased Critical Spell Damage Bonus",
+  "median": 80.0
+ },
+ {
+  "lift": 0.5021676422542811,
+  "n": 40,
+  "share_150": 0.4,
+  "side": "S",
+  "text": "20% increased Critical Damage Bonus",
+  "median": 89.5
+ },
+ {
+  "lift": 0.4732858255449681,
+  "n": 24,
+  "share_150": 0.3333333333333333,
+  "side": "P",
+  "text": "20% increased Armour",
+  "median": 77.5
+ },
+ {
+  "lift": 0.43638522277789216,
+  "n": 15,
+  "share_150": 0.26666666666666666,
+  "side": "P",
+  "text": "6% increased Ignite Magnitude",
+  "median": 90.0
+ },
+ {
+  "lift": 0.4062540599408635,
+  "n": 44,
+  "share_150": 0.2727272727272727,
+  "side": "P",
+  "text": "+1 Suffix Modifier allowed",
+  "median": 45.0
+ },
+ {
+  "lift": 0.34478883439221186,
+  "n": 16,
+  "share_150": 0.3125,
+  "side": "P",
+  "text": "14% increased Lightning Damage",
+  "median": 80.0
+ },
+ {
+  "lift": 0.28964701652850566,
+  "n": 14,
+  "share_150": 0.35714285714285715,
+  "side": "P",
+  "text": "13% increased Attack Damage",
+  "median": 30.0
+ },
+ {
+  "lift": 0.2685079805292456,
+  "n": 13,
+  "share_150": 0.23076923076923078,
+  "side": "S",
+  "text": "16% increased Critical Damage Bonus with Spears",
+  "median": 67.0
+ },
+ {
+  "lift": 0.26511543716651675,
+  "n": 34,
+  "share_150": 0.20588235294117646,
+  "side": "S",
+  "text": "10% increased Critical Hit Chance",
+  "median": 25.0
+ },
+ {
+  "lift": 0.2294754272877768,
+  "n": 20,
+  "share_150": 0.2,
+  "side": "S",
+  "text": "16% increased Critical Hit Chance for Attacks",
+  "median": 42.5
+ },
+ {
+  "lift": 0.16689246242621625,
+  "n": 14,
+  "share_150": 0.35714285714285715,
+  "side": "P",
+  "text": "13% increased Fire Damage",
+  "median": 43.5
+ },
+ {
+  "lift": 0.1649604081183551,
+  "n": 18,
+  "share_150": 0.16666666666666666,
+  "side": "S",
+  "text": "3% increased Attack Speed with Spears",
+  "median": 30.0
+ },
+ {
+  "lift": 0.14585072316363235,
+  "n": 33,
+  "share_150": 0.24242424242424243,
+  "side": "S",
+  "text": "5% increased Critical Hit Chance for Spells",
+  "median": 25.0
+ },
+ {
+  "lift": 0.13566186308405115,
+  "n": 14,
+  "share_150": 0.42857142857142855,
+  "side": "S",
+  "text": "15% increased Flammability Magnitude",
+  "median": 85.0
+ },
+ {
+  "lift": 0.11352505369528254,
+  "n": 12,
+  "share_150": 0.08333333333333333,
+  "side": "P",
+  "text": "14% increased Damage with Quarterstaves",
+  "median": 27.5
+ },
+ {
+  "lift": 0.09745533556819175,
+  "n": 19,
+  "share_150": 0.21052631578947367,
+  "side": "P",
+  "text": "Minions deal 7% increased Damage",
+  "median": 25.0
+ },
+ {
+  "lift": 0.05654487867460878,
+  "n": 20,
+  "share_150": 0.3,
+  "side": "P",
+  "text": "14% increased Elemental Damage",
+  "median": 30.0
+ },
+ {
+  "lift": 0.03929897713514707,
+  "n": 33,
+  "share_150": 0.30303030303030304,
+  "side": "P",
+  "text": "12% increased Spell Damage",
+  "median": 70.0
+ },
+ {
+  "lift": 0.0038144829678226078,
+  "n": 23,
+  "share_150": 0.13043478260869565,
+  "side": "S",
+  "text": "3% increased Attack Speed",
+  "median": 20.0
+ },
+ {
+  "lift": -0.05835977677645521,
+  "n": 23,
+  "share_150": 0.13043478260869565,
+  "side": "P",
+  "text": "10% increased Projectile Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.06941801923006397,
+  "n": 15,
+  "share_150": 0.13333333333333333,
+  "side": "P",
+  "text": "14% faster start of Energy Shield Recharge",
+  "median": 30.0
+ },
+ {
+  "lift": -0.0842426862832879,
+  "n": 17,
+  "share_150": 0.17647058823529413,
+  "side": "P",
+  "text": "12% increased Cold Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.1473022755637483,
+  "n": 25,
+  "share_150": 0.08,
+  "side": "P",
+  "text": "15% increased Global Physical Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.1679841737202199,
+  "n": 16,
+  "share_150": 0.1875,
+  "side": "S",
+  "text": "20% increased Critical Damage Bonus for Attack Damage",
+  "median": 12.5
+ },
+ {
+  "lift": -0.17308560781940097,
+  "n": 13,
+  "share_150": 0.07692307692307693,
+  "side": "S",
+  "text": "4% increased Cast Speed",
+  "median": 20.0
+ },
+ {
+  "lift": -0.1788538904182373,
+  "n": 22,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "+1 Prefix Modifier allowed",
+  "median": 27.5
+ },
+ {
+  "lift": -0.22766635822381587,
+  "n": 15,
+  "share_150": 0.06666666666666667,
+  "side": "S",
+  "text": "4% increased Attack Speed with Bows",
+  "median": 20.0
+ },
+ {
+  "lift": -0.25109091241391757,
+  "n": 17,
+  "share_150": 0.058823529411764705,
+  "side": "P",
+  "text": "Damage Penetrates 5% Lightning Resistance",
+  "median": 20.0
+ },
+ {
+  "lift": -0.2911260525709747,
+  "n": 12,
+  "share_150": 0.16666666666666666,
+  "side": "S",
+  "text": "14% increased amount of Life Leeched",
+  "median": 5.0
+ },
+ {
+  "lift": -0.3807564185379325,
+  "n": 14,
+  "share_150": 0.07142857142857142,
+  "side": "P",
+  "text": "4% increased Block chance",
+  "median": 12.5
+ },
+ {
+  "lift": -0.526796005996175,
+  "n": 21,
+  "share_150": 0.14285714285714285,
+  "side": "P",
+  "text": "20% increased Damage with Hits against Rare and Unique Enemies",
+  "median": 1.0
+ },
+ {
+  "lift": -0.5278128114935365,
+  "n": 14,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "14% increased Melee Damage",
+  "median": 5.0
+ }
+]

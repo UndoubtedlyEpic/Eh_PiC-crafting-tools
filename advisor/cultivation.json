@@ -1,0 +1,715 @@
+{
+ "source": "https://poe2db.tw/us/Vaal_Cultivation_Orb",
+ "fetched": "2026-10-05",
+ "rule": "Vaal Cultivation Orb replaces up to 2 modifiers on a Corrupted Vaal Unique with cultivated modifiers",
+ "items": {
+  "Greed's Embrace": {
+   "base": [
+    "(100-150)% increased Armour",
+    "50% increased Strength Requirement",
+    "(30-50)% increased Rarity of Items found",
+    "20% reduced Movement Speed",
+    "+(20-30)% to Fire Resistance"
+   ],
+   "cultivated": [
+    "100% reduced Presence Area of Effect",
+    "(-40-40)% reduced Attack Damage while Surrounded"
+   ]
+  },
+  "Soul Tether": {
+   "base": [
+    "+(20-30) to Intelligence",
+    "You lose 5% of maximum Energy Shield per second",
+    "+(40-60) to maximum Energy Shield",
+    "Excess Life Recovery from Leech is applied to Energy Shield"
+   ],
+   "cultivated": [
+    "(10-15)% increased Energy Shield Recovery rate",
+    "Lose (2.5-5)% of maximum Life per second",
+    "Leech Life (-25-25)% slower",
+    "Life Regeneration is applied to Energy Shield instead"
+   ]
+  },
+  "Idle Hands": {
+   "base": [
+    "(40-60)% increased Evasion Rating",
+    "You count as on Full Mana while at 90% of maximum Mana or above",
+    "25% increased Attack Speed while on Full Mana",
+    "+(5-10) to Intelligence",
+    "+(60-100) to Accuracy Rating"
+   ],
+   "cultivated": [
+    "Leech (4-6)% of Physical Attack Damage as Mana",
+    "(10-20)% increased maximum Mana",
+    "25% increased Mana Cost Efficiency",
+    "Meta Skills gain 25% increased Energy while on Full Mana"
+   ]
+  },
+  "Demon Stitcher": {
+   "base": [
+    "+(40-60) to maximum Energy Shield",
+    "(6-12)% increased Cast Speed",
+    "+(80-120) to maximum Life",
+    "Sacrifice (5-15)% of maximum Life to gain that much Energy Shield when you Cast a Spell"
+   ],
+   "cultivated": [
+    "(20-30)% increased Cost Efficiency",
+    "(10-15)% of Maximum Life Converted to Energy Shield",
+    "(25-50)% of Spell Mana Cost Converted to Life Cost",
+    "(20-40)% increased effect of Arcane Surge on you"
+   ]
+  },
+  "Rearguard": {
+   "base": [
+    "Adds (7-11) to (14-20) Physical Damage to Attacks",
+    "+(15-25)% to Block chance",
+    "(20-30)% increased Projectile Speed",
+    "+(150-200) to Armour"
+   ],
+   "cultivated": [
+    "+(50-150) to Evasion Rating",
+    "(20-30)% increased Surrounded Area of Effect",
+    "25% increased Attack Speed",
+    "(15-25)% increased Deflection Rating"
+   ]
+  },
+  "Soul Mantle": {
+   "base": [
+    "(80-120)% increased Armour and Energy Shield",
+    "(20-30)% reduced Totem Life",
+    "+1 to maximum number of Summoned Totems",
+    "Inflicts a random Curse on you when your Totems die, ignoring Curse limit",
+    "+10 to Strength",
+    "+15 to Intelligence"
+   ],
+   "cultivated": [
+    "25% increased Attack and Cast Speed if you've summoned a Totem Recently",
+    "(10-20)% increased Totem Damage per Curse on you",
+    "(-30-30)% reduced Totem Duration",
+    "+(40-50) to Spirit",
+    "+(50-80) to maximum Energy Shield"
+   ]
+  },
+  "Corona of the Red Sun": {
+   "base": [
+    "+(60-80) to maximum Life",
+    "+(100-150) to Accuracy Rating",
+    "25% increased Light Radius",
+    "Leeching Life from your Hits causes Allies in your Presence to also Leech the same amount of Life",
+    "+(20-25)% to Fire Resistance"
+   ],
+   "cultivated": [
+    "+(1-2) to Level of all Minion Skills",
+    "(25-50)% increased Presence Area of Effect",
+    "+(100-150) to Armour"
+   ]
+  },
+  "Rise of the Phoenix": {
+   "base": [
+    "+(20-25)% to Fire Resistance",
+    "+5% to Maximum Fire Resistance",
+    "Regenerate 3% of maximum Life per second",
+    "Regenerate 3% of maximum Life per second while on Low Life",
+    "+25% to Fire Resistance while on Low Life"
+   ],
+   "cultivated": [
+    "Burning Enemies you kill have a (5-10)% chance to Explode, dealing atenth of their maximum Life as Fire Damage",
+    "25% increased Flammability Magnitude",
+    "+1 to Level of all Fire Skills",
+    "Regenerate 3% of maximum Life per second while Ignited"
+   ]
+  },
+  "Atziri's Disdain": {
+   "base": [
+    "+(60-100) to maximum Mana",
+    "(10-20)% increased Rarity of Items found",
+    "Gain (10-15)% of maximum Life as Extra maximum Energy Shield",
+    "10% of Damage taken bypasses Energy Shield"
+   ],
+   "cultivated": [
+    "10% of Damage is taken from Mana before Life",
+    "(5-10)% increased maximum Life",
+    "(6-10)% of Damage taken Recouped as Mana"
+   ]
+  },
+  "Coward's Legacy": {
+   "base": [
+    "(30-40)% increased Life and Mana Recovery from Flasks",
+    "(-20--10) to Strength",
+    "+(20-30) to Dexterity",
+    "You are considered on Low Life while at 75% of maximum Life or below instead"
+   ],
+   "cultivated": [
+    "Regenerate (2-3)% of maximum Life per second while on Low Life",
+    "(20-30)% increased Flask Charges gained",
+    "+(100-150) to Evasion Rating while on Low Life"
+   ]
+  },
+  "Glimpse of Chaos": {
+   "base": [
+    "+(50-150) to maximum Life",
+    "+(50-150) to maximum Mana",
+    "(-30-30)% to Fire Resistance",
+    "(-30-30)% to Cold Resistance",
+    "(-30-30)% to Lightning Resistance",
+    "Chaos Resistance is zero",
+    "Can be modified while Corrupted"
+   ],
+   "cultivated": [
+    "+(50-150) to maximum Energy Shield",
+    "(1-60)% increased Chaos Damage",
+    "(1-60)% increased Cold Damage",
+    "(1-60)% increased Lightning Damage",
+    "(1-60)% increased Fire Damage",
+    "+(1-60)% to Chaos Resistance"
+   ]
+  },
+  "Seed of Cataclysm": {
+   "base": [
+    "(30-50)% increased Critical Hit Chance for Spells",
+    "(30-50)% increased Critical Spell Damage Bonus",
+    "10% increased Mana Cost of Skills",
+    "+(13-17)% to Chaos Resistance"
+   ],
+   "cultivated": [
+    "(-15-15)% reduced Cast Speed if you've dealt a Critical Hit Recently",
+    "(30-50)% chance to grant Volatility on Critical Hit",
+    "(5-10)% chance for Spell Skills to fire 8 additional Projectiles in a circle"
+   ]
+  },
+  "Plaguefinger": {
+   "base": [
+    "(30-50)% increased Evasion and Energy Shield",
+    "(4-6)% increased Attack Speed",
+    "All Damage from Hits Contributes to Poison Magnitude",
+    "(20-30)% chance to Poison on Hit"
+   ],
+   "cultivated": [
+    "+1 to Level of all Chaos Skills",
+    "(5-10)% Global chance to Blind Enemies on Hit",
+    "(10-16)% increased Magnitude of Poison you inflict",
+    "(30-60)% increased Magnitude of Poison you inflict on targets that are not Poisoned"
+   ]
+  },
+  "Bloodbarrier": {
+   "base": [
+    "(10-15)% increased Block chance",
+    "(5-10) Life Regeneration per second",
+    "+(13-17)% to Chaos Resistance",
+    "Inflict Corrupted Blood for 5 seconds on Block, dealing 50% ofyour maximum Life as Physical damage per second"
+   ],
+   "cultivated": [
+    "(20-30)% increased Stun Threshold",
+    "(5-10)% of Damage taken Recouped as Life",
+    "(5-10)% increased maximum Life"
+   ]
+  },
+  "Serpent's Lesson": {
+   "base": [
+    "+(60-100) to maximum Life",
+    "+(60-100) to maximum Mana",
+    "You count as on Low Life while at 35% of maximum Mana or below",
+    "You count as on Low Mana while at 35% of maximum Life or below"
+   ],
+   "cultivated": [
+    "+(60-100) to maximum Energy Shield",
+    "(5-10)% of Damage Taken Recouped as Life, Mana and Energy Shield"
+   ]
+  },
+  "Zerphi's Genesis": {
+   "base": [
+    "(10-30)% increased Charm Charges used",
+    "+(10-30) to Strength",
+    "50% of Charges consumed by used Charms are granted to your Life Flasks",
+    "Corrupted Blood cannot be inflicted on you"
+   ],
+   "cultivated": [
+    "(10-30)% increased Charm Charges gained",
+    "(10-30)% increased Life Recovery from Flasks",
+    "Charms gain 0.5 charges per Second",
+    "Remove Bleeding when you use a Life Flask"
+   ]
+  },
+  "Dream Fragments": {
+   "base": [
+    "(10-15)% increased maximum Mana",
+    "(30-50)% increased Mana Regeneration Rate",
+    "You cannot be Chilled or Frozen"
+   ],
+   "cultivated": [
+    "10% of Damage is taken from Mana before Life",
+    "(40-60)% increased Ice Crystal Life",
+    "Recover (1-2)% of maximum Mana on Kill",
+    "(50-100)% of Volatility Physical Damage Taken as Cold Damage"
+   ]
+  },
+  "Tetzlapokal's Desire": {
+   "base": [
+    "(100-150)% increased Energy Shield",
+    "+(20-30) to Strength",
+    "+(17-23)% to Chaos Resistance",
+    "Life Recharges",
+    "+(20-30) to Intelligence"
+   ],
+   "cultivated": [
+    "1% increased Energy Shield Recharge Rate per 4 Strength",
+    "(10-15)% of Maximum Life Converted to Energy Shield",
+    "+(70-100) to maximum Life"
+   ]
+  },
+  "Mask of the Stitched Demon": {
+   "base": [
+    "(120-160)% increased Energy Shield",
+    "Regenerate 0.05 Life per second per Maximum Energy Shield",
+    "+(17-23)% to Chaos Resistance"
+   ],
+   "cultivated": [
+    "+(70-100) to maximum Energy Shield",
+    "+(60-80) to maximum Life",
+    "+(17-23) to all Attributes"
+   ]
+  },
+  "Atziri's Acuity": {
+   "base": [
+    "(150-200)% increased Armour",
+    "+(100-150) to maximum Life",
+    "10% of Physical damage dealt by your Hits causes Blood Loss"
+   ],
+   "cultivated": [
+    "+(100-150) to maximum Energy Shield",
+    "(5-10)% increased maximum Life",
+    "(30-50)% increased chance to inflict Bleeding"
+   ]
+  },
+  "Snakebite": {
+   "base": [
+    "(40-60)% increased Evasion Rating",
+    "+(7-17)% to Chaos Resistance",
+    "(20-30)% chance to Poison on Hit",
+    "Targets can be affected by +1 of your Poisons at the same time",
+    "(6-10) Life Regeneration per second"
+   ],
+   "cultivated": [
+    "(30-40)% increased Duration of Poisons you inflict when you've consumed a Frenzy Charge Recently",
+    "(40-60)% reduced Poison Duration on you",
+    "Recover (0.5-1)% of maximum Life per Poison affecting Enemies you Kill"
+   ]
+  },
+  "Powertread": {
+   "base": [
+    "+(10-20) to Intelligence",
+    "(60-80)% increased Evasion and Energy Shield",
+    "(15-20)% increased Movement Speed",
+    "+1 to Maximum Power Charges",
+    "12% increased Critical Damage Bonus per Power Charge",
+    "(60-80)% increased Evasion and Energy Shield"
+   ],
+   "cultivated": [
+    "(-60-60)% reduced Critical Damage Bonus if you've consumed a Power Charge Recently",
+    "(-60-60)% reduced Power Charge Duration",
+    "10% chance when you gain a Power Charge to gain an additional Power Charge"
+   ]
+  },
+  "Apep's Supremacy": {
+   "base": [
+    "(100-200)% increased Energy Shield",
+    "20% of Elemental damage from Hits taken as Chaos damage",
+    "+25% chance to be Poisoned",
+    "(30-50)% faster start of Energy Shield Recharge",
+    "(30-50)% increased Energy Shield Recharge Rate"
+   ],
+   "cultivated": [
+    "+(16-26)% to Chaos Resistance",
+    "Regenerate (1.5-3)% of maximum Life per second",
+    "(30-40)% increased Magnitude of Poison you inflict while Poisoned"
+   ]
+  },
+  "Saitha's Spear": {
+   "base": [
+    "Adds (14-26) to (27-32) Physical Damage",
+    "Adds (33-41) to (47-53) Fire Damage",
+    "(15-25)% chance to cause Bleeding on Hit",
+    "Aggravating any Bleeding with this Weapon also Aggravates all Ignites on the target",
+    "(25-40)% chance to Aggravate Bleeding on Hit"
+   ],
+   "cultivated": [
+    "(30-50)% chance to inflict Exposure on Hit",
+    "(15-25)% increased Flammability Magnitude",
+    "(300-400)% increased Physical Damage",
+    "+1 to Level of all Fire Skills",
+    "Hits with this Weapon have Culling Strike against Bleeding Enemies"
+   ]
+  },
+  "Serpent's Egg": {
+   "base": [
+    "Gain an additional Charge when you gain a Charge",
+    "+(17-23)% to Chaos Resistance",
+    "+(10-20) to all Attributes",
+    "(20-30)% increased Mana Regeneration Rate"
+   ],
+   "cultivated": [
+    "50% chance to gain an additional random Charge when you gain a Charge",
+    "(-60-60)% reduced Endurance, Frenzy and Power Charge Duration",
+    "Skills have (10-15)% chance to not remove Charges but still count as consuming them"
+   ]
+  },
+  "Quatl's Molt": {
+   "base": [
+    "(60-80)% increased Evasion Rating",
+    "+(60-80) to maximum Life",
+    "+(17-23)% to Chaos Resistance",
+    "(10-20) Life Regeneration per second",
+    "Cannot be Poisoned",
+    "Gain Deflection Rating equal to (40-60)% of Evasion Rating"
+   ],
+   "cultivated": [
+    "(60-80)% increased Chaos Damage",
+    "(10-20)% of Damage taken from Deflected Hits Recouped as Life",
+    "Targets can be affected by +1 of your Poisons at the same time"
+   ]
+  },
+  "Doryani's Prototype": {
+   "base": [
+    "(50-100)% increased Armour and Evasion",
+    "+(60-80) to maximum Life",
+    "+100% of Armour also applies to Lightning Damage",
+    "Lightning Resistance does not affect Lightning damage taken",
+    "Enemies in your Presence have Lightning Resistance equal to yours"
+   ],
+   "cultivated": [
+    "Damage Penetrates (10-20)% Lightning Resistance",
+    "(-60-60)% to Lightning Resistance",
+    "Your Hits can Penetrate Elemental Resistances down to a minimum of -50%",
+    "+(260-400) to Armour"
+   ]
+  },
+  "Constricting Command": {
+   "base": [
+    "+(80-120) to maximum Life",
+    "+(10-15) to all Attributes",
+    "(8-12) Life Regeneration per second",
+    "Require (2-4) fewer enemies to be Surrounded"
+   ],
+   "cultivated": [
+    "(-40-40)% reduced Attack Damage while Surrounded",
+    "Regenerate (0.5-1.5)% of maximum Life per second while Surrounded",
+    "+(60-75) to Armour",
+    "(20-60)% increased Surrounded Area of Effect"
+   ]
+  },
+  "Quecholli": {
+   "base": [
+    "+(10-15) to all Attributes",
+    "Gain 30 Life per enemy killed",
+    "(100-150)% increased Physical Damage",
+    "This Weapon's Critical Hit Chance is 100%"
+   ],
+   "cultivated": [
+    "(10-25)% increased Area of Effect if you've Killed Recently",
+    "(5-10)% chance for Slam Skills you use yourself to cause an additional Aftershock",
+    "(5-10)% increased Strength",
+    "Adds (40-60) to (70-90) Physical Damage"
+   ]
+  },
+  "Snakepit": {
+   "base": [
+    "(20-30)% increased Spell Damage",
+    "Left ring slot: Projectiles from Spells Fork",
+    "Left ring slot: Projectiles from Spells cannot Chain",
+    "Right ring slot: Projectiles from Spells Chain +1 times",
+    "Right ring slot: Projectiles from Spells cannot Fork",
+    "Projectiles from Spells cannot Pierce",
+    "(10-15)% increased Cast Speed"
+   ],
+   "cultivated": [
+    "(5-10)% chance for Spell Skills to fire 2 additional Projectiles",
+    "(-30-30)% reduced Mana Cost Efficiency",
+    "Meta Skills gain (-30-30)% reduced Energy",
+    "(-30-30)% reduced Projectile Speed for Spell Skills",
+    "Skills have (5-10)% chance to not remove Elemental Infusions but still count as consuming them"
+   ]
+  },
+  "The Vertex": {
+   "base": [
+    "(20-30)% increased Critical Hit Chance",
+    "+(13-17)% to Chaos Resistance",
+    "(100-150)% increased Evasion and Energy Shield",
+    "Equipment and Skill Gems have 50% reduced Attribute Requirements"
+   ],
+   "cultivated": [
+    "(5-10)% increased Attributes",
+    "(13-17)% increased Mana Cost Efficiency",
+    "(20-30)% increased chance to inflict Ailments",
+    "+(3-5) to Level of all Curse Skills"
+   ]
+  },
+  "Mahuxotl's Machination": {
+   "base": [
+    "(66-333)% increased effect of Socketed Soul Cores",
+    "(333-666)% increased Armour and Energy Shield",
+    "Everlasting Sacrifice"
+   ],
+   "cultivated": [
+    "(33-66)% faster start of Energy Shield Recharge",
+    "+(33-66)% of Armour also applies to Elemental Damage"
+   ]
+  },
+  "Rathpith Globe": {
+   "base": [
+    "(60-100)% increased Energy Shield",
+    "+(60-100) to maximum Life",
+    "Non-Channelling Spells cost an additional 6% of your maximum Liferathpith surge [1]",
+    "Non-Channelling Spells deal 6% increased Damage per 100 maximum Liferathpith surge [1]",
+    "Non-Channelling Spells have 3% increased Critical Hit Chance per 100 maximum Liferathpith surge [1]"
+   ],
+   "cultivated": [
+    "(8-15)% increased Life Cost Efficiency",
+    "Non-Channelling Spells have 3% increased Magnitude of Ailments per 100 maximum Life",
+    "Non-Channelling Skills have 3% increased Spell Critical Hit Chance per 100 maximum Mana",
+    "Non-Channelling Spells deal 6% increased Damage per 100 maximum Mana"
+   ]
+  },
+  "Drillneck": {
+   "base": [
+    "+(60-90) to maximum Life",
+    "(8-12)% increased Attack Speed",
+    "Gain Deflection Rating equal to (24-32)% of Evasion Rating",
+    "Attack Projectiles Return if they Pierced at least (2-4) times",
+    "Projectiles deal (42-64)% increased Damage with Hits for each time they have Pierced",
+    "Projectiles have (42-64)% increased Critical Hit chance for each time they have Pierced"
+   ],
+   "cultivated": [
+    "(16-24)% increased Projectile Speed",
+    "(100-150)% increased Evasion Rating while Sprinting",
+    "Arrows Pierce 1 additional Targets"
+   ]
+  },
+  "Zerphi's Serape": {
+   "base": [
+    "(-30-30)% reduced Life Regeneration rate",
+    "(-30-30)% reduced Mana Regeneration Rate",
+    "+(40-60) to maximum Mana",
+    "50% increased Attribute Requirements",
+    "Soul Eater"
+   ],
+   "cultivated": [
+    "(15-30)% increased Presence Area of Effect",
+    "+(90-120) to maximum Energy Shield",
+    "Eat a Soul when you Hit a Unique Enemy, no more than once every 0.5 seconds",
+    "(-30-30)% reduced Cost Efficiency"
+   ]
+  },
+  "Belly of the Beast": {
+   "base": [
+    "(100-150)% increased Energy Shield",
+    "+(100-150) to maximum Life",
+    "(100-150)% increased Armour and Evasion",
+    "+(100-150) to Stun Threshold",
+    "Life Recovery from Flasks is instant",
+    "(25-30) to (35-40) Physical Thorns damage"
+   ],
+   "cultivated": [
+    "(15-30)% increased Life Flask Charges gained",
+    "(25-50)% increased Life Recovery from Flasks",
+    "(5-10)% of Thorns Damage Leeched as Life",
+    "+(220-320) to Armour"
+   ]
+  },
+  "The Covenant": {
+   "base": [
+    "Skills Gain 100% of Mana Cost as Extra Life Cost",
+    "10% of Spell Damage Leeched as Life",
+    "+(100-150) to maximum Life"
+   ],
+   "cultivated": [
+    "(10-25)% increased Life Cost Efficiency",
+    "(5-10)% increased maximum Life",
+    "Regenerate (1-3)% of maximum Life per second"
+   ]
+  },
+  "Cornathaum": {
+   "base": [
+    "+(40-50) to Intelligence",
+    "(10-20)% increased Rarity of Items found",
+    "5% increased Experience gain",
+    "30% increased Light Radius"
+   ],
+   "cultivated": [
+    "(100-150)% increased Armour and Energy Shield",
+    "(5-10)% increased Quantity of Gold Dropped by Slain Enemies",
+    "Increases and Reductions to Light Radius also apply to Area of Effect at (25-50)% of their value"
+   ]
+  },
+  "Atziri's Contempt": {
+   "base": [
+    "(100-120)% increased Physical Damage",
+    "Adds (83-97) to (123-153) Fire Damage",
+    "Adds 1 to (193-207) Lightning Damage",
+    "(10-16)% increased Attack Speed",
+    "(60-80)% increased Presence Area of Effect"
+   ],
+   "cultivated": [
+    "(100-150)% increased Elemental Damage with Attacks",
+    "+(2-4)% to Critical Hit Chance",
+    "Hits have (15-30)% chance to treat Enemy Monster Elemental Resistance values as inverted",
+    "Projectiles have (50-75)% chance to Fork if you've dealt a Melee Hit in the past eight seconds"
+   ]
+  },
+  "Atziri's Splendour": {
+   "base": [
+    "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet",
+    "This item gains bonuses from Socketed Soul Cores as though it was also Gloves",
+    "This item gains bonuses from Socketed Soul Cores as though it was also Boots",
+    "This item gains bonuses from Socketed Soul Cores as though it was also a Shield",
+    "(200-300)% increased Armour",
+    "(200-300)% increased Evasion Rating",
+    "(200-300)% increased Energy Shield",
+    "(120-180)% increased Armour and Evasion",
+    "(120-180)% increased Armour and Energy Shield",
+    "(120-180)% increased Evasion and Energy Shield",
+    "(80-120)% increased Armour, Evasion and Energy Shield",
+    "+(10-20)% to all Elemental Resistances",
+    "Skills from Corrupted Gems have 50% of Mana Costs Converted to Life Costs",
+    "Has no Attribute Requirements"
+   ],
+   "cultivated": [
+    "(10-20)% increased Cost Efficiency",
+    "(10-20)% increased effect of Socketed Soul Cores",
+    "+(100-200) to Armour",
+    "+(100-200) to Evasion Rating",
+    "+(66-100) to maximum Energy Shield",
+    "This item gains bonuses from Socketed Soul Cores as though it was also Boots",
+    "This item gains bonuses from Socketed Soul Cores as though it was also Gloves",
+    "This item gains bonuses from Socketed Soul Cores as though it was also a Helmet"
+   ]
+  },
+  "Shackles of the Wretched": {
+   "base": [
+    "(30-50)% increased Armour and Energy Shield",
+    "You cannot be Chilled for 6 seconds after being Chilled",
+    "You cannot be Frozen for 6 seconds after being Frozen",
+    "You cannot be Ignited for 6 seconds after being Ignited",
+    "You cannot be Shocked for 6 seconds after being Shocked",
+    "Curses you inflict are reflected back to you"
+   ],
+   "cultivated": [
+    "(10-20)% increased Curse Magnitudes",
+    "(10-20)% increased Freeze Duration on Enemies",
+    "(20-40)% increased Ignite Magnitude",
+    "(20-40)% increased Magnitude of Shock you inflict",
+    "(20-40)% increased Magnitude of Chill you inflict",
+    "(10-15)% increased Damage per Curse on you"
+   ]
+  },
+  "Redflare Conduit": {
+   "base": [
+    "+(50-70) to maximum Mana",
+    "+(20-30)% to Lightning Resistance",
+    "20% chance to gain a Power Charge on Hit",
+    "Lose all Power Charges on reaching maximum Power Charges",
+    "Shocks you when you reach maximum Power Charges"
+   ],
+   "cultivated": [
+    "(150-300)% increased Evasion and Energy Shield",
+    "Recover (2-5)% of maximum Mana when you consume a Power Charge",
+    "Gain a Power Charge every Second if you haven't lost Power Charges Recently",
+    "(25-50)% reduced effect of Shock on you"
+   ]
+  },
+  "The Adorned": {
+   "base": [
+    "(0-150)% increased Effect of Jewel Socket Passive Skillscontaining Corrupted Magic Jewels"
+   ],
+   "cultivated": [
+    "(-30-30)% reduced Global Physical Damage",
+    "(0-75)% increased Effect of Jewel Socket Passive Skillscontaining Corrupted Rare Jewels",
+    "(-30-30)% reduced Fire Damage",
+    "(-30-30)% reduced Cold Damage",
+    "(-30-30)% reduced Lightning Damage",
+    "(-30-30)% reduced Chaos Damage",
+    "(-30-30)% reduced Armour",
+    "(-30-30)% reduced Evasion Rating",
+    "(-30-30) to maximum Energy Shield",
+    "Minions deal (-30-30)% reduced Damage"
+   ]
+  },
+  "Hateforge": {
+   "base": [
+    "(300-400)% increased Armour",
+    "(-10-10) to Maximum Rage",
+    "Gain a random Charge on reaching Maximum Rage, no more than once every (3-6) seconds",
+    "Lose all Rage on reaching Maximum Rage",
+    "Gain (3-6) Rage on Hit"
+   ],
+   "cultivated": [
+    "25% increased Attack Speed",
+    "+(8-10) maximum Rage if you've used a Skill that Requires Glory in the past 20 seconds",
+    "(12-16)% chance that if you would gain Rage on Hit, you instead gain up to your maximum Rage"
+   ]
+  },
+  "Atziri's Rule": {
+   "base": [
+    "(10-20)% increased maximum Life",
+    "+(3-5) to Level of all Corrupted Spell Skill Gems",
+    "(10-20)% increased Cast Speed",
+    "+(20-30) to Intelligence",
+    "Spells which cost Life Gain (80-120)% of Damage as Extra Physical Damage"
+   ],
+   "cultivated": [
+    "(10-25)% chance for Spell Skills to fire 2 additional Projectiles",
+    "(10-20)% increased Life Cost Efficiency",
+    "(10-15)% of Maximum Life Converted to Energy Shield",
+    "5% of Spell Damage Leeched as Life"
+   ]
+  },
+  "Atziri's Step": {
+   "base": [
+    "30% increased Movement Speed",
+    "(80-120)% increased Evasion Rating",
+    "+(70-100) to maximum Life",
+    "Gain Deflection Rating equal to (40-60)% of Evasion Rating",
+    "(-12--6)% to amount of Damage Prevented by Deflection",
+    "Cannot be Light Stunned by Deflected Hits"
+   ],
+   "cultivated": [
+    "(15-25)% increased Deflection Rating while moving",
+    "+(50-150) to Evasion Rating",
+    "Glancing Blows"
+   ]
+  },
+  "Flesh Crucible": {
+   "base": [
+    "Random 1 Keystone Passive Skill [1,33]",
+    "(10-20)% less maximum Life",
+    "(10-20)% less maximum Mana",
+    "(10-20)% less Armour, Evasion and Energy Shield",
+    "(10-20)% less Spirit",
+    "(10-20)% less Movement Speed",
+    "(10-20)% less Damage"
+   ],
+   "cultivated": [
+    "Random 1 Keystone Passive Skill [1,33]",
+    "(10-20)% less Damage",
+    "(10-20)% less Armour, Evasion and Energy Shield",
+    "(10-20)% less maximum Life",
+    "(10-20)% less maximum Mana",
+    "(10-20)% less Movement Speed",
+    "(10-20)% less Spirit"
+   ]
+  },
+  "The Flesh Poppet": {
+   "base": [
+    "(90-120)% increased Physical Damage",
+    "(7-13)% increased Attack Speed",
+    "+(7-13) to all Attributes",
+    "(30-40)% reduced Presence Area of Effect",
+    "Copy a random Modifier from each enemy in your Presence whenyou Shapeshift to an Animal formModifiers gained this way are lost after 30 seconds or when you next Shapeshift"
+   ],
+   "cultivated": [
+    "+(2-4)% to Critical Hit Chance",
+    "Adds (65-73) to (83-91) Physical Damage",
+    "Gain (25-40)% of Damage as Extra Fire Damage"
+   ]
+  }
+ }
+}

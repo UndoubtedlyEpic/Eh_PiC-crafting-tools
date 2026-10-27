@@ -1,0 +1,162 @@
+[
+ {
+  "lift": 0.5681261969563126,
+  "n": 17,
+  "share_150": 0.23529411764705882,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Gain 1 Rage on Melee Hit",
+  "median": 40.0
+ },
+ {
+  "lift": 0.43977147808485195,
+  "n": 14,
+  "share_150": 0.14285714285714285,
+  "side": "S",
+  "text": "22% increased Effect of Small Passive Skills in Radius",
+  "median": 21.5
+ },
+ {
+  "lift": 0.339746735069721,
+  "n": 18,
+  "share_150": 0.1111111111111111,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Gain 2 Rage when Hit by an Enemy",
+  "median": 17.5
+ },
+ {
+  "lift": 0.2783766599327283,
+  "n": 14,
+  "share_150": 0.14285714285714285,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Attack Damage",
+  "median": 12.5
+ },
+ {
+  "lift": 0.21256913423908952,
+  "n": 16,
+  "share_150": 0.125,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Melee Damage",
+  "median": 12.5
+ },
+ {
+  "lift": 0.20094035453866577,
+  "n": 20,
+  "share_150": 0.15,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Fire Damage",
+  "median": 9.5
+ },
+ {
+  "lift": 0.12637857604156266,
+  "n": 20,
+  "share_150": 0.1,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 4% increased Life Regeneration rate",
+  "median": 7.5
+ },
+ {
+  "lift": 0.08792036229075395,
+  "n": 15,
+  "share_150": 0.06666666666666667,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 2% increased Stun Threshold",
+  "median": 15.0
+ },
+ {
+  "lift": 0.056449443289173784,
+  "n": 13,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Damage with Maces",
+  "median": 10.0
+ },
+ {
+  "lift": 0.013423869429953106,
+  "n": 13,
+  "share_150": 0.07692307692307693,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 3% increased Totem Placement speed",
+  "median": 9.0
+ },
+ {
+  "lift": -0.02801474630502665,
+  "n": 19,
+  "share_150": 0.10526315789473684,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 2% increased Armour",
+  "median": 7.0
+ },
+ {
+  "lift": -0.04284855889001438,
+  "n": 14,
+  "share_150": 0.07142857142857142,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 3% increased Warcry Speed",
+  "median": 6.0
+ },
+ {
+  "lift": -0.09702587511575733,
+  "n": 14,
+  "share_150": 0.14285714285714285,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 3% increased Magnitude of Bleeding you inflict",
+  "median": 4.0
+ },
+ {
+  "lift": -0.10607006436473221,
+  "n": 24,
+  "share_150": 0.125,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 2% increased Flammability Magnitude",
+  "median": 4.5
+ },
+ {
+  "lift": -0.1513872461335879,
+  "n": 13,
+  "share_150": 0.0,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 15% increased Armour, Evasion and Energy Shield from Equipped Shield",
+  "median": 5.0
+ },
+ {
+  "lift": -0.19054414893597438,
+  "n": 17,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 9% increased Stun Buildup",
+  "median": 5.0
+ },
+ {
+  "lift": -0.22886454257722222,
+  "n": 16,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant Banner Skills have 3% increased Duration",
+  "median": 2.5
+ },
+ {
+  "lift": -0.2319205936519333,
+  "n": 17,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 3% increased amount of Life Leeched",
+  "median": 5.0
+ },
+ {
+  "lift": -0.45701428179055487,
+  "n": 14,
+  "share_150": 0.07142857142857142,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant Minions have 2% increased maximum Life",
+  "median": 1.0
+ },
+ {
+  "lift": -0.5330530280476433,
+  "n": 14,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant Minions have 2% additional Physical Damage Reduction",
+  "median": 1.0
+ }
+]

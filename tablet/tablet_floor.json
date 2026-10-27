@@ -1,0 +1,364 @@
+{
+ "Breach Tablet": {
+  "explicit.stat_2839545956": {
+   "label": "Map contains an additional Summoning Circle",
+   "total": 1534,
+   "at_median": 18,
+   "median": 50.0
+  },
+  "explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier",
+   "total": 2319,
+   "at_median": 363,
+   "median": 20.0
+  },
+  "explicit.stat_3762913035": {
+   "label": "Unstable Breaches in Map spawn an additional Rare Monster when Stabilised",
+   "total": 9837,
+   "at_median": 2558,
+   "median": 10.0
+  },
+  "explicit.stat_472809816": {
+   "label": "30% increased Quantity of Wombgifts found in Map",
+   "total": 10000,
+   "at_median": 3870,
+   "median": 10.0
+  },
+  "explicit.stat_2778285247 + explicit.stat_472809816 + explicit.stat_57434274": {
+   "label": "15% increased Experience gain in Map + 48% increased Quantity of Hiveblood found in Map + 30% increased Quantity of Wombgifts found in Map",
+   "total": 640,
+   "at_median": 11,
+   "median": 50.0
+  },
+  "explicit.stat_2017682521 + explicit.stat_2065500219 + explicit.stat_472809816": {
+   "label": "6% increased Pack Size in Map + 30% increased Quantity of Wombgifts found in Map + Monsters have 14% increased Effectiveness",
+   "total": 317,
+   "at_median": 43,
+   "median": 20.0
+  },
+  "explicit.stat_2778285247 + explicit.stat_472809816": {
+   "label": "48% increased Quantity of Hiveblood found in Map + 30% increased Quantity of Wombgifts found in Map",
+   "total": 2927,
+   "at_median": 673,
+   "median": 20.0
+  },
+  "explicit.stat_2065500219 + explicit.stat_2778285247 + explicit.stat_472809816": {
+   "label": "48% increased Quantity of Hiveblood found in Map + 30% increased Quantity of Wombgifts found in Map + Monsters have 14% increased Effectiveness",
+   "total": 841,
+   "at_median": 268,
+   "median": 20.0
+  },
+  "explicit.stat_1276056105 + explicit.stat_4142653832 + explicit.stat_472809816": {
+   "label": "26% increased Gold found in Map + 30% increased Quantity of Wombgifts found in Map + Map has 19% increased Monster Rarity",
+   "total": 331,
+   "at_median": 99,
+   "median": 10.0
+  }
+ },
+ "Expedition Tablet": {
+  "explicit.stat_588512487": {
+   "label": "Map has 2 additional random Modifiers",
+   "total": 10000,
+   "at_median": 5452,
+   "median": 20.0
+  },
+  "explicit.stat_3653794255": {
+   "label": "Expeditions have +40% Surpassing chance to contain an additional Verisium Remnant",
+   "total": 10000,
+   "at_median": 10000,
+   "median": 10.0
+  },
+  "explicit.stat_3815617979": {
+   "label": "Map has 97% increased chance to contain Azmeri Spirits",
+   "total": 10000,
+   "at_median": 650,
+   "median": 35.0
+  },
+  "explicit.stat_689816330": {
+   "label": "Map has 100% increased chance to contain Shrines",
+   "total": 10000,
+   "at_median": 2855,
+   "median": 10.0
+  },
+  "explicit.stat_1276056105 + explicit.stat_588512487": {
+   "label": "33% increased Gold found in Map + Map has 2 additional random Modifiers",
+   "total": 2380,
+   "at_median": 883,
+   "median": 20.0
+  },
+  "explicit.stat_181823691 + explicit.stat_3793155082": {
+   "label": "Expeditions contain 1 buried Strongbox in Map + Map has 29% increased number of Rare Monsters",
+   "total": 5590,
+   "at_median": 1428,
+   "median": 10.0
+  },
+  "explicit.stat_2777224821 + explicit.stat_57434274": {
+   "label": "16% increased Experience gain in Map + 31% increased Quantity of Waystones found in Map",
+   "total": 5206,
+   "at_median": 2775,
+   "median": 2.0
+  },
+  "explicit.stat_3039133122 + explicit.stat_3520418269 + explicit.stat_4142653832": {
+   "label": "7% increased Expedition Explosive Area of Effect in Map + Map has 18% increased Monster Rarity + Monsters from Verisium Remnants drop 25% increased Verisium",
+   "total": 1575,
+   "at_median": 752,
+   "median": 2.0
+  },
+  "explicit.stat_1276056105 + explicit.stat_57434274": {
+   "label": "16% increased Experience gain in Map + 33% increased Gold found in Map",
+   "total": 6207,
+   "at_median": 3502,
+   "median": 2.0
+  }
+ },
+ "Delirium Tablet": {
+  "explicit.stat_2839545956": {
+   "label": "Map contains an additional Summoning Circle",
+   "total": 2229,
+   "at_median": 304,
+   "median": 10.0
+  },
+  "explicit.stat_3240183538": {
+   "label": "Map contains an additional Strongbox",
+   "total": 1821,
+   "at_median": 101,
+   "median": 20.0
+  },
+  "explicit.stat_3350944114": {
+   "label": "Delirium Fog in Map dissipates 22% slower",
+   "total": 6237,
+   "at_median": 368,
+   "median": 20.0
+  },
+  "explicit.stat_57434274": {
+   "label": "18% increased Experience gain in Map",
+   "total": 10000,
+   "at_median": 860,
+   "median": 20.0
+  },
+  "explicit.stat_3465791711 + explicit.stat_4142653832 + explicit.stat_57434274": {
+   "label": "18% increased Experience gain in Map + Delirium Monsters in Map have 24% increased Pack Size + Map has 19% increased Monster Rarity",
+   "total": 385,
+   "at_median": 5,
+   "median": 75.0
+  },
+  "explicit.stat_3350944114 + explicit.stat_3836551197": {
+   "label": "27% increased Stack size of Simulacrum Splinters found in Map + Delirium Fog in Map dissipates 22% slower",
+   "total": 1090,
+   "at_median": 38,
+   "median": 50.0
+  },
+  "explicit.stat_3350944114 + explicit.stat_4142653832": {
+   "label": "Delirium Fog in Map dissipates 22% slower + Map has 19% increased Monster Rarity",
+   "total": 1511,
+   "at_median": 41,
+   "median": 50.0
+  },
+  "explicit.stat_3793155082 + explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier + Map has 28% increased number of Rare Monsters",
+   "total": 640,
+   "at_median": 309,
+   "median": 20.0
+  },
+  "explicit.stat_2306002879 + explicit.stat_588512487": {
+   "label": "10% increased Rarity of Items found in Map + Map has 1 additional random Modifier",
+   "total": 1461,
+   "at_median": 331,
+   "median": 15.0
+  }
+ },
+ "Ritual Tablet": {
+  "explicit.stat_120737942": {
+   "label": "Ritual Altars in Map allow rerolling Favours an additional time",
+   "total": 5471,
+   "at_median": 753,
+   "median": 50.0
+  },
+  "explicit.stat_3240183538": {
+   "label": "Map contains an additional Strongbox",
+   "total": 2493,
+   "at_median": 80,
+   "median": 30.0
+  },
+  "explicit.stat_1352729973": {
+   "label": "Map has 95% increased chance to contain Rogue Exiles",
+   "total": 1980,
+   "at_median": 150,
+   "median": 20.0
+  },
+  "explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier",
+   "total": 8165,
+   "at_median": 2665,
+   "median": 10.0
+  },
+  "explicit.stat_120737942 + explicit.stat_3793155082": {
+   "label": "Map has 33% increased number of Rare Monsters + Ritual Altars in Map allow rerolling Favours an additional time",
+   "total": 885,
+   "at_median": 37,
+   "median": 100.0
+  },
+  "explicit.stat_120737942 + explicit.stat_4142653832": {
+   "label": "Map has 17% increased Monster Rarity + Ritual Altars in Map allow rerolling Favours an additional time",
+   "total": 1418,
+   "at_median": 97,
+   "median": 75.0
+  },
+  "explicit.stat_120737942 + explicit.stat_2282052746 + explicit.stat_3793155082": {
+   "label": "Map has 33% increased number of Rare Monsters + Rerolling Favours at Ritual Altars in Map costs 22% reduced Tribute + Ritual Altars in Map allow rerolling Favours an additional time",
+   "total": 112,
+   "at_median": 11,
+   "median": 75.0
+  },
+  "explicit.stat_120737942 + explicit.stat_2282052746": {
+   "label": "Rerolling Favours at Ritual Altars in Map costs 22% reduced Tribute + Ritual Altars in Map allow rerolling Favours an additional time",
+   "total": 518,
+   "at_median": 168,
+   "median": 50.0
+  },
+  "explicit.stat_120737942 + explicit.stat_2065500219": {
+   "label": "Monsters have 13% increased Effectiveness + Ritual Altars in Map allow rerolling Favours an additional time",
+   "total": 1573,
+   "at_median": 1098,
+   "median": 24.0
+  }
+ },
+ "Irradiated Tablet": {
+  "explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier",
+   "total": 10000,
+   "at_median": 3411,
+   "median": 20.0
+  },
+  "explicit.stat_4142653832": {
+   "label": "Map has 15% increased Monster Rarity",
+   "total": 10000,
+   "at_median": 2957,
+   "median": 10.0
+  },
+  "explicit.stat_3793155082": {
+   "label": "Map has 27% increased number of Rare Monsters",
+   "total": 8971,
+   "at_median": 2819,
+   "median": 10.0
+  },
+  "explicit.stat_2065500219": {
+   "label": "Monsters have 13% increased Effectiveness",
+   "total": 10000,
+   "at_median": 4652,
+   "median": 10.0
+  },
+  "explicit.stat_2065500219 + explicit.stat_3793155082 + explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier + Map has 27% increased number of Rare Monsters + Monsters have 13% increased Effectiveness",
+   "total": 280,
+   "at_median": 269,
+   "median": 50.0
+  },
+  "explicit.stat_2065500219 + explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier + Monsters have 13% increased Effectiveness",
+   "total": 2542,
+   "at_median": 802,
+   "median": 35.5
+  },
+  "explicit.stat_231864447 + explicit.stat_588512487": {
+   "label": "Map contains 2 additional Rare Chests + Map has 1 additional random Modifier",
+   "total": 1790,
+   "at_median": 273,
+   "median": 20.0
+  },
+  "explicit.stat_3873704640 + explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier + Map has 30% increased Magic Monsters",
+   "total": 1900,
+   "at_median": 314,
+   "median": 20.0
+  },
+  "explicit.stat_1276056105 + explicit.stat_2777224821 + explicit.stat_588512487": {
+   "label": "32% increased Gold found in Map + 34% increased Quantity of Waystones found in Map + Map has 1 additional random Modifier",
+   "total": 756,
+   "at_median": 139,
+   "median": 20.0
+  }
+ },
+ "Overseer Tablet": {
+  "explicit.stat_3040603554": {
+   "label": "Map contains 2 additional Strongboxes",
+   "total": 2496,
+   "at_median": 353,
+   "median": 50.0
+  },
+  "explicit.stat_775597083": {
+   "label": "Map contains 2 additional Azmeri Spirits",
+   "total": 4320,
+   "at_median": 1453,
+   "median": 20.0
+  },
+  "explicit.stat_3371085671": {
+   "label": "Unique Monsters have 1 additional Rare Modifier",
+   "total": 824,
+   "at_median": 64,
+   "median": 50.0
+  },
+  "explicit.stat_3240183538": {
+   "label": "Map contains an additional Strongbox",
+   "total": 2663,
+   "at_median": 462,
+   "median": 20.0
+  },
+  "explicit.stat_3240183538 + explicit.stat_3873704640 + explicit.stat_775597083": {
+   "label": "Map contains 2 additional Azmeri Spirits + Map contains an additional Strongbox + Map has 34% increased Magic Monsters",
+   "total": 27,
+   "at_median": 8,
+   "median": 100.0
+  },
+  "explicit.stat_3040603554 + explicit.stat_775597083": {
+   "label": "Map contains 2 additional Azmeri Spirits + Map contains 2 additional Strongboxes",
+   "total": 54,
+   "at_median": 47,
+   "median": 75.0
+  },
+  "explicit.stat_1276056105 + explicit.stat_3240183538 + explicit.stat_775597083": {
+   "label": "35% increased Gold found in Map + Map contains 2 additional Azmeri Spirits + Map contains an additional Strongbox",
+   "total": 59,
+   "at_median": 12,
+   "median": 75.0
+  },
+  "explicit.stat_2065500219 + explicit.stat_588512487": {
+   "label": "Map has 1 additional random Modifier + Monsters have 13% increased Effectiveness",
+   "total": 678,
+   "at_median": 84,
+   "median": 50.0
+  },
+  "explicit.stat_4279535856 + explicit.stat_775597083": {
+   "label": "Map contains 2 additional Azmeri Spirits + Map has 96% increased chance to contain Strongboxes",
+   "total": 233,
+   "at_median": 35,
+   "median": 50.0
+  }
+ },
+ "Abyss Tablet": {
+  "explicit.stat_588512487": {
+   "label": "Map has 2 additional random Modifiers",
+   "total": 1717,
+   "at_median": 173,
+   "median": 50.0
+  },
+  "explicit.stat_3793155082": {
+   "label": "Map has 26% increased number of Rare Monsters",
+   "total": 10000,
+   "at_median": 1780,
+   "median": 20.0
+  },
+  "explicit.stat_2722831300": {
+   "label": "Abysses in Map have 20% increased chance to lead to an Abyssal Depths",
+   "total": 10000,
+   "at_median": 3533,
+   "median": 10.0
+  },
+  "explicit.stat_2789248444": {
+   "label": "24% increased chance for Abyssal monsters in Map to have Abyssal Modifiers",
+   "total": 10000,
+   "at_median": 3093,
+   "median": 10.0
+  }
+ }
+}

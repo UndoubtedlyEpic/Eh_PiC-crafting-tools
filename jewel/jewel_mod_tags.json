@@ -1,0 +1,1366 @@
+{
+ "#% increased accuracy rating": [
+  "attack"
+ ],
+ "#% increased chance to inflict ailments": [
+  "ailment"
+ ],
+ "#% increased magnitude of ailments you inflict": [
+  "ailment",
+  "damage"
+ ],
+ "#% increased elemental ailment threshold": [
+  "ailment"
+ ],
+ "#% increased area of effect": [],
+ "#% increased armour": [
+  "armour",
+  "defences"
+ ],
+ "break #% increased armour": [],
+ "#% increased armour break duration": [],
+ "#% increased critical hit chance for attacks": [
+  "attack",
+  "critical"
+ ],
+ "#% increased critical damage bonus for attack damage": [
+  "attack",
+  "critical",
+  "damage"
+ ],
+ "#% increased attack damage": [
+  "attack",
+  "damage"
+ ],
+ "#% increased attack speed": [
+  "attack",
+  "speed"
+ ],
+ "aura skills have #% increased magnitudes": [
+  "aura"
+ ],
+ "#% increased damage with axes": [
+  "attack",
+  "damage"
+ ],
+ "#% increased attack speed with axes": [
+  "attack",
+  "speed"
+ ],
+ "#% chance to inflict bleeding on hit": [
+  "ailment",
+  "bleed",
+  "physical"
+ ],
+ "#% increased bleeding duration": [
+  "ailment",
+  "attack",
+  "bleed",
+  "physical"
+ ],
+ "#% increased blind effect": [],
+ "#% chance to blind enemies on hit with attacks": [
+  "attack"
+ ],
+ "#% increased block chance": [
+  "block"
+ ],
+ "#% increased damage with hits against rare and unique enemies": [
+  "damage"
+ ],
+ "#% increased accuracy rating with bows": [
+  "attack"
+ ],
+ "#% increased damage with bows": [
+  "attack",
+  "damage"
+ ],
+ "#% increased attack speed with bows": [
+  "attack",
+  "speed"
+ ],
+ "#% increased cast speed": [
+  "caster",
+  "caster_speed",
+  "speed"
+ ],
+ "projectiles have #% chance to chain an additional time from terrain": [],
+ "#% increased charm effect duration": [
+  "charm"
+ ],
+ "#% increased charm charges gained": [
+  "charm"
+ ],
+ "#% increased damage while you have an active charm": [
+  "charm",
+  "damage"
+ ],
+ "#% increased chaos damage": [
+  "chaos",
+  "chaos_damage",
+  "damage"
+ ],
+ "#% increased chill duration on enemies": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "#% increased cold damage": [
+  "cold",
+  "damage",
+  "elemental",
+  "elemental_damage"
+ ],
+ "damage penetrates #% cold resistance": [
+  "cold",
+  "damage",
+  "elemental",
+  "elemental_damage"
+ ],
+ "#% increased cooldown recovery rate": [],
+ "#% increased damage if you have consumed a corpse recently": [
+  "damage"
+ ],
+ "#% increased magnitude of damaging ailments you inflict with critical hits": [
+  "ailment",
+  "critical",
+  "damage"
+ ],
+ "#% increased critical hit chance": [
+  "critical"
+ ],
+ "#% increased critical damage bonus": [
+  "critical",
+  "damage"
+ ],
+ "#% increased critical spell damage bonus": [
+  "caster",
+  "caster_critical",
+  "caster_damage",
+  "critical",
+  "damage"
+ ],
+ "#% increased damage with crossbows": [
+  "attack",
+  "damage"
+ ],
+ "#% increased crossbow reload speed": [
+  "attack",
+  "speed"
+ ],
+ "#% increased attack speed with crossbows": [
+  "attack",
+  "speed"
+ ],
+ "#% increased area of effect of curses": [
+  "caster",
+  "curse"
+ ],
+ "#% faster curse activation": [
+  "caster",
+  "curse"
+ ],
+ "#% increased curse duration": [
+  "caster",
+  "curse"
+ ],
+ "#% increased curse magnitudes": [
+  "caster",
+  "curse"
+ ],
+ "#% increased critical hit chance with daggers": [
+  "attack",
+  "critical"
+ ],
+ "#% increased damage with daggers": [
+  "attack",
+  "damage"
+ ],
+ "#% increased attack speed with daggers": [
+  "attack",
+  "speed"
+ ],
+ "#% of damage is taken from mana before life": [
+  "life",
+  "mana",
+  "resource"
+ ],
+ "#% increased damage against enemies with fully broken armour": [
+  "damage"
+ ],
+ "#% increased duration of damaging ailments on enemies": [
+  "ailment"
+ ],
+ "#% chance to daze on hit": [],
+ "debuffs on you expire #% faster": [],
+ "#% increased duration of ignite, shock and chill on enemies": [
+  "ailment",
+  "cold",
+  "elemental",
+  "fire",
+  "lightning"
+ ],
+ "#% increased elemental damage": [
+  "cold",
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire",
+  "lightning"
+ ],
+ "empowered attacks deal #% increased damage": [
+  "attack",
+  "damage"
+ ],
+ "meta skills gain #% increased energy": [],
+ "#% increased maximum energy shield": [
+  "defences",
+  "energy_shield"
+ ],
+ "#% faster start of energy shield recharge": [
+  "defences",
+  "energy_shield"
+ ],
+ "#% increased energy shield recharge rate": [
+  "defences",
+  "energy_shield"
+ ],
+ "#% increased evasion rating": [
+  "defences",
+  "evasion"
+ ],
+ "damaging ailments deal damage #% faster": [
+  "ailment",
+  "damage"
+ ],
+ "#% increased fire damage": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire"
+ ],
+ "damage penetrates #% fire resistance": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire"
+ ],
+ "#% increased critical hit chance with flails": [
+  "attack",
+  "critical"
+ ],
+ "#% increased damage with flails": [
+  "attack",
+  "damage"
+ ],
+ "#% increased flask charges gained": [
+  "flask"
+ ],
+ "#% increased flask effect duration": [
+  "flask"
+ ],
+ "#% increased energy shield from equipped focus": [
+  "defences",
+  "energy_shield"
+ ],
+ "projectiles have #% chance for an additional projectile when forking": [],
+ "#% increased freeze buildup": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "#% increased freeze threshold": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "herald skills deal #% increased damage": [
+  "damage"
+ ],
+ "#% increased flammability magnitude": [
+  "ailment",
+  "elemental",
+  "fire"
+ ],
+ "#% increased ignite magnitude": [
+  "ailment",
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire"
+ ],
+ "#% increased skill effect duration": [],
+ "#% increased knockback distance": [],
+ "#% of skill mana costs converted to life costs": [
+  "life",
+  "resource"
+ ],
+ "#% increased life recovery from flasks": [
+  "flask",
+  "life",
+  "resource"
+ ],
+ "#% increased life flask charges gained": [
+  "flask"
+ ],
+ "#% increased amount of life leeched": [
+  "life",
+  "resource"
+ ],
+ "recover #% of maximum life on kill": [
+  "life",
+  "resource"
+ ],
+ "#% of damage taken recouped as life": [
+  "life",
+  "resource"
+ ],
+ "#% increased life regeneration rate": [
+  "life",
+  "resource"
+ ],
+ "#% increased lightning damage": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "lightning"
+ ],
+ "damage penetrates #% lightning resistance": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "lightning"
+ ],
+ "#% increased damage with maces": [
+  "attack",
+  "damage"
+ ],
+ "#% increased stun buildup with maces": [
+  "attack"
+ ],
+ "#% increased mana recovery from flasks": [
+  "flask",
+  "mana",
+  "resource"
+ ],
+ "#% increased mana flask charges gained": [
+  "flask"
+ ],
+ "#% increased amount of mana leeched": [
+  "mana",
+  "resource"
+ ],
+ "recover #% of maximum mana on kill": [
+  "mana",
+  "resource"
+ ],
+ "#% increased mana regeneration rate": [
+  "mana",
+  "resource"
+ ],
+ "mark skills have #% increased use speed": [
+  "speed"
+ ],
+ "mark skills have #% increased skill effect duration": [],
+ "#% increased effect of your mark skills": [],
+ "#% to maximum cold resistance": [
+  "cold",
+  "cold_resistance",
+  "elemental",
+  "elemental_resistance",
+  "resistance"
+ ],
+ "#% to maximum fire resistance": [
+  "elemental",
+  "elemental_resistance",
+  "fire",
+  "fire_resistance",
+  "resistance"
+ ],
+ "#% to maximum lightning resistance": [
+  "elemental",
+  "elemental_resistance",
+  "lightning",
+  "lightning_resistance",
+  "resistance"
+ ],
+ "+# to maximum rage": [],
+ "#% increased melee damage": [
+  "attack",
+  "damage"
+ ],
+ "#% increased minion accuracy rating": [
+  "attack",
+  "minion"
+ ],
+ "minions have #% increased area of effect": [
+  "minion"
+ ],
+ "minions have #% increased attack and cast speed": [
+  "attack",
+  "caster",
+  "caster_speed",
+  "minion",
+  "minion_speed",
+  "speed"
+ ],
+ "minions have +#% to chaos resistance": [
+  "chaos",
+  "chaos_resistance",
+  "minion",
+  "minion_resistance",
+  "resistance"
+ ],
+ "minions have #% increased critical hit chance": [
+  "critical",
+  "minion"
+ ],
+ "minions have #% increased critical damage bonus": [
+  "critical",
+  "damage",
+  "minion",
+  "minion_damage"
+ ],
+ "minions deal #% increased damage": [
+  "damage",
+  "minion",
+  "minion_damage"
+ ],
+ "minions have #% increased maximum life": [
+  "life",
+  "minion",
+  "resource"
+ ],
+ "minions have #% additional physical damage reduction": [
+  "minion",
+  "physical"
+ ],
+ "minions have +#% to all elemental resistances": [
+  "cold",
+  "cold_resistance",
+  "elemental",
+  "elemental_resistance",
+  "fire",
+  "fire_resistance",
+  "lightning",
+  "lightning_resistance",
+  "minion",
+  "minion_resistance",
+  "resistance"
+ ],
+ "minions revive #% faster": [
+  "minion"
+ ],
+ "#% increased movement speed": [
+  "speed"
+ ],
+ "offering skills have #% increased duration": [
+  "minion"
+ ],
+ "offerings have #% increased maximum life": [
+  "life",
+  "minion",
+  "resource"
+ ],
+ "#% increased global physical damage": [
+  "damage",
+  "physical",
+  "physical_damage"
+ ],
+ "#% chance to pierce an enemy": [],
+ "#% increased pin buildup": [],
+ "#% chance to poison on hit": [
+  "ailment"
+ ],
+ "#% increased magnitude of poison you inflict": [
+  "ailment",
+  "damage"
+ ],
+ "#% increased poison duration": [
+  "ailment",
+  "chaos",
+  "poison"
+ ],
+ "#% increased projectile damage": [
+  "damage"
+ ],
+ "#% increased projectile speed": [
+  "speed"
+ ],
+ "#% increased damage with quarterstaves": [
+  "attack",
+  "damage"
+ ],
+ "#% increased freeze buildup with quarterstaves": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "#% increased attack speed with quarterstaves": [
+  "attack",
+  "speed"
+ ],
+ "#% increased bonuses gained from equipped quiver": [],
+ "gain # rage on melee hit": [
+  "attack"
+ ],
+ "gain # rage when hit by an enemy": [],
+ "#% increased armour, evasion and energy shield from equipped shield": [
+  "defences"
+ ],
+ "#% increased chance to shock": [
+  "ailment",
+  "elemental",
+  "lightning"
+ ],
+ "#% increased shock duration": [
+  "ailment",
+  "elemental",
+  "lightning"
+ ],
+ "#% increased magnitude of shock you inflict": [
+  "ailment",
+  "elemental",
+  "lightning"
+ ],
+ "#% reduced slowing potency of debuffs on you": [],
+ "#% increased attack speed with spears": [
+  "attack",
+  "speed"
+ ],
+ "#% increased critical damage bonus with spears": [
+  "attack",
+  "critical"
+ ],
+ "#% increased damage with spears": [
+  "attack",
+  "damage"
+ ],
+ "#% increased critical hit chance for spells": [
+  "caster",
+  "caster_critical",
+  "critical"
+ ],
+ "#% increased spell damage": [
+  "caster",
+  "caster_damage",
+  "damage"
+ ],
+ "#% increased stun buildup": [],
+ "#% increased stun threshold": [],
+ "gain additional stun threshold equal to #% of maximum energy shield": [],
+ "gain additional ailment threshold equal to #% of maximum energy shield": [
+  "ailment"
+ ],
+ "#% increased stun threshold if you haven't been stunned recently": [],
+ "#% increased magnitude of bleeding you inflict": [
+  "ailment",
+  "attack",
+  "bleed",
+  "damage",
+  "physical",
+  "physical_damage"
+ ],
+ "#% increased damage with swords": [
+  "attack",
+  "damage"
+ ],
+ "#% increased attack speed with swords": [
+  "attack",
+  "speed"
+ ],
+ "#% increased thorns damage": [
+  "damage"
+ ],
+ "#% increased totem damage": [
+  "damage"
+ ],
+ "#% increased totem life": [
+  "life",
+  "resource"
+ ],
+ "#% increased totem placement speed": [
+  "speed"
+ ],
+ "#% increased trap damage": [
+  "damage"
+ ],
+ "#% increased trap throwing speed": [
+  "speed"
+ ],
+ "triggered spells deal #% increased spell damage": [
+  "caster",
+  "caster_damage",
+  "damage"
+ ],
+ "#% increased damage with unarmed attacks": [
+  "attack",
+  "damage"
+ ],
+ "#% increased warcry buff effect": [],
+ "#% increased warcry cooldown recovery rate": [],
+ "#% increased damage with warcries": [
+  "damage"
+ ],
+ "#% increased warcry speed": [
+  "speed"
+ ],
+ "#% increased weapon swap speed": [
+  "attack",
+  "speed"
+ ],
+ "#% increased withered magnitude": [
+  "chaos"
+ ],
+ "#% increased unarmed attack speed": [
+  "attack",
+  "speed"
+ ],
+ "#% increased projectile damage if you've dealt a melee hit in the past eight seconds": [
+  "attack",
+  "damage"
+ ],
+ "#% increased melee damage if you've dealt a projectile attack hit in the past eight seconds": [
+  "attack",
+  "damage"
+ ],
+ "#% increased parry damage": [
+  "block",
+  "damage"
+ ],
+ "#% increased parried debuff duration": [
+  "block"
+ ],
+ "#% increased stun threshold while parrying": [
+  "block"
+ ],
+ "#% chance to gain volatility on kill": [],
+ "companions deal #% increased damage": [
+  "damage",
+  "minion",
+  "minion_damage"
+ ],
+ "companions have #% increased maximum life": [
+  "life",
+  "minion",
+  "resource"
+ ],
+ "#% increased hazard damage": [
+  "damage"
+ ],
+ "#% chance for attack hits to apply incision": [
+  "ailment",
+  "bleed",
+  "physical"
+ ],
+ "#% increased glory generation for banner skills": [],
+ "banner skills have #% increased area of effect": [],
+ "banner skills have #% increased duration": [],
+ "#% increased presence area of effect": [
+  "aura"
+ ],
+ "upgrades radius to medium": [],
+ "upgrades radius to large": [],
+ "#% increased effect of small passive skills in radius": [],
+ "#% increased effect of notable passive skills in radius": [],
+ "small passive skills in radius also grant #% increased accuracy rating": [
+  "attack"
+ ],
+ "notable passive skills in radius also grant #% increased chance to inflict ailments": [
+  "ailment"
+ ],
+ "notable passive skills in radius also grant #% increased magnitude of ailments you inflict": [
+  "ailment",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased elemental ailment threshold": [
+  "ailment"
+ ],
+ "notable passive skills in radius also grant #% increased area of effect": [],
+ "small passive skills in radius also grant #% increased armour": [
+  "armour",
+  "defences"
+ ],
+ "small passive skills in radius also grant break #% increased armour": [],
+ "notable passive skills in radius also grant #% increased armour break duration": [],
+ "notable passive skills in radius also grant #% increased critical hit chance for attacks": [
+  "attack",
+  "critical"
+ ],
+ "notable passive skills in radius also grant #% increased critical damage bonus for attack damage": [
+  "attack",
+  "critical",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased attack damage": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant aura skills have #% increased magnitudes": [
+  "aura"
+ ],
+ "small passive skills in radius also grant #% increased damage with axes": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed with axes": [
+  "attack",
+  "speed"
+ ],
+ "small passive skills in radius also grant #% chance to inflict bleeding on hit": [
+  "ailment",
+  "bleed",
+  "physical"
+ ],
+ "notable passive skills in radius also grant #% increased bleeding duration": [
+  "ailment",
+  "attack",
+  "bleed",
+  "physical"
+ ],
+ "notable passive skills in radius also grant #% increased blind effect": [],
+ "small passive skills in radius also grant #% chance to blind enemies on hit with attacks": [
+  "attack"
+ ],
+ "notable passive skills in radius also grant #% increased block chance": [
+  "block"
+ ],
+ "small passive skills in radius also grant #% increased damage with hits against rare and unique enemies": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased accuracy rating with bows": [
+  "attack"
+ ],
+ "small passive skills in radius also grant #% increased damage with bows": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed with bows": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% increased cast speed": [
+  "caster",
+  "caster_speed",
+  "speed"
+ ],
+ "notable passive skills in radius also grant projectiles have #% chance to chain an additional time from terrain": [],
+ "small passive skills in radius also grant #% increased charm effect duration": [
+  "charm"
+ ],
+ "notable passive skills in radius also grant #% increased charm charges gained": [
+  "charm"
+ ],
+ "small passive skills in radius also grant #% increased damage while you have an active charm": [
+  "charm",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased chaos damage": [
+  "chaos",
+  "chaos_damage",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased chill duration on enemies": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "small passive skills in radius also grant #% increased cold damage": [
+  "cold",
+  "damage",
+  "elemental",
+  "elemental_damage"
+ ],
+ "small passive skills in radius also grant damage penetrates #% cold resistance": [
+  "cold",
+  "damage",
+  "elemental",
+  "elemental_damage"
+ ],
+ "notable passive skills in radius also grant #% increased cooldown recovery rate": [],
+ "small passive skills in radius also grant #% increased damage if you have consumed a corpse recently": [
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased magnitude of damaging ailments you inflict with critical hits": [
+  "ailment",
+  "critical",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased critical hit chance": [
+  "critical"
+ ],
+ "notable passive skills in radius also grant #% increased critical damage bonus": [
+  "critical",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased critical spell damage bonus": [
+  "caster",
+  "caster_critical",
+  "caster_damage",
+  "critical",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased damage with crossbows": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased crossbow reload speed": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed with crossbows": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% increased area of effect of curses": [
+  "caster",
+  "curse"
+ ],
+ "small passive skills in radius also grant #% increased curse duration": [
+  "caster",
+  "curse"
+ ],
+ "notable passive skills in radius also grant #% increased curse magnitudes": [
+  "caster",
+  "curse"
+ ],
+ "notable passive skills in radius also grant #% increased critical hit chance with daggers": [
+  "attack",
+  "critical"
+ ],
+ "small passive skills in radius also grant #% increased damage with daggers": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed with daggers": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% of damage is taken from mana before life": [
+  "life",
+  "mana",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased damage against enemies with fully broken armour": [
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased duration of damaging ailments on enemies": [
+  "ailment"
+ ],
+ "small passive skills in radius also grant #% chance to daze on hit": [],
+ "notable passive skills in radius also grant debuffs on you expire #% faster": [],
+ "notable passive skills in radius also grant #% increased duration of ignite, shock and chill on enemies": [
+  "ailment",
+  "cold",
+  "elemental",
+  "fire",
+  "lightning"
+ ],
+ "small passive skills in radius also grant #% increased elemental damage": [
+  "cold",
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire",
+  "lightning"
+ ],
+ "small passive skills in radius also grant empowered attacks deal #% increased damage": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant meta skills gain #% increased energy": [],
+ "small passive skills in radius also grant #% increased maximum energy shield": [
+  "defences",
+  "energy_shield"
+ ],
+ "notable passive skills in radius also grant #% faster start of energy shield recharge": [
+  "defences",
+  "energy_shield"
+ ],
+ "small passive skills in radius also grant #% increased energy shield recharge rate": [
+  "defences",
+  "energy_shield"
+ ],
+ "small passive skills in radius also grant #% increased evasion rating": [
+  "defences",
+  "evasion"
+ ],
+ "notable passive skills in radius also grant damaging ailments deal damage #% faster": [
+  "ailment",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased fire damage": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire"
+ ],
+ "small passive skills in radius also grant damage penetrates #% fire resistance": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire"
+ ],
+ "notable passive skills in radius also grant #% increased critical hit chance with flails": [
+  "attack",
+  "critical"
+ ],
+ "small passive skills in radius also grant #% increased damage with flails": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased flask charges gained": [
+  "flask"
+ ],
+ "small passive skills in radius also grant #% increased flask effect duration": [
+  "flask"
+ ],
+ "notable passive skills in radius also grant #% increased energy shield from equipped focus": [
+  "defences",
+  "energy_shield"
+ ],
+ "notable passive skills in radius also grant projectiles have #% chance for an additional projectile when forking": [],
+ "notable passive skills in radius also grant #% increased freeze buildup": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "small passive skills in radius also grant #% increased freeze threshold": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "small passive skills in radius also grant herald skills deal #% increased damage": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased flammability magnitude": [
+  "ailment",
+  "elemental",
+  "fire"
+ ],
+ "notable passive skills in radius also grant #% increased ignite magnitude": [
+  "ailment",
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "fire"
+ ],
+ "notable passive skills in radius also grant #% increased skill effect duration": [],
+ "notable passive skills in radius also grant #% increased knockback distance": [],
+ "notable passive skills in radius also grant #% of skill mana costs converted to life costs": [
+  "life",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased life recovery from flasks": [
+  "flask",
+  "life",
+  "resource"
+ ],
+ "notable passive skills in radius also grant #% increased life flask charges gained": [
+  "flask"
+ ],
+ "small passive skills in radius also grant #% increased amount of life leeched": [
+  "life",
+  "resource"
+ ],
+ "notable passive skills in radius also grant recover #% of maximum life on kill": [
+  "life",
+  "resource"
+ ],
+ "notable passive skills in radius also grant #% of damage taken recouped as life": [
+  "life",
+  "resource"
+ ],
+ "notable passive skills in radius also grant #% increased life regeneration rate": [
+  "life",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased lightning damage": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "lightning"
+ ],
+ "small passive skills in radius also grant damage penetrates #% lightning resistance": [
+  "damage",
+  "elemental",
+  "elemental_damage",
+  "lightning"
+ ],
+ "small passive skills in radius also grant #% increased damage with maces": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased stun buildup with maces": [
+  "attack"
+ ],
+ "small passive skills in radius also grant #% increased mana recovery from flasks": [
+  "flask",
+  "mana",
+  "resource"
+ ],
+ "notable passive skills in radius also grant #% increased mana flask charges gained": [
+  "flask"
+ ],
+ "small passive skills in radius also grant #% increased amount of mana leeched": [
+  "mana",
+  "resource"
+ ],
+ "notable passive skills in radius also grant recover #% of maximum mana on kill": [
+  "mana",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased mana regeneration rate": [
+  "mana",
+  "resource"
+ ],
+ "small passive skills in radius also grant mark skills have #% increased use speed": [
+  "speed"
+ ],
+ "small passive skills in radius also grant mark skills have #% increased skill effect duration": [],
+ "notable passive skills in radius also grant #% increased effect of your mark skills": [],
+ "notable passive skills in radius also grant # to maximum rage": [],
+ "small passive skills in radius also grant #% increased melee damage": [
+  "attack",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased minion accuracy rating": [
+  "attack",
+  "minion"
+ ],
+ "notable passive skills in radius also grant minions have #% increased area of effect": [
+  "minion"
+ ],
+ "notable passive skills in radius also grant minions have #% increased attack and cast speed": [
+  "attack",
+  "caster",
+  "caster_speed",
+  "minion",
+  "minion_speed",
+  "speed"
+ ],
+ "small passive skills in radius also grant minions have +#% to chaos resistance": [
+  "chaos",
+  "chaos_resistance",
+  "minion",
+  "minion_resistance",
+  "resistance"
+ ],
+ "notable passive skills in radius also grant minions have #% increased critical hit chance": [
+  "critical",
+  "minion"
+ ],
+ "notable passive skills in radius also grant minions have #% increased critical damage bonus": [
+  "critical",
+  "damage",
+  "minion",
+  "minion_damage"
+ ],
+ "small passive skills in radius also grant minions deal #% increased damage": [
+  "damage",
+  "minion",
+  "minion_damage"
+ ],
+ "small passive skills in radius also grant minions have #% increased maximum life": [
+  "life",
+  "minion",
+  "resource"
+ ],
+ "small passive skills in radius also grant minions have #% additional physical damage reduction": [
+  "minion",
+  "physical"
+ ],
+ "small passive skills in radius also grant minions have +#% to all elemental resistances": [
+  "cold",
+  "cold_resistance",
+  "elemental",
+  "elemental_resistance",
+  "fire",
+  "fire_resistance",
+  "lightning",
+  "lightning_resistance",
+  "minion",
+  "minion_resistance",
+  "resistance"
+ ],
+ "notable passive skills in radius also grant minions revive #% faster": [
+  "minion"
+ ],
+ "notable passive skills in radius also grant #% increased movement speed": [
+  "speed"
+ ],
+ "notable passive skills in radius also grant offering skills have #% increased duration": [
+  "minion"
+ ],
+ "small passive skills in radius also grant offerings have #% increased maximum life": [
+  "life",
+  "minion",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased global physical damage": [
+  "damage",
+  "physical",
+  "physical_damage"
+ ],
+ "notable passive skills in radius also grant #% chance to pierce an enemy": [],
+ "notable passive skills in radius also grant #% increased pin buildup": [],
+ "small passive skills in radius also grant #% chance to poison on hit": [
+  "ailment"
+ ],
+ "notable passive skills in radius also grant #% increased magnitude of poison you inflict": [
+  "ailment",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased poison duration": [
+  "ailment",
+  "chaos",
+  "poison"
+ ],
+ "small passive skills in radius also grant #% increased projectile damage": [
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased projectile speed": [
+  "speed"
+ ],
+ "small passive skills in radius also grant #% increased damage with quarterstaves": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased freeze buildup with quarterstaves": [
+  "ailment",
+  "cold",
+  "elemental"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed with quarterstaves": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% increased bonuses gained from equipped quiver": [],
+ "notable passive skills in radius also grant gain # rage on melee hit": [
+  "attack"
+ ],
+ "notable passive skills in radius also grant gain # rage when hit by an enemy": [],
+ "notable passive skills in radius also grant #% increased armour, evasion and energy shield from equipped shield": [
+  "defences"
+ ],
+ "small passive skills in radius also grant #% increased chance to shock": [
+  "ailment",
+  "elemental",
+  "lightning"
+ ],
+ "small passive skills in radius also grant #% increased shock duration": [
+  "ailment",
+  "elemental",
+  "lightning"
+ ],
+ "notable passive skills in radius also grant #% increased magnitude of shock you inflict": [
+  "ailment",
+  "elemental",
+  "lightning"
+ ],
+ "notable passive skills in radius also grant #% reduced slowing potency of debuffs on you": [],
+ "notable passive skills in radius also grant #% increased attack speed with spears": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% increased critical damage bonus with spears": [
+  "attack",
+  "critical"
+ ],
+ "small passive skills in radius also grant #% increased damage with spears": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased critical hit chance for spells": [
+  "caster",
+  "caster_critical",
+  "critical"
+ ],
+ "small passive skills in radius also grant #% increased spell damage": [
+  "caster",
+  "caster_damage",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased stun buildup": [],
+ "small passive skills in radius also grant #% increased stun threshold": [],
+ "small passive skills in radius also grant gain additional stun threshold equal to #% of maximum energy shield": [],
+ "small passive skills in radius also grant gain additional ailment threshold equal to #% of maximum energy shield": [
+  "ailment"
+ ],
+ "small passive skills in radius also grant #% increased stun threshold if you haven't been stunned recently": [],
+ "notable passive skills in radius also grant #% increased magnitude of bleeding you inflict": [
+  "ailment",
+  "attack",
+  "bleed",
+  "damage",
+  "physical",
+  "physical_damage"
+ ],
+ "small passive skills in radius also grant #% increased damage with swords": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased attack speed with swords": [
+  "attack",
+  "speed"
+ ],
+ "small passive skills in radius also grant #% increased thorns damage": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased totem damage": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased totem life": [
+  "life",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased totem placement speed": [
+  "speed"
+ ],
+ "small passive skills in radius also grant #% increased trap damage": [
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased trap throwing speed": [
+  "speed"
+ ],
+ "small passive skills in radius also grant triggered spells deal #% increased spell damage": [
+  "caster",
+  "caster_damage",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased damage with unarmed attacks": [
+  "attack",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased warcry buff effect": [],
+ "notable passive skills in radius also grant #% increased warcry cooldown recovery rate": [],
+ "small passive skills in radius also grant #% increased damage with warcries": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased warcry speed": [
+  "speed"
+ ],
+ "small passive skills in radius also grant #% increased weapon swap speed": [
+  "attack",
+  "speed"
+ ],
+ "notable passive skills in radius also grant #% increased withered magnitude": [
+  "chaos"
+ ],
+ "notable passive skills in radius also grant #% increased unarmed attack speed": [
+  "attack",
+  "speed"
+ ],
+ "small passive skills in radius also grant #% increased projectile damage if you've dealt a melee hit in the past eight seconds": [
+  "attack",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased melee damage if you've dealt a projectile attack hit in the past eight seconds": [
+  "attack",
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased parry damage": [
+  "block",
+  "damage"
+ ],
+ "notable passive skills in radius also grant #% increased parried debuff duration": [
+  "block"
+ ],
+ "notable passive skills in radius also grant #% increased stun threshold while parrying": [
+  "block"
+ ],
+ "notable passive skills in radius also grant #% chance to gain volatility on kill": [],
+ "small passive skills in radius also grant companions deal #% increased damage": [
+  "damage",
+  "minion",
+  "minion_damage"
+ ],
+ "small passive skills in radius also grant companions have #% increased maximum life": [
+  "life",
+  "minion",
+  "resource"
+ ],
+ "small passive skills in radius also grant #% increased hazard damage": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% chance for attack hits to apply incision": [
+  "ailment",
+  "bleed",
+  "physical"
+ ],
+ "notable passive skills in radius also grant #% increased glory generation for banner skills": [],
+ "small passive skills in radius also grant banner skills have #% increased area of effect": [],
+ "small passive skills in radius also grant banner skills have #% increased duration": [],
+ "notable passive skills in radius also grant #% increased presence area of effect": [
+  "aura"
+ ],
+ "increases and reductions to": [
+  "cold",
+  "elemental",
+  "fire",
+  "lightning"
+ ],
+ "#% increased effect of prefixes": [],
+ "#% increased effect of suffixes": [],
+ "upgrades radius to very large": [],
+ "notable passive skills in radius also grant +#% to fire resistance": [
+  "elemental",
+  "elemental_resistance",
+  "fire",
+  "fire_resistance",
+  "resistance"
+ ],
+ "notable passive skills in radius also grant +#% to cold resistance": [
+  "cold",
+  "cold_resistance",
+  "elemental",
+  "elemental_resistance",
+  "resistance"
+ ],
+ "notable passive skills in radius also grant +#% to lightning resistance": [
+  "elemental",
+  "elemental_resistance",
+  "lightning",
+  "lightning_resistance",
+  "resistance"
+ ],
+ "notable passive skills in radius also grant +#% to chaos resistance": [
+  "chaos",
+  "chaos_resistance",
+  "resistance"
+ ],
+ "#% to maximum chaos resistance": [
+  "chaos",
+  "chaos_resistance",
+  "resistance"
+ ],
+ "# prefix modifier allowed": [],
+ "# suffix modifier allowed": [],
+ "debilitate enemies on hit while you have an emerald and a sapphire socketed in your tree": [],
+ "blind enemies on hit while you have a ruby and a sapphire socketed in your tree": [],
+ "inflict elemental exposure on hit while you have a ruby and an emerald socketed in your tree": [
+  "elemental"
+ ],
+ "notable passive skills in radius also grant #% increased skill speed while shapeshifted": [
+  "speed"
+ ],
+ "small passive skills in radius also grant #% increased damage while shapeshifted": [
+  "damage"
+ ],
+ "small passive skills in radius also grant #% increased damage with plant skills": [
+  "damage"
+ ],
+ "#% increased skill speed while shapeshifted": [
+  "speed"
+ ],
+ "#% increased damage while shapeshifted": [
+  "damage"
+ ],
+ "#% increased damage with plant skills": [
+  "damage"
+ ]
+}

@@ -1,0 +1,1722 @@
+[
+ {
+  "div": 2100.0,
+  "raw": "2100 divine",
+  "corrupted": true,
+  "ilvl": 79,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "17% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "7% increased Projectile Speed",
+    "stat.explicit.stat_3759663284",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Quarterstaves",
+    "stat.explicit.stat_3283482523",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "13% increased Elemental Ailment Threshold",
+    "stat.explicit.stat_3544800472",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "7% increased Charm Charges gained",
+    "stat.explicit.stat_3585532255",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 1500.0,
+  "raw": "1500 divine",
+  "corrupted": true,
+  "ilvl": 80,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "14% increased Lightning Damage",
+    "stat.explicit.stat_2231156303",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "19% increased Elemental Ailment Threshold",
+    "stat.explicit.stat_3544800472",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "Mark Skills have 18% increased Skill Effect Duration",
+    "stat.explicit.stat_2594634307",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "12% increased Magnitude of Poison you inflict",
+    "stat.explicit.stat_2487305362",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 1500.0,
+  "raw": "1500 divine",
+  "corrupted": true,
+  "ilvl": 62,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "9% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "12% increased Life Recovery from Flasks",
+    "stat.explicit.stat_821241191",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "8% increased Poison Duration",
+    "stat.explicit.stat_2011656677",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "8% increased Magnitude of Poison you inflict",
+    "stat.explicit.stat_2487305362",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "1 mirror",
+  "corrupted": true,
+  "ilvl": 64,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "Damage Penetrates 5% Lightning Resistance",
+    "stat.explicit.stat_818778753",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "5% increased Poison Duration",
+    "stat.explicit.stat_2011656677",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "6% increased Duration of Damaging Ailments on Enemies",
+    "stat.explicit.stat_1829102168",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "12% increased Damage with Plant Skills",
+    "stat.explicit.stat_2518900926",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "1 mirror",
+  "corrupted": true,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "10% increased Flask Effect Duration",
+    "stat.explicit.stat_3741323227",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "Damage Penetrates 6% Lightning Resistance",
+    "stat.explicit.stat_818778753",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "Companions deal 18% increased Damage",
+    "stat.explicit.stat_234296660",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "1 mirror",
+  "corrupted": true,
+  "ilvl": 47,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "19% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "13% increased Damage with Quarterstaves",
+    "stat.explicit.stat_4045894391",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Spears",
+    "stat.explicit.stat_1165163804",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "5% increased Mana Recovery from Flasks",
+    "stat.explicit.stat_2222186378",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 1350.0,
+  "raw": "1350 divine",
+  "corrupted": true,
+  "ilvl": 79,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "11% increased Damage with Bows",
+    "stat.explicit.stat_4188894176",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "16% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Bows",
+    "stat.explicit.stat_3759735052",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "11% increased Life Recovery from Flasks",
+    "stat.explicit.stat_821241191",
+    false
+   ],
+   [
+    "enchant",
+    "",
+    "+9% to Fire Resistance",
+    "stat.enchant.stat_3372524247",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "enchantMods",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 1000.0,
+  "raw": "1000 divine",
+  "corrupted": false,
+  "ilvl": 24,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Bows",
+    "stat.explicit.stat_3759735052",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "15% increased Damage while you have an active Charm",
+    "stat.explicit.stat_627767961",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "20% increased Life Flask Charges gained",
+    "stat.explicit.stat_4009879772",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "5% increased Magnitude of Poison you inflict",
+    "stat.explicit.stat_2487305362",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 999.0,
+  "raw": "999 divine",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "12% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "7% increased Damage with Crossbows",
+    "stat.explicit.stat_427684353",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "5% increased Cooldown Recovery Rate",
+    "stat.explicit.stat_1004011302",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "8% increased Duration of Ignite, Shock and Chill on Enemies",
+    "stat.explicit.stat_1062710370",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 999.0,
+  "raw": "999 divine",
+  "corrupted": false,
+  "ilvl": 80,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "7% increased Projectile Speed",
+    "stat.explicit.stat_3759663284",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "7% increased Critical Hit Chance for Attacks",
+    "stat.explicit.stat_2194114101",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "9% increased Damage with Bows",
+    "stat.explicit.stat_4188894176",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Crossbows",
+    "stat.explicit.stat_1135928777",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 999.0,
+  "raw": "999 divine",
+  "corrupted": false,
+  "ilvl": 22,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "11% increased Attack Damage",
+    "stat.explicit.stat_2843214518",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Spears",
+    "stat.explicit.stat_1165163804",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "20% increased Elemental Ailment Threshold",
+    "stat.explicit.stat_3544800472",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "10% increased Hazard Damage",
+    "stat.explicit.stat_1697951953",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 999.0,
+  "raw": "999 divine",
+  "corrupted": false,
+  "ilvl": 40,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "10% increased Flask Effect Duration",
+    "stat.explicit.stat_3741323227",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Quarterstaves",
+    "stat.explicit.stat_3283482523",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "15% increased Elemental Damage",
+    "stat.explicit.stat_3141070085",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 430.0,
+  "raw": "430 divine",
+  "corrupted": true,
+  "ilvl": 80,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "5% chance to Poison on Hit",
+    "stat.explicit.stat_795138349",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "7% increased Flask Charges gained",
+    "stat.explicit.stat_1836676211",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "18% increased Hazard Damage",
+    "stat.explicit.stat_1697951953",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "14% increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds",
+    "stat.explicit.stat_3028809864",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "corrupted",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": 300.0,
+  "raw": "300 divine",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "17% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "11% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Spears",
+    "stat.explicit.stat_1165163804",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Crossbows",
+    "stat.explicit.stat_1135928777",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "note",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "13% increased Charm Effect Duration",
+    "stat.explicit.stat_1389754388",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "13% increased Elemental Ailment Threshold",
+    "stat.explicit.stat_3544800472",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "Herald Skills deal 22% increased Damage",
+    "stat.explicit.stat_21071013",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "17% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Quarterstaves",
+    "stat.explicit.stat_3283482523",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "10% increased Life Recovery from Flasks",
+    "stat.explicit.stat_821241191",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "10% increased Magnitude of Ailments you inflict",
+    "stat.explicit.stat_1303248024",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "13% increased Attack Damage",
+    "stat.explicit.stat_2843214518",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "12% increased Damage with Crossbows",
+    "stat.explicit.stat_427684353",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "14% increased Elemental Ailment Threshold",
+    "stat.explicit.stat_3544800472",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "6% chance to Blind Enemies on Hit with Attacks",
+    "stat.explicit.stat_318953428",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "14% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "5% increased Accuracy Rating",
+    "stat.explicit.stat_624954515",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "13% increased Mana Recovery from Flasks",
+    "stat.explicit.stat_2222186378",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "7% chance to Poison on Hit",
+    "stat.explicit.stat_795138349",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "10% increased Flask Effect Duration",
+    "stat.explicit.stat_3741323227",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "14% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "2% increased Attack Speed with Bows",
+    "stat.explicit.stat_3759735052",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "6% increased Accuracy Rating with Bows",
+    "stat.explicit.stat_169946467",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 80,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed",
+    "stat.explicit.stat_681332047",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "13% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Quarterstaves",
+    "stat.explicit.stat_3283482523",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "11% increased Accuracy Rating with Bows",
+    "stat.explicit.stat_169946467",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "6% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Crossbows",
+    "stat.explicit.stat_1135928777",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "5% increased Cooldown Recovery Rate",
+    "stat.explicit.stat_1004011302",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "13% increased Hazard Damage",
+    "stat.explicit.stat_1697951953",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "11% increased Charm Effect Duration",
+    "stat.explicit.stat_1389754388",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed",
+    "stat.explicit.stat_681332047",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "15% increased Damage with Quarterstaves",
+    "stat.explicit.stat_4045894391",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "5% increased Blind Effect",
+    "stat.explicit.stat_1585769763",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "19% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Quarterstaves",
+    "stat.explicit.stat_3283482523",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "13% increased Elemental Damage",
+    "stat.explicit.stat_3141070085",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "13% increased Pin Buildup",
+    "stat.explicit.stat_3473929743",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 80,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "9% increased Damage with Bows",
+    "stat.explicit.stat_4188894176",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "8% increased Life Recovery from Flasks",
+    "stat.explicit.stat_821241191",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "Damage Penetrates 7% Lightning Resistance",
+    "stat.explicit.stat_818778753",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "17% increased Stun Threshold while Parrying",
+    "stat.explicit.stat_1911237468",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Crossbows",
+    "stat.explicit.stat_1135928777",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "12% increased Hazard Damage",
+    "stat.explicit.stat_1697951953",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "22% increased Parry Damage",
+    "stat.explicit.stat_1569159338",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "21% increased Stun Threshold if you haven't been Stunned Recently",
+    "stat.explicit.stat_1405298142",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "8% increased amount of Mana Leeched",
+    "stat.explicit.stat_2839066308",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "3% increased Attack Speed with Crossbows",
+    "stat.explicit.stat_1135928777",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "Companions have 20% increased maximum Life",
+    "stat.explicit.stat_1805182458",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "22% increased Parry Damage",
+    "stat.explicit.stat_1569159338",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 79,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "14% increased Evasion Rating",
+    "stat.explicit.stat_2106365538",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "7% increased Critical Hit Chance for Attacks",
+    "stat.explicit.stat_2194114101",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "11% increased Critical Damage Bonus for Attack Damage",
+    "stat.explicit.stat_3714003708",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "Companions have 11% increased maximum Life",
+    "stat.explicit.stat_1805182458",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 82,
+  "mods": [
+   [
+    "explicit",
+    "P1",
+    "13% increased Damage with Quarterstaves",
+    "stat.explicit.stat_4045894391",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "15% increased Damage with Spears",
+    "stat.explicit.stat_2696027455",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "Debuffs on you expire 7% faster",
+    "stat.explicit.stat_1238227257",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "15% increased Crossbow Reload Speed",
+    "stat.explicit.stat_3192728503",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 81,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "4% increased Attack Speed with Bows",
+    "stat.explicit.stat_3759735052",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "Mark Skills have 13% increased Use Speed",
+    "stat.explicit.stat_1714971114",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "10% increased Damage while you have an active Charm",
+    "stat.explicit.stat_627767961",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "10% increased Damage with Plant Skills",
+    "stat.explicit.stat_2518900926",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ },
+ {
+  "div": null,
+  "raw": "65535 alch",
+  "corrupted": false,
+  "ilvl": 79,
+  "mods": [
+   [
+    "explicit",
+    "S1",
+    "22% increased Shock Duration",
+    "stat.explicit.stat_3668351662",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "10% increased Projectile Damage",
+    "stat.explicit.stat_1839076647",
+    false
+   ],
+   [
+    "explicit",
+    "S1",
+    "10% increased Elemental Ailment Threshold",
+    "stat.explicit.stat_3544800472",
+    false
+   ],
+   [
+    "explicit",
+    "P1",
+    "21% increased Parry Damage",
+    "stat.explicit.stat_1569159338",
+    false
+   ]
+  ],
+  "keys": [
+   "baseType",
+   "descrText",
+   "explicitMods",
+   "extended",
+   "frameType",
+   "frameTypeId",
+   "h",
+   "icon",
+   "id",
+   "identified",
+   "ilvl",
+   "league",
+   "name",
+   "properties",
+   "rarity",
+   "realm",
+   "typeLine",
+   "verified",
+   "w"
+  ]
+ }
+]

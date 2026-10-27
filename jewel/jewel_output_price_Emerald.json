@@ -1,0 +1,117 @@
+{
+ "errors": [],
+ "cases": {
+  "3+ premium suffixes": {
+   "total": 689,
+   "cheapest_20": [
+    17.0,
+    20.0,
+    70.0,
+    70.0,
+    80.0,
+    85.0,
+    90.0,
+    90.0,
+    90.0,
+    100.0,
+    100.0,
+    100.0,
+    105.0,
+    110.0,
+    110.0,
+    115.0,
+    120.0,
+    120.0,
+    120.0,
+    120.0
+   ],
+   "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA3WQ3QqDMAyF3yXXMpr-Ou_3FGNI0Q4K9Ydax0T67msnGw5mrpJzvgROVpiCDvME1QrDGOzQQwW6XyAWEJbRpOnSGa9dC8UbTeR1_VjNMPchGXfrgvGbZdtkmOfobGPDKa_UFM8ckSPBdPYvwRRyQpgi5RFBuZCCMsXpIYGESCWZOAIQpUDJSsIh3gp4aDebnLuzKTSLWfsG2SLWu3nXeu1tWH5eliQDMdcL3BBTAFIBAAA"
+  },
+  "3+ premium suffixes + 1+ premium prefix": {
+   "total": 280,
+   "cheapest_20": [
+    100.0,
+    105.0,
+    110.0,
+    115.0,
+    120.0,
+    123.0,
+    130.0,
+    140.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    160.0,
+    160.0
+   ],
+   "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA5WR3WrDMAyF30XXYUiW_JPe7ynKKKb1wJAmIXXGQvC7z17Z6KC-mK4knU_mHLzDLfm03uCwwzSnOI1wAD9ukDtI2xzK9HoNix8u0H2jhTzuP9J5WsdUhPc4pLDcpXgpQvich3iO6aWenBT1QiSEVJ59SrAlQWSLrkUo0UYrtqKaBCEaa1i3ACKjybBDgfzWwYcf1lBzX2MJzble_TOXE1YkmpquBUW7XrhvJifHPVpjxD4xRbnufl3c_Z0e5od28UtM259_LKsAudYXVtYoFucBAAA"
+  },
+  "3+ premium suffixes + crafted Effect of Suffixes": {
+   "total": 653,
+   "cheapest_20": [
+    90.0,
+    100.0,
+    105.0,
+    110.0,
+    110.0,
+    120.0,
+    120.0,
+    120.0,
+    123.0,
+    125.0,
+    130.0,
+    130.0,
+    140.0,
+    145.0,
+    148.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0
+   ],
+   "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA3WQ3QqDMAyF3yXXMpr-bt7vKcYYRSsUnEqNYyK--9ptDgeaq6TnyyGnE_Rkaeghn6DtyLcN5GCbEeYMaOxcnM53F2xdQvZGI3mZFqloh4aiUPmaXPhIvoyCe3a1Lzwd0sqN40kiSmQYbTcJYVAyJgw77hFcKq24MJLvEsiYNlqoPQBRK9TiyCTM1wweth5cyn33MbSY09Y3l23KrVRFsBW5cjnIKM7RKBPdkt8P_9jcVvOqDTZ4Gv--Oz45mFO9AMlgWYGOAQAA"
+  },
+  "3+ premium suffixes + 1+ premium prefix + crafted Effect of Suffixes": {
+   "total": 265,
+   "cheapest_20": [
+    100.0,
+    105.0,
+    110.0,
+    120.0,
+    123.0,
+    130.0,
+    140.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    150.0,
+    160.0,
+    165.0,
+    170.0,
+    180.0,
+    188.0,
+    190.0
+   ],
+   "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA5WSzarDIBSE3-WsQ_Ho8Sfd9ynKpUhiQUiTYE1pCHn3qy0tuRAX15XH-RxmxAXu0cbpDscFhjH6oYcj2H6GtYI4jy5Np5sLtmuheqGJPC8fqRmmPibh6rvowlvybRLcc-x84-MhX7lwrAmRkGGy3SWERmJMaGZKBCepJBeaeJFAxpRWQpYARCVRCcMI1p8KHrabXO5986m0WPOtf_YyJDiSxGJqYiRNTaIuNkcjaqaVIr0TCrehbN_uRWqCvUbXfl5JS85Ry-yW_b742-aymTfbYIOP858_kI4crHn9Al2kfmIjAgAA"
+  },
+  "all of: 3+ premium suffixes + 2+ premium prefixes": {
+   "total": 2,
+   "cheapest_20": [
+    408.0,
+    1000.0
+   ],
+   "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA5WR3WrDMAyF30XXYUiW_JPe7ynKKKb1wJAmIXXGQvC7z17Z6KC-mK4knU_mHLzDLfm03uCwwzSnOI1wAD9ukDtI2xzK9HoNix8u0H2jhTzuP9J5WsdUhPc4pLDcpXgpQvich3iO6aWenBT1QiSEVJ59SrAlQWSLrkUo0UYrtqKaBCEaa1i3ACKjybBDgfzWwYcf1lBzX2MJzble_TOXE1YkmpquBUW7XrhvJifHPVpjxD4xpXLd_bq4-zs9zA_t4peYtj__WFYBcq0vBTQN1ecBAAA"
+  }
+ }
+}

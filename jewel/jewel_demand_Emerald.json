@@ -1,0 +1,83 @@
+{
+ "colour": "Emerald",
+ "totals": {
+  "Suffixes": 0,
+  "Prefixes": 1
+ },
+ "rows": [
+  {
+   "div": 1.0,
+   "raw": "1 divine",
+   "corrupted": false,
+   "ilvl": 72,
+   "mods": [
+    [
+     "explicit",
+     {
+      "description": "22% increased [Projectile] Damage",
+      "domain": "explicit",
+      "hash": "stat.explicit.stat_1839076647",
+      "mods": [
+       {
+        "name": "Archer's",
+        "tier": "P1",
+        "magnitudes": [
+         {
+          "min": "5",
+          "max": "15"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    [
+     "explicit",
+     {
+      "description": "5% increased [CooldownRecovery|Cooldown Recovery Rate]",
+      "domain": "explicit",
+      "hash": "stat.explicit.stat_1004011302",
+      "mods": [
+       {
+        "name": "of Chronomancy",
+        "tier": "S1",
+        "magnitudes": [
+         {
+          "min": "3",
+          "max": "5"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    [
+     "explicit",
+     {
+      "description": "50% increased Effect of Prefixes",
+      "flags": {
+       "crafted": true
+      },
+      "domain": "crafted",
+      "hash": "stat.crafted.stat_1443502073",
+      "mods": [
+       {
+        "tier": "S0",
+        "magnitudes": [
+         {
+          "min": "40",
+          "max": "60"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   ],
+   "effect": "Prefixes",
+   "id": "1aabaa97fa28e385ce3efb6a2b8b60bbde797ac40e86f013989db6fa696b373b",
+   "order": "desc"
+  }
+ ],
+ "errors": []
+}

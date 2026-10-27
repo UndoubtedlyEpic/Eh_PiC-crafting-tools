@@ -1,0 +1,58 @@
+{
+ "suffix:0-1": {
+  "any": 826,
+  "securable": 779
+ },
+ "suffix:1-5": {
+  "any": 1612,
+  "securable": 1523
+ },
+ "suffix:5-20": {
+  "any": 765,
+  "securable": 738
+ },
+ "suffix:20-60": {
+  "any": 362,
+  "securable": 353
+ },
+ "suffix:60-150": {
+  "any": 381,
+  "securable": 377
+ },
+ "suffix:150-400": {
+  "any": 1203,
+  "securable": 1200
+ },
+ "suffix:400-2000": {
+  "any": 1153,
+  "securable": 1150
+ },
+ "prefix:0-1": {
+  "any": 671,
+  "securable": 624
+ },
+ "prefix:1-5": {
+  "any": 1389,
+  "securable": 1312
+ },
+ "prefix:5-20": {
+  "any": 711,
+  "securable": 690
+ },
+ "prefix:20-60": {
+  "any": 345,
+  "securable": 328
+ },
+ "prefix:60-150": {
+  "any": 271,
+  "securable": 268
+ },
+ "prefix:150-400": {
+  "any": 533,
+  "securable": 532
+ },
+ "prefix:400-2000": {
+  "any": 314,
+  "securable": 309
+ }
+}

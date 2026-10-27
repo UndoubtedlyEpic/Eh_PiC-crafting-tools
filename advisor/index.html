@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PoE2 Crafting Advisor</title>
+<style>
+:root{--bg:#0f1115;--panel:#181b22;--panel2:#1f2430;--line:#2c3342;--fg:#d8dce6;--dim:#8a93a6;--acc:#e0b04a;--good:#5fbf7a;--bad:#e06c6c;--blue:#6aa7e8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,Segoe UI,sans-serif}
+header{padding:14px 20px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:18px;color:var(--acc)}header small{color:var(--dim)}
+main{display:grid;grid-template-columns:minmax(0,430px) minmax(0,1fr);gap:16px;padding:16px 20px;align-items:start}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+section{min-width:0;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:14px}
+h2{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}
+input,select,textarea,button{background:var(--panel2);color:var(--fg);border:1px solid var(--line);border-radius:5px;padding:6px 8px;font:inherit}
+textarea{width:100%;height:110px;resize:vertical;font-family:Consolas,monospace;font-size:12px}
+input[type=number]{width:80px}input.wide{width:100%}select.wide{flex:1 1 0;width:100%;min-width:0;max-width:100%;text-overflow:ellipsis}
+select{min-width:0;max-width:100%;text-overflow:ellipsis}.chip{min-width:0}.chip select{width:100%}.pricebox{display:flex;gap:4px;align-items:center;white-space:nowrap}
+button{cursor:pointer}button:hover{border-color:var(--acc)}button.primary{background:var(--acc);color:#14161b;border-color:var(--acc);font-weight:600}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:6px 0}
+.chip{display:flex;justify-content:space-between;gap:8px;align-items:center;background:var(--panel2);border:1px solid var(--line);border-radius:5px;padding:4px 8px;margin:4px 0}
+.lossbox{border:2px solid var(--bad);border-radius:6px;padding:8px 10px;margin:8px 0;font-weight:600}.gainbox{border:1px solid var(--good,#4a4);border-radius:6px;padding:8px 10px;margin:8px 0}.tstep.loss .badge{background:var(--bad);color:#fff}
+.corrgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:8px 0}.corrgrid>div{border:1px solid var(--line);border-radius:6px;padding:6px 8px;background:var(--panel2)}.corrgrid b{font-size:18px}
+.chip .x{cursor:pointer;color:var(--bad)}.tag{font-size:11px;padding:1px 6px;border-radius:9px;border:1px solid var(--line);color:var(--dim)}
+.P{color:#e8a56a}.S{color:#7ec0e8}
+.hit{max-height:200px;overflow:auto;border:1px solid var(--line);border-radius:5px;margin-top:4px}
+.hit div{padding:4px 8px;cursor:pointer;border-bottom:1px solid var(--line)}.hit div:hover{background:var(--panel2)}
+.best{border-color:var(--good)}.warn{color:var(--bad)}.dim{color:var(--dim)}
+table{width:100%;border-collapse:collapse}td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+details summary{cursor:pointer;color:var(--dim)}
+.big{font-size:20px;color:var(--good)}
+
+.seqbox{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:10px 0;min-width:0}
+.seqhead{font-weight:600;margin-bottom:6px}
+.field{display:flex;flex-direction:column;gap:3px;margin:8px 0}.field label{font-size:12px;color:var(--dim)}
+.step{border:1px solid var(--line);border-radius:6px;background:var(--panel2);padding:8px 10px;margin:6px 0;min-width:0}
+.stephead{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.stepname{font-weight:600;flex:1 1 200px;min-width:0}
+.stepbtns{display:flex;gap:4px;flex-wrap:wrap}.stepbtns button{padding:2px 8px;font-size:12px}
+.steprow{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:6px}.steprow select{flex:1 1 200px}
+.badge{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--acc);color:var(--on-acc);font-weight:700;font-size:12px;flex:none}
+.empty{color:var(--dim);padding:8px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:6px 0 10px}
+.stat{border:1px solid var(--line);border-radius:6px;padding:8px 10px;background:var(--panel2)}.statnum{font-size:20px;font-weight:700;color:var(--good);font-family:var(--mono)}
+.timeline{display:flex;flex-direction:column;gap:8px}
+.tstep{display:flex;gap:10px;border-left:2px solid var(--line);padding:4px 0 4px 10px;margin-left:11px;position:relative}.tstep .badge{margin-left:-24px;margin-top:2px;background:var(--panel2);color:var(--fg);border:1px solid var(--acc)}
+.tbody{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px}
+.barrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.barlabel{font-size:12px;color:var(--dim);flex:0 0 150px}
+.bar{flex:1 1 120px;height:8px;background:var(--panel2);border:1px solid var(--line);border-radius:4px;overflow:hidden}.barfill{display:block;height:100%;background:var(--good)}
+.pickwrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:6px;margin-top:6px}
+.pickwrap table{width:100%;border-collapse:collapse}.pickwrap th{position:sticky;top:0;background:var(--panel2);text-align:left;padding:4px 8px;font-size:12px}
+.pickwrap td{padding:3px 8px;border-top:1px solid var(--line);vertical-align:top}.pickwrap td.m{width:1%;white-space:nowrap}
+.pickwrap tr.want td:first-child{box-shadow:inset 3px 0 0 var(--good,#4a4)}.pickwrap tr.avoid td:first-child{box-shadow:inset 3px 0 0 var(--bad)}
+.pickwrap tr.sec td{background:var(--panel2);font-weight:600}.pickwrap label{margin-right:8px;white-space:nowrap}
+.chip.avoidchip{border-color:var(--bad)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}.pill{font-size:12px;border:1px solid var(--line);border-radius:10px;padding:1px 8px;background:var(--panel2)}
+.methodcard{border:1px solid var(--line);border-radius:6px;background:var(--panel2);padding:8px 10px;margin-top:8px;display:flex;flex-direction:column;gap:6px;font-size:13px}.methodcard ol{margin:4px 0 0;padding-left:20px}.warn2{color:var(--dim)}.warn2 b{color:var(--bad)}
+.note ol{margin:4px 0 10px;padding-left:22px}.note li{margin:3px 0}.note p{margin:8px 0 2px}
+/* short text by default, full text while Alt is held (or the Details button is on) */
+.more{display:none}body.alt .more{display:revert}.moremark{color:var(--dim);cursor:help}body.alt .moremark{display:none}
+.hintbar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:0 0 10px;font-size:12px;color:var(--dim)}
+.hintbar button{font-size:12px;padding:2px 10px}
+details.sect{border:1px solid var(--line);border-radius:8px;background:var(--panel,transparent);margin:12px 0;padding:0}
+details.sect>summary{cursor:pointer;padding:10px 14px;list-style:none;display:flex;align-items:center;gap:8px}
+details.sect>summary::before{content:"\25B8";color:var(--dim)}details.sect[open]>summary::before{content:"\25BE"}
+details.sect>summary h2{margin:0;font-size:16px;display:inline}details.sect>.sectbody{padding:0 14px 12px}
+.methodcard .tag2{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}
+.emugrid{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:14px;align-items:start}@media(max-width:900px){.emugrid{grid-template-columns:minmax(0,1fr)}}.agroups{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}.agroup{border:1px solid var(--line);border-radius:6px;padding:8px 10px;background:var(--panel2)}.agroup h3{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}.arow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin:6px 0}.arow select{max-width:100%}.pend{border:1px dashed var(--acc);border-radius:6px;padding:8px}.emuev{max-height:240px;overflow:auto;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:6px}.ev{margin:2px 0}.ev.speech{color:var(--good)}button:disabled{opacity:.45;cursor:not-allowed}
+</style>
+<style>#jump{position:sticky;top:0;z-index:20;display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:8px 20px;background:rgba(6,3,12,.94);border-bottom:1px solid var(--line2,#44286f);backdrop-filter:blur(6px)}#jump a{color:var(--fg);text-decoration:none;font-size:13px;padding:3px 10px;border:1px solid var(--line);border-radius:14px}#jump a:hover{border-color:var(--acc);color:var(--acc)}#jump .sp{flex:1}button.danger{border-color:var(--bad);color:var(--bad)}button.danger:hover{background:var(--bad);color:#fff}details.fold>summary{cursor:pointer;color:var(--dim);font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin:4px 0 8px}section{scroll-margin-top:52px}</style><link rel="stylesheet" href="theme/ehpic.css?v=4"></head><body>
+<header><h1>PoE2 Crafting Advisor</h1><small>Mod pool from PoB2 data. Works out the cheapest next step to reach your target mods, and re-plans each time you update the item. Prices come from Craft of Exile (refresh with tools/fetch_prices.py); you can override any of them. <a href="http://127.0.0.1:8766/jewel_sim.html">Jewel simulator</a> &middot; <a href="http://127.0.0.1:8767/tablet_sim.html">Tablet helper</a></small></header>
+<nav id="jump"><a href="hub.html">&larr; All tools</a><a href="#s-item">Item</a><a href="#s-held">On the item</a><a href="#s-targets">Wanted</a><a href="#s-prices">Prices</a><a href="#s-advice">Advice</a><a href="#emu">Emulator</a><a href="#tracker">Tracker</a><a href="#s-plan">Own steps</a><span class="sp"></span><span id="saveNote" class="dim"></span><button id="newItem" type="button" class="danger" title="Clear the pasted item, its mods, the targets, the sale price and the advice">New item (clear all)</button></nav>
+<main>
+<div>
+<section id="s-item"><h2>1. Item</h2>
+ <textarea id="paste" placeholder="Paste an item here (Ctrl+C or Ctrl+Alt+C in game). Or fill the fields below."></textarea>
+ <div class="row"><button id="parse" class="primary">Read item</button><button id="clearPaste" type="button">Clear paste</button><span id="parseMsg" class="dim"></span></div>
+ <div class="row"><select id="cls" class="wide" title="Item type"></select></div>
+ <div class="row"><select id="base" class="wide" title="Base type"></select></div>
+ <div class="row"><label for="augment">Socket-bound augment on the item</label> <select id="augment" class="wide" aria-label="Socket-bound augment"></select></div>
+ <div class="dim">Augments such as Thrud's Might or Uhtred's Sidereus add a special group of modifiers to the item for good. Pick the one socketed in the item and those modifiers join the crafting. Item pastes that show "Can roll ... modifiers" pick it automatically.</div>
+ <div class="row">iLvl <input id="ilvl" type="number" value="82" min="1" max="100"> Rarity
+  <select id="rarity"><option>Normal</option><option>Magic</option><option selected>Rare</option></select></div>
+</section>
+<section id="s-held"><h2>2. Mods on the item now</h2><div id="held"></div><div id="itemCard" style="margin-top:8px"></div>
+ <div class="row"><button id="clearHeld" type="button" class="danger">Clear all mods on the item</button></div>
+ <div class="row"><input id="heldFilter" class="wide" placeholder="Filter the list (e.g. life, resistance)"></div>
+ <div class="row"><select id="heldMod" class="wide"></select></div>
+ <div class="row"><select id="heldTier" class="wide"></select><button id="addHeld">Add to item</button></div>
+ <div class="row"><label class="dim"><input type="checkbox" id="heldFrac"> This mod is fractured</label></div>
+</section>
+<section id="s-targets"><h2>3. Mods you want</h2><div id="targets"></div>
+ <div class="row"><button id="clearTargets" type="button" class="danger">Clear all targets</button></div>
+ <div class="row"><input id="targetFilter" class="wide" placeholder="Filter the list (e.g. life, resistance)"></div>
+ <div class="row"><select id="targetMod" class="wide"></select><button id="addTarget">Add target</button></div>
+ <div class="row"><label class="dim"><input type="checkbox" id="targetFrac"> Fracture this mod when added (lock it with a Fracturing Orb)</label></div>
+ <div id="targetMsg" class="warn" role="status"></div>
+ <div class="row">Need <select id="need"></select> of the targets</div>
+</section>
+<section><h2>Pick the mods you want and the ones you do not</h2>
+ <p class="dim">Every mod that can be crafted on the base chosen above, split into prefixes, suffixes, desecrated (Abyssal bones) and crafted (essences and alloys). Mark each one <b>Want</b> (it becomes a target above), <b>Avoid</b> (you do not want it on the item; held mods on your avoid list are shown in red and are treated as mods to remove), or leave it on <b>Either</b>. Your choices are remembered per item type in this browser.</p>
+ <div class="row"><input id="pickFilter" class="wide" placeholder="Filter the list (e.g. speed, socketed, life)"><label class="dim"><input type="checkbox" id="pickTop"> show the top tier value only</label></div>
+ <div class="row"><button id="clearAvoid" type="button">Clear all Want / Avoid marks for this item type</button></div>
+ <div id="pickSummary" class="dim"></div>
+ <div id="picker" class="pickwrap"></div>
+</section>
+<section id="s-prices"><h2>4. Prices</h2><div class="row">What a new base costs you (also what you lose when an item is ruined):
+  </div>
+<div class="row"><span class="pricebox"><input id="baseEx" type="number" min="0" step="any" value="10" style="width:90px"> exalt</span>
+  <span class="pricebox"><input id="baseChaos" type="number" min="0" step="any" style="width:90px"> chaos</span>
+  <span class="pricebox"><input id="baseDiv" type="number" min="0" step="any" style="width:90px"> divine</span></div>
+ <div id="priceStatus" class="dim" role="status"></div>
+ <div class="row" style="margin-top:8px">What the finished item will sell for (leave empty to switch the profit warning off):</div>
+ <div class="row"><span class="pricebox"><input id="sellEx" type="number" min="0" step="any" style="width:90px" aria-label="Sale price in exalted"> exalt</span>
+  <span class="pricebox"><input id="sellChaos" type="number" min="0" step="any" style="width:90px" aria-label="Sale price in chaos"> chaos</span>
+  <span class="pricebox"><input id="sellDiv" type="number" min="0" step="any" style="width:90px" aria-label="Sale price in divine"> divine</span></div>
+ <div class="row"><label class="dim"><input type="checkbox" id="sellBase" checked> Count the base price as part of the cost (untick if you already own the item and the base is spent)</label></div>
+ <div class="row"><button id="marketGo">Look up real listings</button>
+  <input id="league" style="width:170px" value="Forbidden Rites" aria-label="League"> <span class="dim">League. Searches the official trade site for non-corrupted items of this base with all your wanted mods at the chosen tier or better, and fills in the sale price from the five cheapest. Needs the local server (start.bat).</span></div>
+ <div id="marketOut" class="dim" role="status"></div>
+ <div id="profitLive" class="dim" role="status"></div>
+ <div class="row"><label class="dim"><input type="checkbox" id="allowScrap"> Allow advice to scrap an item that could still be finished and start over on a new base</label></div>
+ <div class="row"><label class="dim"><input type="checkbox" id="allowFrac"> Let the advice use a Fracturing Orb even if none of my targets is marked as fractured (slower to calculate)</label></div><details><summary>Edit currency and omen prices</summary><div id="priceSrc" class="dim"></div><div class="row"><label for="priceLeague">League</label> <select id="priceLeague" aria-label="League for prices"><option>Forbidden Rites</option><option>Standard</option></select> <button id="fetchPrices" type="button">Fetch current prices</button> <span id="fetchMsg" class="dim" role="status"></span></div><div class="dim">Live from poe.ninja in the local copy (start.bat); on the website it loads the latest saved snapshot. Fetched prices replace the listed ones; anything you edited by hand stays.</div><input id="priceFilter" class="wide" placeholder="Filter (e.g. Omen, Essence, Rib)"><div id="prices" style="max-height:300px;overflow:auto"></div><button id="resetPrices">Reset to defaults</button></details></section>
+</div>
+<div>
+<section id="s-advice"><div class="row"><button id="go" class="primary">Advise me</button><button id="clearOut" type="button">Clear advice</button><span class="dim">Re-run after every craft (re-paste the item or edit the lists).</span></div><div id="out"><p class="dim">Fill in the item and targets, then press Advise me.</p></div></section>
+<section id="materials"><h2>Cost change by crafting material</h2>
+ <p class="dim">Shows what the whole craft costs if it may only use the regular, the Greater or the Perfect version of one currency (Chaos, Exalted, Regal, Transmutation, Augmentation), against the advisor's own mix. Higher versions cost more each but can only roll higher level mods.</p>
+ <div class="row"><button id="matGo" type="button" class="primary">Compare materials</button> <span id="matMsg" class="dim" role="status"></span></div>
+ <div id="matOut" class="tablewrap"></div>
+</section>
+<section id="compare"><h2>Projected cost by method</h2>
+ <p class="dim">Compares what finishing this item is expected to cost with each method: the advisor's cheapest route, the route with the highest chance of success, and every ready-made method that can be built from your wanted mods. Uses the item, targets and prices above.</p>
+ <div class="row"><button id="cmpGo" type="button" class="primary">Compare methods</button> <span id="cmpMsg" class="dim" role="status"></span></div>
+ <div id="cmpOut" class="tablewrap"></div>
+</section>
+<section id="emu"><h2>Craft it yourself: practice emulator</h2>
+ <p class="dim">Click orbs and omens on the item above with real random rolls: each mod is drawn by its real weight and rolled within its range. Undo takes a step back (and takes the cost out of the tracker). Costs are logged to the cost tracker automatically. It uses the base, mods and goal from sections 1 to 3 and the same rules as the advisor.</p>
+ <div class="row"><button id="emuStart" type="button" class="primary">Start from the item above</button> <button id="emuUndo" type="button">Undo</button> <label class="dim"><input type="checkbox" id="emuLog" checked> log costs to the tracker</label> <span id="emuMsg" class="dim" role="status"></span></div>
+ <div class="emugrid"><div id="emuCard"></div><div id="emuPanel"><span class="dim">Press "Start from the item above".</span></div></div>
+ <h3>What happened</h3><div id="emuEvents" class="emuev"></div>
+</section>
+<section id="tracker"><h2>Crafting cost tracker</h2>
+ <p class="dim">Log what you actually spend on an item and see the running total against the advice and the sale price. Saved in this browser. Use "Log" next to an advised action, or add currency by hand.</p>
+ <div class="row"><input id="trkName" placeholder="Item name (for the history)" style="width:220px" aria-label="Item name"> <button id="trkNew" type="button">Start a new item</button> <label class="dim"><input type="checkbox" id="trkBase" checked> count the base price (section 4) as spent</label></div>
+ <div class="row"><input id="trkFilter" placeholder="Find a currency (e.g. Chaos, Omen, bone)" style="width:220px" aria-label="Find currency"> <select id="trkCur" aria-label="Currency"></select> <input id="trkQty" type="number" min="1" step="1" value="1" style="width:70px" aria-label="Quantity"> <button id="trkAdd" type="button">Add to the log</button></div>
+ <div class="row"><label for="trkRoute" class="dim">Route</label> <select id="trkRoute" aria-label="Route for the simulation"><option value="chance">Highest chance of success</option><option value="cost">Cheapest on average</option></select> <button id="trkSim" type="button" class="primary">Simulate the rest of the craft</button> <button id="trkSimMany" type="button">Simulate 1,000 crafts</button> <button id="trkRmSim" type="button">Remove simulated entries</button> <span id="trkSimMsg" class="dim" role="status"></span></div>
+ <div id="trkOut"></div>
+ <details><summary>Finished items and total profit</summary><div id="trkHist"></div></details>
+</section>
+<section id="s-plan"><h2>Plan your own crafting steps</h2>
+ <div class="dim note">Make a list of crafts in the order you would do them and see what happens after each one. The results below update as soon as you change the list.</div>
+ <div class="seqbox"><div class="seqhead">1. Start from a ready-made method <span class="dim">(optional)</span></div>
+  <div class="row"><select id="seqPreset" class="wide" aria-label="Ready-made method"></select><button id="seqPresetBtn">Load these steps</button></div><div id="seqPresetInfo"></div></div>
+ <div class="seqbox"><div class="seqhead">2. Your steps</div><div id="seqList"></div></div>
+ <div class="seqbox"><div class="seqhead">3. Add a step</div>
+  <div class="field"><label for="seqAction">What to use</label><select id="seqAction" class="wide"></select></div>
+  <div class="field"><label for="seqRepeat">How often</label><select id="seqRepeat" class="wide"></select></div>
+  <div class="field"><label for="seqTimes" id="seqTimesLabel">Times</label><input id="seqTimes" type="number" min="1" max="2000" value="1"></div>
+  <div class="row"><button id="seqAdd" class="primary">Add step</button><button id="seqBest" title="Adds the action the advisor recommends right now">Add the recommended action</button><button id="seqClear">Clear all steps</button></div></div>
+ <div class="seqbox"><div class="seqhead">4. What happens</div><div id="seqOut" aria-live="polite"></div></div>
+</section>
+<section id="corruption"><h2>Corruption, Sacrifice orbs and Vaal uniques</h2>
+ <p class="dim">What a Vaal Orb can do to this kind of item, which corruption enchantments it can roll, how many Vaal Orbs a wanted enchantment takes on average, and the Orb of Sacrifice that goes with it. Corrupted items cannot be crafted any more, so do this last. Sources: Maxroll (outcome lists), the Path of Building mod data (enchantments), poe2db (Sacrifice orbs, Vaal uniques).</p>
+ <div class="row"><label for="corrType">Item type</label> <select id="corrType" aria-label="Item type to corrupt"></select></div>
+ <div id="corrOut"></div>
+ <h3>Vaal uniques and the Vaal Cultivation Orb</h3>
+ <div class="dim" id="vaalRule"></div>
+ <div class="row"><input id="vaalFilter" class="wide" placeholder="Filter by name, base or mod (e.g. Atziri, Spirit, ring)" aria-label="Filter Vaal uniques"> <select id="vaalClass" aria-label="Unique item class"></select></div>
+ <div id="vaalOut" class="tablewrap"></div>
+</section>
+<section id="timing"><h2>Alloys and quality: when to use them</h2>
+<details class="fold"><summary>Show the notes</summary>
+<div class="dim note">
+<p><b>Alloys (patch 0.5)</b></p>
+<ol>
+<li><b>What they do.</b> An alloy works on a rare item only. It removes one random mod and adds its own fixed mod. Perfect Essences and Essence of the Breach work the same way. The table below shows what each alloy adds.</li>
+<li><b>Protect your good mods.</b> The removal is random, so only use an alloy when it cannot hit a mod you want. A fractured mod is never removed. For the rest, add a throwaway mod first: an Exalted Orb with Omen of Sinistral or Dextral Exaltation puts one on the side you choose, and an unrevealed desecrated mod from a bone is a cheap throwaway too.</li>
+<li><b>Aim the removal.</b> Omen of Sinistral Crystallisation limits the alloy's removal to prefixes, Omen of Dextral Crystallisation to suffixes. Two crafters use this pairing (the BigDaddy Gaming guide and Belton's wand video), although the omen's own text names only Perfect and Corrupted Essences. Check that side holds only locked mods and your throwaway.</li>
+<li><b>Check the slots.</b> The alloy's mod is a prefix or a suffix (see the table) and needs a free slot on that side after the removal.</li>
+<li><b>Timing.</b> Use it after every step that removes mods (Chaos Orbs, Annulments, Omen of Light), because those can remove the alloy's mod. Use it before the steps that only add mods (Exalted Orbs, desecration reveals, Greater Exaltation), so they fill the slots that are left. In the Mobalytics +7 wand guide it comes straight after the fracture and the chaos spam.</li>
+<li><b>Not too early.</b> Do not spend an alloy on an unfinished base. Use it on an item where every other mod is already good.</li>
+</ol>
+<p><b>Quality</b></p>
+<ol start="7">
+<li><b>Jewellery quality comes from catalysts.</b> There is one per tag (see the table). A catalyst replaces any other quality type and raises the values of mods with its tag. Jewels use the Refined catalysts.</li>
+<li><b>Maximum quality and Essence of the Breach.</b> Quality is capped at 20%. Essence of the Breach (rings and amulets) removes a random mod and adds a guaranteed prefix: +20% to maximum quality, which lets the quality go up to 40%. You only need that prefix for a moment: add the quality while it is on the item, then take it off again.</li>
+<li><b>How to do it.</b> Decide first what kind of ring or amulet you are making, such as attack, caster or mana. On the fractured item, add a junk prefix, then use Essence of the Breach so it replaces that junk prefix. (Omen of Sinistral Crystallisation limits the essence to removing a prefix, if other unlocked mods are on the item.) Add catalysts of the matching type until the quality is 40%. Then use an Orb of Annulment or a Chaos Orb to remove the +20% maximum quality prefix and free the slot.</li>
+<li><b>When.</b> Do this right after the fracture, while the item is small and you can see what the Annulment or Chaos Orb can hit. Do it before the chaos spam for the second mod and before you finish the prefixes, so the slot is free again for them.</li>
+<li><b>Which catalyst.</b> Match it to the type of item: Reaver for attack, Sibilant for caster, Neural for mana, and so on (see the table below).</li>
+<li><b>Omen of Catalysing Exaltation.</b> The next Exalted Orb uses up all the catalyst quality and becomes more likely to add a mod with that catalyst's tag. The poe2wiki gives 5 times the weight at 20% quality and 7.5 times at 40% (unconfirmed, check it in game). If you use it, the quality is gone, so add it again afterwards.</li>
+<li><b>Vaal Infusers.</b> Once an item is at its maximum quality, an Infuser adds 1% (2% about one time in six) up to 10% beyond the maximum, so 30% normally. Each use is safe at the maximum and gets riskier above it: after the quality is added there is a 5% chance of the Corrupted tag for every point above the maximum you started at (5% at 21%, 20% at 24%, 45% at 29%). Corruption only adds the tag, but then nothing can be changed any more, so use Infusers last. Source: poe2wiki, from a test of 1,734 Infusers.</li>
+<li><b>Armour and weapon quality.</b> Scraps, whetstones and etchers add it. It does not affect which mods roll, so any time works. At the end is simplest.</li>
+</ol>
+<details><summary>What each alloy adds</summary><div id="alloyTable" class="tablewrap"></div></details>
+<details><summary>What each catalyst enhances</summary><div class="tablewrap"><table><tr><th>Catalyst</th><th>Enhances mods with this tag</th></tr>
+<tr><td>Flesh</td><td>Life</td></tr><tr><td>Neural</td><td>Mana</td></tr><tr><td>Carapace</td><td>Armour, Evasion and Energy Shield</td></tr><tr><td>Uul-Netol's</td><td>Physical</td></tr><tr><td>Xoph's</td><td>Fire</td></tr><tr><td>Tul's</td><td>Cold</td></tr><tr><td>Esh's</td><td>Lightning</td></tr><tr><td>Chayula's</td><td>Chaos</td></tr><tr><td>Reaver</td><td>Attack</td></tr><tr><td>Sibilant</td><td>Caster</td></tr><tr><td>Skittering</td><td>Speed</td></tr><tr><td>Adaptive</td><td>Attributes</td></tr><tr><td>Necrotic</td><td>Minion</td></tr></table></div>
+<div class="dim">Rings and amulets use these. Jewels use the Refined version of each. , and the Essence of the Breach quality method.</div></details>
+</div></details></section>
+<section><h2>Assumptions</h2>
+<details class="fold"><summary>Show the notes</summary>
+<div class="dim note">
+<p><b>Rules the calculator follows</b></p>
+<ol>
+<li>A Chaos Orb removes one random unlocked mod and adds a random new one. Omen of Whittling makes it remove the lowest level mod instead. Omen of Sinistral or Dextral Erasure limits the removal to a prefix or a suffix.</li>
+<li>A Fracturing Orb needs 4 or more mods and locks one random mod for good. A desecrated mod, revealed or not, counts towards the 4 but cannot be locked. Only one mod can be fractured.</li>
+<li>An Orb of Annulment removes one random unlocked mod, and that includes a desecrated mod. Omen of Light makes it remove only the desecrated mod.</li>
+<li>A bone adds a desecrated mod. On a full item a random mod is removed first and the new mod is on the same side. An item holds one desecrated mod at a time. Ancient bones guarantee mod level 40 or higher, and Gnawed bones only work up to item level 64.</li>
+<li>At the Well of Souls you pick 1 of 3 mods. They come from the normal mod pool plus the Kurgal, Ulaman and Amanamu mods. Omen of Abyssal Echoes rerolls the options once. Sinistral and Dextral Necromancy force the side. The lich omens (Sovereign, Liege, Blackblooded) guarantee one family mod, on weapons and jewellery only.</li>
+<li>Essences: Lesser, normal and Greater essences make a magic item rare with their mod. Perfect essences remove a random mod and add theirs.</li>
+<li>Minimum mod levels: Exalted, Regal and Chaos 35 (Greater) and 50 (Perfect); Transmutation and Augmentation 44 and 70.</li>
+</ol>
+<p><b>Approximations you should know about</b></p>
+<ol>
+<li>Omen of Whittling removes the lowest level mod (the level at which the mod becomes available), with ties random. The advisor does not track the exact level of every unwanted mod, so it draws those levels from the mod pool and uses the average level of the tiers you accept for your wanted mods.</li>
+<li>A mod that shares a group with one of your targets, but is below the tier you asked for, counts as unwanted.</li>
+<li>A magic item holds 1 prefix and 1 suffix (poe2db: "Magic items can have 2 Modifiers; a Prefix and a Suffix").</li>
+<li>Desecration offers are drawn by mod weight, without repeating a mod group. At least one of the three offers is an exclusive desecrated mod when the item level is 65 or higher and the item type has one (poe2wiki). You are assumed to take a wanted mod whenever one is offered.</li>
+<li>Not in the cost calculation, only in the practice emulator: Vaal Orbs, Divine Orbs, catalysts, quality, sockets, Fluxes and Altered Collarbone. Not modelled anywhere: Omen of Putrefaction, Recombinators, Hinekora's Lock, and the omens with no market price (Coronation, Alchemy, Greater Annulment, Homogenising, Corruption). Buying a base that already has the mod you want: enter it as a mod already on the item.</li>
+</ol>
+<p><b>Where the data comes from</b></p>
+<ol>
+<li>Mod weights: Craft of Exile. Tiers, slots and bases: Path of Building data.</li>
+<li>Prices: poe.ninja and Craft of Exile, in Exalted Orbs. You can override any price.</li>
+<li>Methods and rules: the Mobalytics guides by Lolcohol (High Damage Attack Breach Ring, Abyss Crafting) and Perra (PoE2 Crafting Guide), the TimeSaver Whittling guide, and your own corrections.</li>
+<li>The recipe from Advise me is calculated from these rules and current prices. It is not copied from a guide, so it can differ from how you would craft.</li>
+<li>All results are averages over many crafts. One craft can need more or fewer uses.</li>
+</ol>
+</div></details></section>
+<section id="feedback"><h2>Comments: changes and things to fix</h2>
+ <p class="dim">Write down anything that looks wrong, is missing or should change. The comment keeps the item and goals you had set, so a problem can be reproduced. Saved in this browser.</p>
+ <div class="row"><select id="fbKind" aria-label="Kind of comment"><option>Something is wrong</option><option>A number looks wrong</option><option>Missing feature</option><option>Change how it works</option><option>Wording or layout</option></select> <label class="dim"><input type="checkbox" id="fbCtx" checked> attach the current item and goals</label></div>
+ <textarea id="fbText" placeholder="What should change or be fixed?" style="height:90px" aria-label="Comment"></textarea>
+ <div class="row"><button id="fbAdd" type="button" class="primary">Add comment</button> <button id="fbCopy" type="button">Copy all comments</button> <button id="fbShared" type="button" hidden>Send to Claude (shared comment box)</button> <span id="fbMsg" class="dim" role="status"></span></div>
+ <div id="fbList"></div>
+</section>
+</div></main>
+<script src="data.js"></script><script src="prices.js"></script><script src="alloys.js"></script><script src="corrupt.js"></script><script src="prices_leagues.js"></script><script src="weights.js"></script><script src="engine.js?v=36"></script><script src="app.js?v=65"></script><script src="emulator.js?v=5"></script>
+</body></html>

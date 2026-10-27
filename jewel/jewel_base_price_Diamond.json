@@ -1,0 +1,229 @@
+{
+ "base": "Diamond",
+ "errors": [],
+ "cases": {
+  "2 crit lines (attacks) + Effect | with crafted Effect | no quality": {
+   "total": 27,
+   "cheapest_20": [
+    230.0,
+    300.0,
+    390.0,
+    400.0,
+    440.0,
+    450.0,
+    555.0,
+    570.0,
+    600.0,
+    600.0,
+    600.0,
+    650.0,
+    725.0,
+    760.0,
+    780.0,
+    800.0,
+    800.0,
+    800.0,
+    850.0,
+    880.0
+   ],
+   "median_cheapest_20": 600.0,
+   "n": 20
+  },
+  "2 crit lines (attacks) + Effect | with crafted Effect | quality 15+": {
+   "total": 31,
+   "cheapest_20": [
+    250.0,
+    430.0,
+    430.0,
+    500.0,
+    600.0,
+    695.0,
+    720.0,
+    799.0,
+    800.0,
+    800.0,
+    811.0,
+    840.0,
+    845.0,
+    850.0,
+    888.0,
+    888.0,
+    940.0,
+    950.0,
+    980.0,
+    999.0
+   ],
+   "median_cheapest_20": 805.5,
+   "n": 20
+  },
+  "2 crit lines (attacks) + Effect | without Effect | no quality": {
+   "total": 30,
+   "cheapest_20": [
+    4.0,
+    5.0,
+    5.0,
+    8.0,
+    9.0,
+    9.0,
+    10.0,
+    10.0,
+    10.0,
+    10.0,
+    13.0,
+    15.0,
+    20.0,
+    20.0,
+    36.0,
+    41.0,
+    47.0,
+    50.0,
+    60.0,
+    67.0
+   ],
+   "median_cheapest_20": 11.5,
+   "n": 20
+  },
+  "2 crit lines (attacks) + Effect | without Effect | quality 15+": {
+   "total": 3,
+   "cheapest_20": [
+    100.0,
+    150.0,
+    250.0
+   ],
+   "median_cheapest_20": 150.0,
+   "n": 3
+  },
+  "3 spear-shape crit lines + Effect | with crafted Effect | no quality": {
+   "total": 6,
+   "cheapest_20": [
+    600.0,
+    600.0,
+    760.0,
+    880.0,
+    888.0,
+    988.0
+   ],
+   "median_cheapest_20": 820.0,
+   "n": 6
+  },
+  "3 spear-shape crit lines + Effect | with crafted Effect | quality 15+": {
+   "total": 13,
+   "cheapest_20": [
+    600.0,
+    799.0,
+    800.0,
+    840.0,
+    845.0,
+    850.0,
+    940.0,
+    950.0,
+    980.0,
+    1000.0,
+    1100.0,
+    1200.0,
+    1300.0
+   ],
+   "median_cheapest_20": 940.0,
+   "n": 13
+  },
+  "3 spear-shape crit lines + Effect | without Effect | no quality": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  },
+  "3 spear-shape crit lines + Effect | without Effect | quality 15+": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  },
+  "2 crit lines (spells) + Effect | with crafted Effect | no quality": {
+   "total": 23,
+   "cheapest_20": [
+    50.0,
+    180.0,
+    200.0,
+    234.0,
+    390.0,
+    399.0,
+    400.0,
+    400.0,
+    500.0,
+    600.0,
+    600.0,
+    700.0,
+    800.0,
+    1000.0,
+    1100.0,
+    1200.0,
+    1300.0,
+    1300.0,
+    1350.0,
+    1500.0
+   ],
+   "median_cheapest_20": 600.0,
+   "n": 20
+  },
+  "2 crit lines (spells) + Effect | with crafted Effect | quality 15+": {
+   "total": 19,
+   "cheapest_20": [
+    550.0,
+    550.0,
+    800.0,
+    825.0,
+    900.0,
+    999.0,
+    1080.0,
+    1180.0,
+    1259.0,
+    1488.0,
+    1488.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    2500.0,
+    4999.0,
+    4999.0
+   ],
+   "median_cheapest_20": 1259.0,
+   "n": 17
+  },
+  "2 crit lines (spells) + Effect | without Effect | no quality": {
+   "total": 60,
+   "cheapest_20": [
+    1.0,
+    1.0,
+    2.0,
+    2.5,
+    5.0,
+    5.0,
+    6.0,
+    8.0,
+    10.0,
+    10.0,
+    10.0,
+    11.0,
+    13.0,
+    13.0,
+    17.0,
+    18.0,
+    20.0,
+    20.0,
+    20.0,
+    22.0
+   ],
+   "median_cheapest_20": 10.0,
+   "n": 20
+  },
+  "2 crit lines (spells) + Effect | without Effect | quality 15+": {
+   "total": 2,
+   "cheapest_20": [
+    100.0,
+    500.0
+   ],
+   "median_cheapest_20": 300.0,
+   "n": 2
+  }
+ }
+}

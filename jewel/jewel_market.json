@@ -1,0 +1,207 @@
+{
+ "pulled": "2026-10-19 04:40 UTC",
+ "league": "Forbidden Rites",
+ "rates": {
+  "chaos": 70.2364,
+  "divine": 707.6
+ },
+ "arch": {
+  "Emerald attack-crit (3 suffix)": {
+   "base: any one same-side mod, max rolled (fracture base)": {
+    "total": 7161,
+    "cheapest_div": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA01O0QrDIAz8lzzLmKN7WN_3FaMUpykEbBVNR4v471PHwDwld5e7SxBZ8R5hTOA8k9tgBLWdkEVjCvFKwKfHhhsQsJBlDD-CTIHx8JY08aU-zDf5GKQc5FUWraGo3haLalE2ooCPsjvWsJVKkrznPOWp86xE1HN3d6t2Ieyeq13XtjlDLiP-RZ8rBmUN5C_Fi85c3wAAAA",
+    "missing": []
+   },
+   "base: two same-side mods (fractureless base)": {
+    "total": 914,
+    "cheapest_div": [
+     0.04,
+     7.0,
+     7.0,
+     9.0,
+     10.0,
+     10.0,
+     12.0,
+     13.0,
+     14.0,
+     14.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA41P0QrDIAz8lzzL0LWja9_3FaMUVy0IthWNY6Xk36cdAx_2sDwld5e7ZIeAEmOAbofVoVkX6EAuGxA7mETcd8DN6QNXwGAyFrX_EEYlWL-cNaPBU14YzqKthagFF0mrTJAPq5NqkjZoBk9po85hs0lJ4kLEfrpUjag5rxp-_cOlJeqpLy7LRBiHYi7acfU-Osx2xc-HM1Aq9n33NmsvrQJ6AzDOhOElAQAA",
+    "missing": []
+   },
+   "output: 5 lines = 3 same-side + 1 opposite-side + crafted Effect line": {
+    "total": 0,
+    "cheapest_div": [],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42Q3QqDMAyF3yXXMppardv9nmKIdLZCof7QVphI333VbdALGeYqOSdfAmcF54WfHdxWGCevxwFuIIYFQrY70Xis4JdJ7bqEDDptvLIfQ8soq9dkdKv9ZQMaileGyJBg3JXaiadRcasTxqmQHSI5R0ZIzkl1GqFISMnLvDhPVCynyAr896S1ovNKfgnGC0qRF_yAqEOdRLFCr13bJHPStqO18-Q3Ngl5PwMhVvbL994rK4yE8AZ8_Ty4lgEAAA",
+    "missing": []
+   },
+   "output: 3 same-side + crafted Effect line (no natural opposite mod)": {
+    "total": 0,
+    "cheapest_div": [],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42QQQrDIBBF7zJrKWpMbLvvKUoINhoQTCJqoEG8e03agotQOquZ_-cNzI_ggwiLh2uE2QY9T3AFMa2Q0O5k4x4hrFbtugQEgzZBubehZZbV0xrd63DagI6SCyOEEUzyrtRePIzKW4MwXiV0iFScMIwrjs9_I5Rg3PCmqn8QvRNDUPIDMF5TSnjND4g2tcVfEUbt-66Yi7afnVts2Ngisf0MpFzoG9ZtVE4YCekFzJzp4WMBAAA",
+    "missing": []
+   },
+   "output: 3 same-side + 1 opposite-side (no crafted line)": {
+    "total": 0,
+    "cheapest_div": [],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42QzwqDMAzG3yXnMhqtf7b7nmKIdLZCoWppK0xK333VMejBgzkl35dfQhLAee5XB48Ai_FqmeEBfN4gksNJxiuA34w8dAEERqW9tD9DiSTLj9FqUP62A32Bd4bIkGLqFcrxt5apa-TayUhOkbJBRmnZ0PYyUiCldVOX1XWiZWWBrMKzJV3sssMCTMoNfVZn6bBYuxq_s9nLjjEQU5D_t56TtFwLiF8Z-Iy9ZAEAAA",
+    "missing": []
+   },
+   "output: 3 same-side only": {
+    "total": 0,
+    "cheapest_div": [],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42PwQqDMAyG3yXnMhp1unnfUwyRzlYIVC1thUnpu686Bj14WE7J_-cL-QM4L_zqoA2wGE_LDC2IeYPIDicZzwB-M-rQJTAYSXtlvwbJJKu30TSQv-xAX-C9QqyQY9qV5MRLq7Q1Cu1UZKdI2WDFednw299IgZzXTV1eT4gudtmXASZyQ5_NWTss1q7G72yW_zgDMRX7RX9MygotIX4AEg7xBDEBAAA",
+    "missing": []
+   },
+   "output: 2 same-side + 2 opposite-side (4 natural lines)": {
+    "total": 51,
+    "cheapest_div": [
+     1.0,
+     39.0,
+     39.0,
+     40.0,
+     40.0,
+     40.0,
+     40.0,
+     40.0,
+     40.0,
+     45.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42QzwqDMAzG3yXnMhqt-Oe-pxgina1QqFraCpPSd191DHrwYE7J9-UXkgRwnvvNQRdgNV6tC3TAlx0iOZ1kvAL43chTF0BgUtpL-zOUSLL8GK1G5R8HMBTYMkSGFFOvUI6_tUxdE9dORnKJlDUySsuaNreRomFlgazC-wijrGpaVrZXi_Wxzy4LMCs3DlmdpeNq7Wb8wWY_O8dATEH-73rO0nItIH4BS2Lb62UBAAA",
+    "missing": []
+   }
+  },
+  "Sapphire spell-crit (3 suffix)": {
+   "base: any one same-side mod, max rolled (fracture base)": {
+    "total": 10000,
+    "cheapest_div": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA01OXQvDIAz8L3mWsS_arX9jj6MUp5YFXBWNY0X874sdA_OU3F3uLkMkSSnCkMF5QrfAAHJZoYiNYeKegVZvNlyDgBktmfAjUDNsPt6iQtrVh6k_9df9pTt2LNUY5cMaFs3SRiPgLW0yNeuFHHQ4lzKWsbGsRFRTczerciEkT9WuKbs5Q-ER_5436f0TA6NfkFDTY98AAAA",
+    "missing": []
+   },
+   "base: two same-side mods (fractureless base)": {
+    "total": 1123,
+    "cheapest_div": [
+     0.01,
+     0.07,
+     0.5,
+     1.0,
+     1.0,
+     2.0,
+     4.0,
+     4.0,
+     4.0,
+     5.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA41P0Q6CMAz8lz4vRhCY8Bs-GkImjNhkwrIVIyH9dzeMyR58sE_t3fWu3cCTosVDs8FsCecJGlDTCix2JhDXDWi1escHEDCiIe0-BA4B1i9rsEc6xIVOnmR9PFd5FaQDenUzOohGZbwW8FRm0THrgSEoK5jFT5NcFjKrirL8w6RmbrlN7oqE77tkTtp-dm6xFO2Sj3dn4FDi--xFWXtHF9A3DU_LEyQBAAA",
+    "missing": []
+   },
+   "output: 5 lines = 3 same-side + 1 opposite-side + crafted Effect line": {
+    "total": 90,
+    "cheapest_div": [
+     100.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42QwQqDMBBE_2XPoTRpdI2_0WMRSU2kAashiVAR_73RtpCDFPe0OzNvDzODDzKMHsoZBhvM0EMJsp9gIZsTjdsMYbJ60xUQaE0XtPsYRkVZv2xnGhNOK1DjBcW5yFkeo8p4ee90DLWy83ohuwRDjjTnWXacKASlBWeiOI4I5Jwi5eIP0jjZBq2-BMeMMYoZ7hDVUiVNzPA0vqmTO1mbwbnRhpVNOt7ewBKH_Oq9SmsfxkX1DVR9WbqWAQAA",
+    "missing": []
+   },
+   "output: 3 same-side + crafted Effect line (no natural opposite mod)": {
+    "total": 115,
+    "cheapest_div": [
+     100.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42Q0QrCMAxF_yXPQ2zt1m6_4aOMUdsOC9WVNgNH2b_bTYU9DDFPyb05gdwEESWOEZoEg0c7PKAB-ZhgLlYnG5cEOHmz6hoK6K1DE96G1Vk2T--ssnhYgI6feH0UFa3yqrZRXp3JS7100czFLkE546RiZfk_IWpCBKO1-IGoIHs0-kMwXlJKeMl3iHZuN28luNuous28adUQwuhxYTeBrWdgzlV8szpL7282ZPUFrJEcCGMBAAA",
+    "missing": []
+   },
+   "output: 3 same-side + 1 opposite-side (no crafted line)": {
+    "total": 91,
+    "cheapest_div": [
+     100.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42QwQqDMAyG3yXnMlZXbetr7DhEOq0s0GlpK0xK333VMfDgwZyS_88XyB_BBxVmD3WEyQacRqhBjQsksjnZeEQIi9Wb3gOBAU3Q7mdgn2X9sQY7DJcVaPmNy6uoiiqv9ujV0-i8NCjjdSKHRMEZpxUry_OEkJQKVkhxHpGcMcopkwdIk5rdXxHe6Lt2N-_abnJutmFld4ltZyDlIv-w7sraF7qsfgEjJZiEZAEAAA",
+    "missing": []
+   },
+   "output: 3 same-side only": {
+    "total": 121,
+    "cheapest_div": [
+     80.0,
+     100.0,
+     100.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0,
+     114.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42PwQqDMAyG3yXnMqZTW32NHUWk08oCnZY2wqT03Vcdgx48LKfk__OF_B4cSVodNB4WQ7jM0ICcNwjscKLReqDNqEMfgcGEmpT9GjhGWb2NxgHpsgM9v_H6Kqq8iqsjOvnQKi5NUjsV2CmR84JnVVGW_xOizjJR5LU4QbrQJU96eKEb-mRO2mGxdjW0s0n84wyEWOyX_C6NeaKN6gfjrawSMQEAAA",
+    "missing": []
+   },
+   "output: 2 same-side + 2 opposite-side (4 natural lines)": {
+    "total": 147,
+    "cheapest_div": [
+     1.0,
+     12.0,
+     20.0,
+     22.0,
+     25.0,
+     28.0,
+     28.0,
+     30.0,
+     30.0,
+     30.0
+    ],
+    "url": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites/H4sIAAAAAAAAA42QwQqDMAyG3yXnMlqtVn2NHYdIp5UFOi1thUnpu686Bh48mFPy__kSkgDOS784aALMxuM8QQNyWiGS3UnGI4Bfjdr1AQiMqL2yPwOHJKuP0dijv21AJ3JR06rMytQ6oJNPrVLTKLVTkZwSmeCClbworhO14JwJxuvLSM44o4LS6mxLG9vDXQHe6PruUB_SfrZ2MX5jDx_bx0BMQf7PuktjXmiT-gV0oLfLZAEAAA",
+    "missing": []
+   }
+  }
+ }
+}

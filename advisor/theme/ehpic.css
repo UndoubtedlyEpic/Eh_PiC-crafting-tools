@@ -1,0 +1,142 @@
+/* eH_PiC theme: near-black, deep violet shadows, neon violet highlight, white brush-logotype. Colours come from the eH_PiC banner (theme/ehpic_banner.jpg):
+   blacks #000-#000020, shadow violet #200040, mid purple #400080, bright violet #a855ff, hot highlight #da74f9, logo white #e0e0e0 with a lavender cast.
+   Loaded after a page's own <style>, so it overrides the palette variables and adds the polish. */
+:root{
+  --bg:#06030c;--panel:#0e0818;--panel2:#160d26;--line:#2b1b4a;--line2:#44286f;
+  --fg:#ebe6f8;--dim:#8f85ab;--acc:#b66bff;--hot:#da74f9;
+  --good:#4fe3a1;--bad:#ff5c7c;--blue:#6fb4ff;--des:#ff7ad9;
+  --glow:rgba(168,85,255,.38);--on-acc:#fff;--mono:"Cascadia Mono",Consolas,monospace;
+}
+html{background:#06030c}
+body{
+  font-family:"Segoe UI Variable Text","Segoe UI",Inter,system-ui,sans-serif;font-size:14px;line-height:1.5;color:var(--fg);
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-variant-numeric:tabular-nums;
+  background:
+    radial-gradient(1100px 560px at 88% -8%,rgba(120,50,220,.30),transparent 62%),
+    radial-gradient(900px 520px at -8% 112%,rgba(86,28,176,.26),transparent 60%),
+    linear-gradient(180deg,#06030c,#090512 60%,#06030c);
+  background-attachment:fixed;
+}
+
+/* header: the banner, darkened so the title reads, with the corner brackets from the artwork */
+header{
+  position:relative;padding:38px 28px 30px;min-height:190px;border-bottom:1px solid var(--line2);overflow:hidden;
+  background:
+    linear-gradient(90deg,#06030c 0%,rgba(6,3,12,.97) 30%,rgba(6,3,12,.45) 52%,rgba(6,3,12,0) 70%,rgba(6,3,12,.55) 100%),
+    linear-gradient(180deg,rgba(6,3,12,.20),rgba(6,3,12,.70)),
+    url("ehpic_banner.jpg") right 47%/76% auto no-repeat,
+    #06030c;
+  box-shadow:0 1px 0 rgba(182,107,255,.25),0 12px 40px rgba(60,10,140,.35);
+}
+header::before,header::after{content:"";position:absolute;width:46px;height:30px;pointer-events:none;border:1px solid rgba(182,107,255,.55)}
+header::before{left:14px;top:12px;border-right:none;border-bottom:none}
+header::after{right:14px;bottom:12px;border-left:none;border-top:none}
+h1{
+  margin:0 0 6px;font-size:34px;line-height:1.05;font-weight:900;font-style:italic;text-transform:uppercase;letter-spacing:.045em;
+  background:linear-gradient(180deg,#ffffff 8%,#e6dcff 55%,#b98cff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(0 0 14px rgba(168,85,255,.65)) drop-shadow(0 2px 0 rgba(0,0,0,.6));
+  transform:skewX(-4deg);transform-origin:left bottom;
+}
+header small{display:block;max-width:min(520px,46%);color:#b9afd6;font-size:13px;text-shadow:0 1px 8px #000}
+
+/* panels: hairline border, a neon notch on the top edge, no rounded-card look */
+main{gap:16px}
+section{
+  position:relative;background:linear-gradient(180deg,#130b22 0%,#0d0717 100%);border:1px solid var(--line);border-radius:3px;
+  padding:16px 18px;box-shadow:inset 0 1px 0 rgba(255,255,255,.04),0 10px 30px rgba(0,0,0,.45);
+}
+section::before{content:"";position:absolute;top:-1px;left:16px;width:52px;height:2px;background:var(--acc);box-shadow:0 0 12px var(--acc),0 0 2px #fff}
+h2{
+  margin:0 0 12px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.16em;color:#cdbfee;
+  display:flex;align-items:center;gap:9px;
+}
+h2::before{content:"";width:22px;height:8px;flex:none;background:repeating-linear-gradient(115deg,var(--acc) 0 4px,transparent 4px 6px);filter:drop-shadow(0 0 4px var(--glow))}
+h3{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#b9aedb}
+.cardhead{font-size:15px;font-weight:700;letter-spacing:.02em;color:#fff;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:10px}
+
+/* controls */
+input,button,select,textarea{
+  background:#0a0613;color:var(--fg);border:1px solid #2f1f50;border-radius:3px;padding:6px 10px;font:inherit;
+  transition:border-color .12s,box-shadow .12s,background .12s,transform .06s;
+}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--acc);box-shadow:0 0 0 1px var(--acc),0 0 16px var(--glow)}
+button{
+  cursor:pointer;font-weight:600;letter-spacing:.015em;
+  background:linear-gradient(180deg,#1e1236 0%,#140b25 100%);border-color:#38235f;box-shadow:inset 0 1px 0 rgba(255,255,255,.06);
+}
+button:hover{border-color:var(--acc);color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 0 0 1px rgba(182,107,255,.4),0 0 18px var(--glow)}
+button:active{transform:translateY(1px)}
+button:focus-visible{outline:none;box-shadow:0 0 0 2px var(--acc),0 0 18px var(--glow)}
+button.primary{
+  color:#fff;border-color:#c18bff;text-shadow:0 1px 6px rgba(40,0,90,.9);
+  background:linear-gradient(180deg,#8a4cf7 0%,#5b25c9 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 16px rgba(130,60,240,.45);
+}
+button.primary:hover{background:linear-gradient(180deg,#9d63ff 0%,#6c33dd 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),0 0 24px rgba(168,85,255,.7)}
+select{padding-right:6px}
+input[type=checkbox]{accent-color:var(--acc)}
+label{color:#d7cff0}
+::selection{background:rgba(182,107,255,.45);color:#fff}
+
+/* the jewel: mod lines read like an item tooltip */
+.sides ul{list-style:none;padding-left:0}
+.sides li{
+  margin:5px 0;padding:7px 11px;background:rgba(255,255,255,.03);border:1px solid #22143d;border-left:3px solid #4a2d7d;border-radius:2px;
+  min-height:3.1em;box-sizing:border-box;
+}
+.sides li:has(.tag.wt){border-left-color:var(--good);background:linear-gradient(90deg,rgba(79,227,161,.10),rgba(255,255,255,.02) 55%)}
+.sides li.crafted{color:var(--blue);border-left-color:var(--blue)}
+.sides li.desecrated{color:var(--des);border-left-color:var(--des)}
+.sides li.unrevealed{color:var(--dim);border-left-style:dashed}
+.sides ul{min-height:13.4em}
+#item{min-height:300px}
+.tag{border-radius:2px;text-transform:uppercase;letter-spacing:.06em;font-size:10px;padding:1px 6px}
+.tag.fr{color:#ffd36b;border-color:#ffd36b}.tag.de{color:var(--des);border-color:var(--des)}.tag.cr{color:var(--blue);border-color:var(--blue)}.tag.wt{color:var(--good);border-color:var(--good)}
+.pend{border:1px solid var(--acc);border-style:solid;background:rgba(120,50,220,.10);box-shadow:0 0 22px rgba(130,60,240,.25);border-radius:3px}
+
+/* data */
+th{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);font-weight:700;border-bottom:1px solid var(--line2)}
+td,th{border-bottom:1px solid rgba(68,40,111,.45)}
+td.n,th.n{font-variant-numeric:tabular-nums}
+#log,.wl{background:#09050f;border:1px solid var(--line);border-radius:3px}
+.ev.speech{color:var(--good)}.ev.flag{color:var(--bad)}
+.dim{color:var(--dim)}.good{color:var(--good)}.bad{color:var(--bad)}
+#simOut b{color:#fff}
+#goal b.good{text-shadow:0 0 12px rgba(79,227,161,.7)}
+#interim{color:#a99ccc}
+
+/* scrollbars */
+*{scrollbar-width:thin;scrollbar-color:#4a2d7d #09050f}
+::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-track{background:#09050f}::-webkit-scrollbar-thumb{background:#4a2d7d;border-radius:5px}
+::-webkit-scrollbar-thumb:hover{background:var(--acc)}
+
+@media(max-width:900px){h1{font-size:26px}header{padding:26px 18px 20px;min-height:170px}header small{max-width:100%;text-shadow:0 1px 10px #000,0 0 18px #000}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* advisor and shopper pages: their own widgets, same look */
+.chip,.step,.stat,.methodcard,.corrgrid>div,.seqbox,details.sect,.pickwrap,.hit,.bar,.pill,.pricebox{border-radius:3px}
+.chip,.step,.methodcard,.corrgrid>div,.stat{background:rgba(255,255,255,.03);border-color:#2b1b4a}
+.stat{border-left:3px solid var(--acc)}
+.statnum,.big{text-shadow:0 0 14px rgba(79,227,161,.35)}
+.badge{box-shadow:0 0 12px var(--glow)}
+.tstep{border-left-color:var(--line2)}
+.barfill{background:linear-gradient(90deg,#5b25c9,var(--hot))}
+.pickwrap th{background:#150d27;color:#cdbfee;text-transform:uppercase;letter-spacing:.08em}
+.pickwrap tr.sec td{background:#150d27;color:#e0d4ff}
+details.sect{background:linear-gradient(180deg,#130b22,#0d0717)}
+details.sect>summary h2{letter-spacing:.1em}
+details.sect>summary h2::before{display:none}
+a{color:#9ec8ff}a:hover{color:#fff}
+summary{color:var(--hot)}
+.best{box-shadow:0 0 0 1px var(--good),0 0 16px rgba(79,227,161,.25)}
+.P{color:#ffb27a}.S{color:#8fd0ff}
+
+/* shared copy without the local server */
+body.static .needs-server{display:none!important}
+#sharedNote{margin:0;padding:10px 28px;background:rgba(120,50,220,.14);border-bottom:1px solid var(--line2);color:#cdbfee;font-size:13px}
+
+/* narrow screens: nothing may push the page wider than the screen (a long select option or a wide table used to double the page width on a phone) */
+select,input,textarea{max-width:100%}
+select{text-overflow:ellipsis}
+main>*{min-width:0}
+section,details,.mkc,#oddsBox{overflow-x:auto}
+@media(max-width:600px){header{padding:24px 16px 20px;min-height:150px}h1{font-size:26px}header small{max-width:100%}}

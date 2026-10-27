@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jewel crafting simulator</title>
+<style>
+:root{--bg:#0f1115;--panel:#181b22;--panel2:#1f2430;--line:#2c3342;--fg:#d8dce6;--dim:#8a93a6;--acc:#e0b04a;--good:#5fbf7a;--bad:#e06c6c;--blue:#6aa7e8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 system-ui,Segoe UI,sans-serif}
+header{padding:14px 20px;border-bottom:1px solid var(--line)}h1{margin:0;font-size:18px;color:var(--acc)}header small{color:var(--dim)}
+main{padding:16px 20px;max-width:1300px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px}
+@media(max-width:900px){main{grid-template-columns:minmax(0,1fr)}}
+/* phone: colour and start buttons, then the target mods, then the pinned jewel and the orb buttons (user 2026-10-22) */
+@media(max-width:900px){main{display:flex;flex-direction:column}main>div{display:contents}main section{order:5}#jewelSec{order:1}#targetsSec{order:2}#liveJewel{order:3}#actionsSec{order:4}#oddsBox{max-height:32vh;overflow:auto}#wantedS,#wantedP{max-height:26vh;overflow:auto;border:1px solid var(--line);padding:4px 6px}}
+/* the jewel stays in view while the orb buttons below are used (user 2026-10-22) */
+#liveJewel #jewelCard{flex:1 1 420px!important;order:-1}
+#liveJewel #jewelCard svg{width:100%;max-width:560px;height:auto}
+#liveJewel{position:sticky;top:0;z-index:20;max-height:62vh;overflow:auto;background:var(--panel,#181b22);box-shadow:0 6px 14px rgba(0,0,0,.45)}
+@media(max-width:900px){#liveJewel{max-height:50vh}}
+section{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}
+h2{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim)}h3{margin:0 0 4px;font-size:13px}
+input,button,select,textarea{background:var(--panel2);color:var(--fg);border:1px solid var(--line);border-radius:5px;padding:6px 8px;font:inherit}
+button{cursor:pointer}button:hover{border-color:var(--acc)}button.primary{border-color:var(--acc);color:var(--acc)}
+textarea{width:100%;min-height:54px}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
+.dim{color:var(--dim)}.good{color:var(--good)}.bad{color:var(--bad)}
+.cardhead{font-weight:600;margin-bottom:8px}.sides{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+ul{margin:0;padding-left:18px}li{margin:2px 0}li.crafted{color:var(--blue)}li.desecrated{color:#c58ae0}li.unrevealed{color:var(--dim);font-style:italic}
+.tag{font-size:11px;font-weight:600;border:1px solid var(--line);border-radius:8px;padding:0 6px;margin-left:2px}
+.tag.fr{color:var(--acc);border-color:var(--acc)}.tag.de{color:#c58ae0}.tag.cr{color:var(--blue)}.tag.wt{color:var(--good);border-color:var(--good)}
+.pend{margin-top:10px;padding:8px;border:1px dashed var(--acc);border-radius:6px}
+table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:3px 6px;border-bottom:1px solid var(--line)}td.n,th.n{text-align:right}
+#log{max-height:260px;overflow:auto;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:6px}
+.ev{display:grid;grid-template-columns:2.2em 9.5em minmax(0,1fr) 5.5em;gap:2px 8px;align-items:baseline;margin:0;padding:4px 2px;border-bottom:1px solid var(--line)}
+.ev .stp{text-align:right;font-weight:700;color:var(--acc)}.ev .act{font-weight:600;overflow-wrap:anywhere}.ev .cst{text-align:right;color:var(--dim);white-space:nowrap}
+.ev.speech{color:var(--good)}.ev.flag{color:var(--bad)}.ev.note,.ev.undo{color:var(--dim)}.ev.note .act,.ev.undo .act{font-weight:400;font-style:italic}
+@media(max-width:600px){.ev{grid-template-columns:2em minmax(0,1fr) 5em}.ev .act{grid-column:2}.ev .cst{grid-column:3;grid-row:1}.ev .res{grid-column:2 / 4}}
+.wl{max-height:170px;overflow:auto;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:4px 8px}.wl label{display:block;font-size:12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+/* fixed-height item area: long mod lines wrap inside reserved space, so the buttons below never move under the cursor */
+#item{min-height:250px}.sides ul{min-height:10.5em}.sides li{min-height:2.9em}
+#pending{min-height:84px}#goal{min-height:44px}
+#interim{color:var(--dim);font-style:italic;min-height:1.4em}
+
+/* actions: labelled groups in the order of a craft */
+[hidden]{display:none!important}
+.agroups{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px}
+.agroup{border:1px solid var(--line);border-radius:3px;padding:10px 12px;background:rgba(255,255,255,.02)}
+.agroup h3{margin:0 0 8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.arow{display:flex;flex-wrap:wrap;gap:6px 8px;align-items:center;margin:7px 0}
+.arow select{max-width:100%}
+.opt{display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;font-size:12px;color:var(--dim);min-width:0;max-width:100%}
+.opt select{flex:1 1 150px;min-width:0;max-width:100%;text-overflow:ellipsis}
+.hint{font-size:12px;color:var(--dim)}
+
+/* consent gate: covers the whole page until the box is ticked */
+#consentGate{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:206px 16px 16px;background:linear-gradient(180deg,rgba(6,3,12,0) 0,rgba(6,3,12,0) 190px,rgba(6,3,12,.96) 190px);overflow:auto}   /* the banner stays visible above the notice */
+#consentGate[hidden]{display:none!important}
+.consentBox{max-width:640px;width:100%;background:linear-gradient(180deg,#130b22,#0d0717);border:1px solid var(--line2,#44286f);border-radius:3px;padding:22px 24px;box-shadow:0 20px 60px rgba(0,0,0,.7),0 0 40px rgba(120,50,220,.25)}
+.consentBox h2{margin:0 0 10px;font-size:15px}.consentBox ul{margin:10px 0 14px;padding-left:20px}.consentBox li{margin:6px 0}
+.consentCheck{display:flex;gap:10px;align-items:flex-start;margin:14px 0;font-weight:600}.consentCheck input{margin-top:4px;width:18px;height:18px}
+.consentBox button:disabled{opacity:.45;cursor:not-allowed}
+.oddsHelp{margin:8px 0;padding:8px 10px;border-left:3px solid var(--acc);background:rgba(120,50,220,.08)}.oddsList{margin:8px 0;padding-left:20px}.oddsList li{margin:4px 0}
+
+/* the odds box: compact, short stage names, details folded away */
+#oddsBox{margin-top:10px}
+.oddsTitle{margin:0 0 6px}
+.stageTbl{width:100%;border-collapse:collapse;font-size:13px}
+.stageTbl th{font-size:11px;padding:4px 6px;white-space:nowrap}
+.stageTbl td{padding:5px 6px;vertical-align:middle}
+.stageTbl td.stg{width:44%}.stageTbl td.stg .dim{font-size:11px;line-height:1.2}
+.stageTbl td.n{white-space:nowrap}
+.stageTbl td.exp{font-weight:700;color:#fff;font-size:14px}
+.oddsLegend{font-size:12px;margin:6px 0}
+#oddsBox details{margin:6px 0}#oddsBox summary{cursor:pointer;font-size:12px}
+#oddsBox details table{font-size:12px;margin-top:4px}
+
+.stageList{display:flex;flex-direction:column;gap:5px}
+.stage{padding:6px 10px;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:3px;background:rgba(255,255,255,.03)}
+.stageHead{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:13px}
+.stageHead .chance{white-space:nowrap;font-size:12px;color:var(--hot,#da74f9)}
+.chips{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:3px;font-size:12px}
+.chip2 i{font-style:normal;color:var(--dim);margin-right:3px}.chip2.strong{font-weight:700;color:#fff;font-size:13px}
+.enchants{margin-top:8px}.ench{padding:5px 10px;border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:2px;margin:4px 0;color:var(--blue)}
+</style>
+<link rel="stylesheet" href="theme/ehpic.css?v=4"></head><body>
+<header><h1>Jewel crafting simulator</h1>
+<small>Craft a rolled jewel by hand while you talk, or let it play whole strategies and measure the odds. Rules are the ones you confirmed; nothing here is the real game. <a href="http://127.0.0.1:8767/tablet_sim.html">Tablet pricing guide</a> &middot; <a href="http://127.0.0.1:8765/hub.html">All tools</a></small></header>
+<div id="sharedNote" hidden>Shared copy: the simulator runs entirely in your browser. Live market checks, the craft log and saving lessons need the local crafter server, so those parts are hidden here. Prices are a snapshot from the day this copy was built.</div>
+<main>
+<div>
+<section id="jewelSec"><h2>The jewel</h2>
+<div class="row">Colour <select id="colour"><option>Emerald</option><option>Sapphire</option><option>Ruby</option><option>Diamond</option><option>Time-Lost Emerald</option><option>Time-Lost Ruby</option><option>Time-Lost Sapphire</option><option>Time-Lost Diamond</option></select>
+<button id="newTwo" class="primary">New: 2 target suffixes + 2 filler prefixes</button><button id="newTwoP" class="primary">New: 2 target prefixes + 2 filler suffixes</button><button id="newMagic">New: magic jewel with 1 target mod</button><button id="newRare">New: Alchemy rare</button><button id="newBlank">New: blank</button>
+<button id="undo">Undo</button></div>
+<details id="pasteBox"><summary><b>Paste a jewel from the game</b></summary>
+<div class="hint">Hover the jewel in Path of Exile 2 and press Ctrl+C (Ctrl+Alt+C also works), then paste it here. You can also just press Ctrl+V anywhere on this page. Fractured, desecrated and crafted lines, quality and the corrupted state are kept; the simulator continues the craft from that jewel.</div>
+<textarea id="pasteText" rows="6" style="width:100%" placeholder="Item Class: Jewels&#10;Rarity: Rare&#10;..."></textarea>
+<div class="row"><label class="opt">Price paid (div) <input id="pastePrice" type="number" step="any" min="0" placeholder="0" style="width:70px" title="Only if you bought this jewel from the trade site: it is added to the cost. Empty = not counted."></label><button id="pasteLoad" class="primary">Load this jewel</button><button id="pasteClip">Paste from clipboard</button></div>
+<div id="pasteMsg" class="hint"></div></details>
+<div id="diamondNote" class="hint" hidden>Diamond rule: never more than 2 crit damage suffixes on the jewel at once, in any craft (once two are on it, no crit damage mod is offered).</div>
+</section>
+
+<section id="liveJewel"><div id="actMsg" class="hint" role="status" style="min-height:1.4em;margin:0 0 6px"></div>
+<div style="display:flex;gap:16px;flex-wrap:wrap;align-items:flex-start"><div style="flex:1 1 300px;min-width:280px"><div id="item"></div><div id="pending"></div><div id="goal" style="margin-top:8px"></div></div><div id="jewelCard" style="flex:0 0 auto;max-width:100%"></div></div></section>
+
+<section id="actionsSec"><h2>Actions</h2>
+<div class="hint">Keyboard shortcuts in hand mode: <b>C</b> Chaos, <b>E</b> Exalt, <b>A</b> Annulment, <b>D</b> Divine, <b>Z</b> undo (only the cheap orbs, and only when you are not typing in a box). Your target mods and settings are remembered in this browser.</div>
+<div class="agroups">
+
+<div class="agroup"><h3>1 &middot; Build</h3>
+<div class="arow"><button data-act="transmute" title="Turns a normal jewel into a magic one with one random mod">Transmutation</button><button data-act="augment" title="Adds a second mod to a magic jewel with one mod">Augment</button></div>
+<div class="arow"><button data-act="regal" title="Magic jewel becomes rare, adding a mod; it stays rare for good">Regal</button><button data-act="alchemy" title="Turns a normal jewel into a rare one with random mods">Alchemy</button><span class="hint">Alchemy: normal jewel straight to rare</span></div><div class="hint">Magic start: buy a magic jewel with 1 target mod, Augment, then Annul (it takes one of the two mods off: a 50/50) until both are ones you want, then Regal. From a blank jewel, Transmutation then Augment gives the same magic start. Exalt and Chaos need a rare jewel.</div>
+<div class="arow"><label class="opt">Orb tier <select id="orbTier"><option value="">plain</option><option value="Greater">Greater</option><option value="Perfect">Perfect</option></select></label><span class="hint">for Exalted, Chaos, Regal, Augmentation: a jewel has only level 1 mods, so a Greater or Perfect orb adds the same kind of mod and just costs more</span></div>
+<div class="arow"><button data-act="exaltTwo" title="An Exalted Orb with the Omen of Greater Exaltation adds two mods">Exalt, two mods</button><span class="hint">Omen of Greater Exaltation</span></div>
+<div class="arow"><button data-act="exalt" title="Adds one random mod">Exalt</button><label class="opt">omen <select id="exaltSide"><option value="">none</option><option value="S">Dextral: suffix only</option><option value="P">Sinistral: prefix only</option></select></label></div>
+</div>
+
+<div class="agroup"><h3>2 &middot; Repeat an orb until a mod is hit (speed simulate)</h3>
+<div class="arow"><select id="repAction"><option value="chaos|">Chaos Orb</option><option value="chaos|S">Chaos + Dextral Erasure (removes a suffix)</option><option value="chaos|P">Chaos + Sinistral Erasure (removes a prefix)</option><option value="exalt|">Exalted Orb</option><option value="exalt|S">Exalt + Dextral omen (suffix)</option><option value="exalt|P">Exalt + Sinistral omen (prefix)</option><option value="annul|">Orb of Annulment</option><option value="annul|S">Annul + Dextral omen (suffix)</option><option value="annul|P">Annul + Sinistral omen (prefix)</option><option value="divine|">Divine Orb (rerolls values)</option><option value="alchemy|">Alchemy on a new normal jewel each try</option></select></div>
+<div class="arow">until <select id="repTarget"></select> <label class="opt">rolled at least <input id="repMinRoll" type="number" min="0" max="100" value="0" style="width:55px">% of its range</label> <label class="opt">give up after <input id="repMax" type="number" min="1" max="100000" value="2000" style="width:70px"> tries</label> <button id="repGo" class="primary" type="button">Repeat until hit</button></div>
+<div class="hint">Uses the orb you pick again and again on the jewel above, stops the moment the chosen mod is on it, and adds the whole spend to the cost. Undo takes back the whole run. Jewel mods have one tier, so the tier is the roll: 0% accepts any roll, 100% only the top value. A fractured jewel keeps its locked mod.</div>
+<div id="repMsg" class="dim" role="status"></div>
+</div>
+
+<div class="agroup"><h3>3 &middot; Reroll or remove</h3>
+<div class="arow"><button data-act="chaos" title="Removes one random mod and adds one random mod">Chaos</button><label class="opt">Erasure omen <select id="chaosSide"><option value="">none</option><option value="S">Dextral Erasure: suffix only (~13 div)</option><option value="P">Sinistral Erasure: prefix only (~20 div)</option></select></label></div>
+<div class="arow"><button data-act="annul" title="Removes one random mod">Annul</button><button data-act="annul" data-arg="P" title="Annulment with the Sinistral omen">Annul, prefix only</button><button data-act="annul" data-arg="S" title="Annulment with the Dextral omen">Annul, suffix only</button></div>
+</div>
+
+<div class="agroup"><h3>4 &middot; Values and lock</h3>
+<div class="arow"><button data-act="divine" title="Rerolls the values of every mod that is not fractured">Divine Orb</button><span class="hint">reroll all values</span></div>
+<div class="arow"><button data-act="fracture" title="Locks one random mod for good; needs 4 mods; once per jewel">Fracturing Orb</button><span class="hint">once per jewel, needs 4 mods</span></div>
+</div>
+
+<div class="agroup"><h3>5 &middot; Desecrate</h3>
+<div class="arow"><button data-act="desecrate" title="Adds an unrevealed mod; reveal it at the Well of Souls to pick 1 of 3">Desecrate</button><label class="opt">side <select id="necroSide"><option value="">automatic (the side with room)</option><option value="S">suffix (Dextral Necromancy)</option><option value="P">prefix (Sinistral Necromancy)</option></select></label></div>
+<div class="arow"><button data-act="echoes" title="Rerolls the 3 revealed options once">Abyssal Echoes</button><span class="hint">reroll the 3 options</span></div>
+<div class="arow"><button data-act="light" title="Removes only the desecrated mod, using an Annulment">Omen of Light + Annul</button><span class="hint">remove the desecrated mod</span></div>
+</div>
+
+<div class="agroup"><h3>6 &middot; Delirium liquids</h3>
+<div class="hint">One crafted modifier at a time. Remove the old one (Annul) before the next.</div>
+<div class="arow"><button data-act="contempt" title="Replaces a random mod with +1 suffix or +1 prefix allowed">Contempt</button><button data-act="ferocity" title="Regular jewel: Effect of Suffixes or Prefixes. Time-Lost: notable Lightning Resistance">Ferocity</button></div>
+<div class="arow" id="liquidRow" hidden><button data-act="liquid" title="Removes a random mod and adds that guaranteed crafted modifier">Apply Ancient Liquid</button><select id="liquidSel"></select></div>
+<label class="opt"><input type="checkbox" id="chaosRule" checked> Chaos, Contempt, Ferocity and the liquids (Melancholy included) only hit the side with 2 mods when the other has 3</label>
+</div>
+
+<div class="agroup"><h3>7 &middot; Corruption (Vaal, double corrupt, Sacrifice)</h3>
+<div class="arow"><button data-act="vaal" title="Corrupts the jewel: it can no longer be changed">Corrupt: Vaal Orb</button><button data-act="architect" title="Double corrupt (Temple of Atziri): 50% another corruption enchantment, 50% the jewel is destroyed">Double corrupt: Architect's Orb</button><button data-act="sacrifice" title="Upgrades a corruption enchantment and removes a random modifier (rare corrupted jewel)">Upgrade enchant: Yugul's Orb of Sacrifice</button></div>
+<div class="hint">Vaal Orb, assumed 1 in 4 each (the odds are not published): nothing happens; 1 to 3 mods are randomised; a corruption enchantment is added; a mod is added or removed ignoring the limit. After that the jewel cannot be changed, except by: the <b>Architect's Orb</b> (double corrupt: 50% another enchantment, 50% the jewel is destroyed), <b>Yugul's Orb of Sacrifice</b> (upgrades one enchantment to its stronger version and removes a random modifier) and quality. Do this after everything else.</div>
+<details><summary>Every corruption enchantment this jewel can get</summary><div id="corruptList"></div></details>
+</div>
+
+<div class="agroup"><h3>8 &middot; Quality (do this last)</h3>
+<div class="arow"><button data-act="catalyst" title="Adds 1% quality per Refined catalyst, up to 20%">Add catalyst</button><select id="catalystName"><option value="Refined Reaver Catalyst">Refined Reaver (attack)</option><option value="Refined Sibilant Catalyst">Refined Sibilant (caster)</option><option value="Refined Skittering Catalyst">Refined Skittering (speed)</option><option value="Refined Adaptive Catalyst">Refined Adaptive (attribute)</option><option value="Refined Necrotic Catalyst">Refined Necrotic (minion)</option><option value="Refined Xoph's Catalyst">Refined Xoph's (fire)</option><option value="Refined Tul's Catalyst">Refined Tul's (cold)</option><option value="Refined Esh's Catalyst">Refined Esh's (lightning)</option><option value="Refined Chayula's Catalyst">Refined Chayula's (chaos)</option><option value="Refined Uul-Netol's Catalyst">Refined Uul-Netol's (physical)</option><option value="Refined Flesh Catalyst">Refined Flesh (life)</option><option value="Refined Neural Catalyst">Refined Neural (mana)</option><option value="Refined Carapace Catalyst">Refined Carapace (defences)</option></select></div>
+<div class="hint">1% per catalyst, max 20%. Only Refined catalysts work on jewels; it scales mods with that catalyst's tag.</div>
+</div>
+
+
+</div>
+<div class="hint" style="margin-top:10px">Contempt, Ferocity and the liquids hit a random unlocked mod and replace it. Fractured mods are locked. Prices from poe2db and poe.ninja.</div></section>
+
+<section><h2>Teach it while you work</h2>
+<div class="row"><button id="mic" class="primary">Start listening</button><span id="micStatus" class="dim">Not listening</span></div>
+<div id="interim"></div>
+<div class="dim">Talk through what you are doing and why ("I want it to hit a prefix, so the suffix side gets the extra slot"). Everything you say is saved beside each action and the jewel's state at that moment.
+Chrome sends speech to Google to transcribe it; if you would rather not, type or use Windows dictation (Win+H) in the box below.</div>
+<textarea id="noteBox" placeholder="Type or dictate a note here, then press Add"></textarea>
+<div class="row"><button id="addNote">Add note</button>
+<input id="flagWhy" placeholder="What did the sim get wrong?" style="flex:1;min-width:180px"><button id="flag">Doesn't match the game</button></div>
+<div id="log"></div>
+<div class="row"><input id="lessonName" placeholder="lesson name" value="jewel lesson"><button id="save" class="primary needs-server">Save lesson for Claude</button><button id="download">Download file</button><span id="saveMsg" class="dim"></span></div></section>
+</div>
+
+<div>
+<section class="needs-server"><h2>Log this craft</h2>
+<div class="dim">Saves the finished jewel on this computer only, so the market can be checked for that exact item later. Nothing is uploaded.</div>
+<div class="row">League <input id="logLeague" value="Forbidden Rites" style="width:140px"> Note <input id="logNote" placeholder="optional" style="width:160px"> Sold for <input id="logSold" type="number" min="0" step="any" placeholder="div (if sold)" style="width:100px"></div>
+<div class="row"><button id="logCraft" class="primary">Log this craft</button><button id="logCheck">Check the market for it</button></div><div id="logMsg" class="dim"></div></section>
+<section><h2>Cost so far</h2><div id="cost"></div></section>
+<section id="targetsSec"><h2>Your target mods</h2>
+<div class="two"><div><h3>Suffixes</h3><div class="wl" id="wantedS"></div></div><div><h3>Prefixes</h3><div class="wl" id="wantedP"></div></div></div>
+<div class="dim">These are the mods for ONE build (the author's attack-crit spear build), not a list of universally good mods. Tick the ones that fit yours. Goal: 3 target suffixes, the Effect of Suffixes line, and 1 target prefix. Asking-price numbers exist only for the attack-crit Emerald shape; any other target set shows no price.</div>
+<div id="oddsBox"></div></section>
+
+<section id="tlNote" hidden><h2>Time-Lost jewels</h2><div class="dim">The route is the same as for the regular jewels (user); only the target mods differ. The mod pool, Ancient Liquid Emotions and catalyst tags come from the game data. The last crafted mod is Melancholy (Very Large radius) instead of Ferocity, because only one crafted modifier fits and leaving it off costs most of the price. Prices exist for the crit chance + crit damage (+ attack speed) shape only.</div></section>
+<section id="simSection"><h2>Play a whole strategy many times</h2>
+<div class="row"><select id="strategy"><option value="fracture">Build 2 suffixes, then fracture (your order)</option><option value="fractureFirst">Fracture one suffix first, build around it (the guide)</option><option value="free">No fracture</option></select>
+Jewels <input id="simN" type="number" value="500" style="width:80px"> Base price (div) <input id="basePrice" type="number" step="any" value="0" style="width:70px" title="What the starting jewel costs. 0 = not counted. Only fill it in if you bought the jewel (for example from a trade listing)."> <span id="starterHint" class="dim"></span></div>
+<div class="row">Focus: the side that ends with three mods <select id="focus"><option value="S">Suffixes (Contempt must give +1 suffix, Ferocity gives Effect of Suffixes)</option><option value="P">Prefixes (Contempt must give +1 prefix, Ferocity gives Effect of Prefixes)</option></select></div>
+<div class="row">Starting jewel <select id="startMode"><option value="buy">Buy one with 2 target suffixes (base price)</option><option value="build">Build it: Alchemy, Chaos spam, Exalt and Annul</option><option value="magic">Build it from a bought magic jewel with 1 target mod: Augment, Annul (50/50), Regal, then the same build</option></select>
+<label><input type="checkbox" id="eraseS"> Dextral Erasure omen on each Chaos while building (expensive)</label>
+<label><input type="checkbox" id="premiumPair" checked> The starting pair must be 2 of the crit mods (your sought-after suffixes)</label>
+<label>Roll target: each target suffix within <input id="within" type="number" value="" placeholder="off" min="0" max="10" style="width:60px"> of its maximum (overrides the % boxes; they then just switch the Divine steps on)</label>
+<label>Divine first until both starting suffixes roll at least <input id="preDivine" type="number" value="0" min="0" max="95" style="width:60px">% (0 = skip)</label>
+<label>Divine at the end until the unlocked target suffixes roll at least <input id="finalDivine" type="number" value="0" min="0" max="95" style="width:60px">% (0 = skip)</label>
+<label>Sell a fracture miss for <input id="salvage" type="number" value="0" min="0" step="any" style="width:60px"> div (needs the Divine-first step)</label>
+<label><input type="checkbox" id="spearOnly"> The target prefix must be attack damage or spear damage (both sell for about the same and take Reaver quality)</label>
+<label>Keep Divining at the end until Effect of Suffixes is at least <input id="effectMin" type="number" value="0" min="0" max="60" style="width:55px">% (40 to 60, 0 = ignore; each Divine rerolls everything unlocked at once)</label>
+<label>Jewel quality <input id="qualityPct" type="number" value="0" min="0" max="20" style="width:55px">% (0 = none, max 20, applied at the very end), each catalyst adds <input id="qualityGain" type="number" value="1" min="0.1" step="any" style="width:55px">% (1% each, confirmed by you)</label>
+<label><input type="checkbox" id="useEchoes" checked> Use an Omen of Abyssal Echoes when the desecrate shows no target: it rerolls the 3 options once (untick to take only the first 3)</label>
+<label><input type="checkbox" id="bothPrefixes" checked> Chaos spam until BOTH prefixes are target mods, so the final liquid can take one and still leave one (your method)</label>
+<label><input type="checkbox" id="continueMiss"> If the fracture locks a prefix, carry on instead of scrapping</label></div>
+<div class="row"><label><input type="checkbox" id="recover" checked> Recover from a bad Contempt hit (fractured only)</label>
+<label><input type="checkbox" id="omenLine"> Use a Sinistral Annulment omen to remove the +1 line</label></div>
+<div class="row"><button id="run" class="primary">Run</button></div>
+<div id="simOut" class="dim">Pick your target mods, then Run. Each run starts from a jewel holding 2 target suffixes and 2 filler prefixes, bought at the base price. Pick the focus side below: with prefix focus tick your target prefixes (and at least one target suffix), and no asking price is shown.</div></section>
+</div>
+</main>
+<div id="usageBar" class="hint" style="padding:6px 28px">You agreed to this: every run and every action is saved for later cost and sales projections: on this computer through the crafter server, or in this browser when there is no server. <button id="usageDl">Download my usage data</button> <button id="consentWithdraw">Withdraw consent</button></div>
+<div id="consentGate" role="dialog" aria-modal="true" aria-labelledby="consentTitle">
+ <div class="consentBox">
+  <h2 id="consentTitle">Before you use the simulator</h2>
+  <div id="loadError" class="bad" hidden style="margin:8px 0;font-weight:600"></div>
+  <p>This simulator keeps a record of how it is used, so the odds, costs and prices it shows can be improved and projected into the future. By ticking the box you agree to this:</p>
+  <ul>
+   <li><b>What is saved:</b> every simulation run and every action you take (the settings, the target mods you pick, the results, the orbs and materials used), plus any craft or sale price you choose to log.</li>
+   <li><b>What is not saved:</b> your name, account name, email or anything else that identifies you. A random code tells one computer from another.</li>
+   <li id="consentWhere"><b>Where:</b> checking...</li>
+   <li><b>Use:</b> probability tables, cost and sales projections, and improving the simulator.</li>
+   <li><b>Withdraw:</b> use "Withdraw consent" at the bottom of the page at any time; saving stops straight away.</li>
+  </ul>
+  <label class="consentCheck"><input type="checkbox" id="consentBox"> I agree to have this information stored for probability and other uses in the future.</label>
+  <button id="consentGo" class="primary" disabled>Use the simulator</button>
+  <div class="hint">Without agreeing, the simulator cannot be used.</div>
+ </div>
+</div>
+<script src="collect_config.js"></script>
+<script src="prices.js"></script>
+<script src="base_prices.js"></script>
+<script src="jewel_sim.js?v=88"></script>
+</body></html>

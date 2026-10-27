@@ -1,0 +1,354 @@
+[
+ {
+  "lift": 0.8061982145991149,
+  "n": 38,
+  "share_150": 0.5263157894736842,
+  "side": "P",
+  "text": "Upgrades Radius to Very Large",
+  "median": 150.0
+ },
+ {
+  "lift": 0.5847752793526797,
+  "n": 15,
+  "share_150": 0.4,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 6% increased Magnitude of Ailments you inflict",
+  "median": 100.0
+ },
+ {
+  "lift": 0.5571244977489547,
+  "n": 64,
+  "share_150": 0.40625,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 7% increased Critical Spell Damage Bonus",
+  "median": 76.0
+ },
+ {
+  "lift": 0.5563602406728985,
+  "n": 26,
+  "share_150": 0.3076923076923077,
+  "side": "P",
+  "text": "+1 Suffix Modifier allowed",
+  "median": 78.0
+ },
+ {
+  "lift": 0.5194996929029465,
+  "n": 61,
+  "share_150": 0.4426229508196721,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 9% increased Critical Damage Bonus",
+  "median": 70.0
+ },
+ {
+  "lift": 0.4548634859962395,
+  "n": 67,
+  "share_150": 0.34328358208955223,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 7% increased Critical Hit Chance for Spells",
+  "median": 75.0
+ },
+ {
+  "lift": 0.4451434610463829,
+  "n": 31,
+  "share_150": 0.2903225806451613,
+  "side": "S",
+  "text": "19% increased Effect of Notable Passive Skills in Radius",
+  "median": 66.0
+ },
+ {
+  "lift": 0.40093908267871603,
+  "n": 68,
+  "share_150": 0.23529411764705882,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 6% increased Critical Hit Chance",
+  "median": 63.5
+ },
+ {
+  "lift": 0.35079502520359385,
+  "n": 24,
+  "share_150": 0.25,
+  "side": "P",
+  "text": "Upgrades Radius to Large",
+  "median": 70.0
+ },
+ {
+  "lift": 0.33228278082069007,
+  "n": 16,
+  "share_150": 0.25,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 3% increased Area of Effect",
+  "median": 70.0
+ },
+ {
+  "lift": 0.14547022203199744,
+  "n": 19,
+  "share_150": 0.3157894736842105,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Minions have 7% increased Critical Hit Chance",
+  "median": 24.0
+ },
+ {
+  "lift": 0.1230888689670695,
+  "n": 41,
+  "share_150": 0.2682926829268293,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Elemental Damage",
+  "median": 24.0
+ },
+ {
+  "lift": 0.07332687149825157,
+  "n": 53,
+  "share_150": 0.2641509433962264,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 2% increased maximum Energy Shield",
+  "median": 29.0
+ },
+ {
+  "lift": 0.06858142925514077,
+  "n": 22,
+  "share_150": 0.18181818181818182,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 7% increased Ignite Magnitude",
+  "median": 40.0
+ },
+ {
+  "lift": 0.05231326565643668,
+  "n": 20,
+  "share_150": 0.2,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 6% increased Magnitude of Damaging Ailments you inflict with Critical Hits",
+  "median": 45.0
+ },
+ {
+  "lift": 0.0197633913743398,
+  "n": 18,
+  "share_150": 0.2222222222222222,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Meta Skills gain 3% increased Energy",
+  "median": 22.0
+ },
+ {
+  "lift": 0.01974820074096617,
+  "n": 43,
+  "share_150": 0.16279069767441862,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Chaos Damage",
+  "median": 25.0
+ },
+ {
+  "lift": 0.00012674890072394973,
+  "n": 31,
+  "share_150": 0.1935483870967742,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 20% increased Energy Shield from Equipped Focus",
+  "median": 21.0
+ },
+ {
+  "lift": -0.03421468923971349,
+  "n": 67,
+  "share_150": 0.22388059701492538,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Spell Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.09112269961240416,
+  "n": 23,
+  "share_150": 0.13043478260869565,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Minions have 11% increased Critical Damage Bonus",
+  "median": 20.0
+ },
+ {
+  "lift": -0.10140633355595208,
+  "n": 55,
+  "share_150": 0.18181818181818182,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 1% increased Cast Speed",
+  "median": 20.0
+ },
+ {
+  "lift": -0.10530522437603373,
+  "n": 39,
+  "share_150": 0.20512820512820512,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant Minions deal 2% increased Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.10675067825348017,
+  "n": 23,
+  "share_150": 0.08695652173913043,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 5% increased Area of Effect of Curses",
+  "median": 20.0
+ },
+ {
+  "lift": -0.107621277223243,
+  "n": 19,
+  "share_150": 0.21052631578947367,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant Triggered Spells deal 2% increased Spell Damage",
+  "median": 20.0
+ },
+ {
+  "lift": -0.11064577632949857,
+  "n": 32,
+  "share_150": 0.0625,
+  "side": "S",
+  "text": "+1 Prefix Modifier allowed",
+  "median": 20.0
+ },
+ {
+  "lift": -0.13877574387252856,
+  "n": 33,
+  "share_150": 0.12121212121212122,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 7% faster start of Energy Shield Recharge",
+  "median": 20.0
+ },
+ {
+  "lift": -0.14509795149661042,
+  "n": 17,
+  "share_150": 0.17647058823529413,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Damage while Shapeshifted",
+  "median": 9.0
+ },
+ {
+  "lift": -0.17742892306696545,
+  "n": 16,
+  "share_150": 0.125,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant Offerings have 2% increased Maximum Life",
+  "median": 20.0
+ },
+ {
+  "lift": -0.18916638908123873,
+  "n": 43,
+  "share_150": 0.11627906976744186,
+  "side": "P",
+  "text": "Upgrades Radius to Medium",
+  "median": 10.0
+ },
+ {
+  "lift": -0.20547842900452973,
+  "n": 22,
+  "share_150": 0.13636363636363635,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 2% increased Flammability Magnitude",
+  "median": 6.5
+ },
+ {
+  "lift": -0.22280841627888703,
+  "n": 13,
+  "share_150": 0.07692307692307693,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Recover 1% of maximum Mana on Kill",
+  "median": 6.0
+ },
+ {
+  "lift": -0.25136770733296543,
+  "n": 33,
+  "share_150": 0.06060606060606061,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant Damage Penetrates 2% Cold Resistance",
+  "median": 9.0
+ },
+ {
+  "lift": -0.2573891689301324,
+  "n": 13,
+  "share_150": 0.07692307692307693,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 10% increased Chill Duration on Enemies",
+  "median": 20.0
+ },
+ {
+  "lift": -0.2902007254383566,
+  "n": 12,
+  "share_150": 0.16666666666666666,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant Gain additional Stun Threshold equal to 1% of maximum Energy Shield",
+  "median": 12.5
+ },
+ {
+  "lift": -0.3013920044560684,
+  "n": 24,
+  "share_150": 0.125,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Recover 1% of maximum Life on Kill",
+  "median": 6.0
+ },
+ {
+  "lift": -0.3029084548448713,
+  "n": 17,
+  "share_150": 0.058823529411764705,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant Minions have +2% to all Elemental Resistances",
+  "median": 5.0
+ },
+ {
+  "lift": -0.40601864737208215,
+  "n": 17,
+  "share_150": 0.058823529411764705,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant Gain additional Ailment Threshold equal to 2% of maximum Energy Shield",
+  "median": 5.0
+ },
+ {
+  "lift": -0.4341632091822236,
+  "n": 23,
+  "share_150": 0.08695652173913043,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant Minions have 1% increased Attack and Cast Speed",
+  "median": 5.0
+ },
+ {
+  "lift": -0.43550900233406187,
+  "n": 16,
+  "share_150": 0.0625,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 3% increased Curse Duration",
+  "median": 6.5
+ },
+ {
+  "lift": -0.47323989877803807,
+  "n": 46,
+  "share_150": 0.08695652173913043,
+  "side": "P",
+  "text": "Small Passive Skills in Radius also grant 1% increased Cold Damage",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5092947624420834,
+  "n": 33,
+  "share_150": 0.030303030303030304,
+  "side": "P",
+  "text": "Notable Passive Skills in Radius also grant 11% increased Presence Area of Effect",
+  "median": 5.0
+ },
+ {
+  "lift": -0.5325958448182037,
+  "n": 33,
+  "share_150": 0.030303030303030304,
+  "side": "S",
+  "text": "Small Passive Skills in Radius also grant 1% increased Mana Regeneration Rate",
+  "median": 5.0
+ },
+ {
+  "lift": -0.539651151483273,
+  "n": 18,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 1% of Damage taken Recouped as Life",
+  "median": 5.0
+ },
+ {
+  "lift": -0.6763242307324571,
+  "n": 15,
+  "share_150": 0.0,
+  "side": "S",
+  "text": "Notable Passive Skills in Radius also grant 1% increased Skill Speed while Shapeshifted",
+  "median": 5.0
+ }
+]

@@ -1,0 +1,226 @@
+{
+ "base": "Time-Lost Diamond",
+ "errors": [],
+ "cases": {
+  "crit chance + crit damage (attacks) | Very Large radius | no quality": {
+   "total": 31,
+   "cheapest_20": [
+    300.0,
+    399.0,
+    550.0,
+    589.0,
+    679.0,
+    679.0,
+    680.0,
+    699.0,
+    699.0,
+    699.0,
+    699.0,
+    700.0,
+    700.0,
+    749.0,
+    749.0,
+    749.0,
+    749.0,
+    749.0,
+    749.0,
+    750.0
+   ],
+   "median_cheapest_20": 699.0,
+   "n": 20
+  },
+  "crit chance + crit damage (attacks) | Very Large radius | quality 15+": {
+   "total": 46,
+   "cheapest_20": [
+    375.0,
+    450.0,
+    639.0,
+    669.0,
+    669.0,
+    669.0,
+    735.0,
+    755.0,
+    790.0,
+    799.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    880.0,
+    888.0,
+    900.0,
+    1000.0
+   ],
+   "median_cheapest_20": 799.5,
+   "n": 20
+  },
+  "crit chance + crit damage (attacks) | no Very Large radius | no quality": {
+   "total": 10,
+   "cheapest_20": [
+    350.0,
+    350.0,
+    400.0,
+    400.0,
+    420.0,
+    500.0,
+    550.0,
+    850.0,
+    888.0,
+    3500.0
+   ],
+   "median_cheapest_20": 460.0,
+   "n": 10
+  },
+  "crit chance + crit damage (attacks) | no Very Large radius | quality 15+": {
+   "total": 7,
+   "cheapest_20": [
+    200.0,
+    425.0,
+    800.0,
+    888.0,
+    888.0,
+    1188.0,
+    1588.0
+   ],
+   "median_cheapest_20": 888.0,
+   "n": 7
+  },
+  "crit chance + crit damage (attacks) + attack speed | Very Large radius | no quality": {
+   "total": 9,
+   "cheapest_20": [
+    550.0,
+    699.0,
+    749.0,
+    749.0,
+    749.0,
+    749.0,
+    749.0,
+    750.0,
+    999.0
+   ],
+   "median_cheapest_20": 749.0,
+   "n": 9
+  },
+  "crit chance + crit damage (attacks) + attack speed | Very Large radius | quality 15+": {
+   "total": 7,
+   "cheapest_20": [
+    639.0,
+    735.0,
+    799.0,
+    800.0,
+    1100.0,
+    1800.0,
+    2000.0
+   ],
+   "median_cheapest_20": 800.0,
+   "n": 7
+  },
+  "crit chance + crit damage (attacks) + attack speed | no Very Large radius | no quality": {
+   "total": 0,
+   "cheapest_20": [],
+   "median_cheapest_20": null,
+   "n": 0
+  },
+  "crit chance + crit damage (attacks) + attack speed | no Very Large radius | quality 15+": {
+   "total": 3,
+   "cheapest_20": [
+    425.0,
+    800.0,
+    1588.0
+   ],
+   "median_cheapest_20": 800.0,
+   "n": 3
+  },
+  "crit chance + crit damage (spells) | Very Large radius | no quality": {
+   "total": 23,
+   "cheapest_20": [
+    55.0,
+    200.0,
+    300.0,
+    398.0,
+    450.0,
+    550.0,
+    550.0,
+    600.0,
+    666.0,
+    750.0,
+    752.0,
+    799.0,
+    988.0,
+    990.0,
+    1050.0,
+    1150.0,
+    1199.0,
+    1800.0,
+    1888.0
+   ],
+   "median_cheapest_20": 750.0,
+   "n": 19
+  },
+  "crit chance + crit damage (spells) | Very Large radius | quality 15+": {
+   "total": 44,
+   "cheapest_20": [
+    250.0,
+    650.0,
+    688.0,
+    800.0,
+    950.0,
+    988.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1150.0,
+    1177.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1280.0,
+    1350.0,
+    1388.0,
+    1399.0,
+    1400.0
+   ],
+   "median_cheapest_20": 1075.0,
+   "n": 20
+  },
+  "crit chance + crit damage (spells) | no Very Large radius | no quality": {
+   "total": 28,
+   "cheapest_20": [
+    8.0,
+    10.0,
+    25.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    29.0,
+    30.0,
+    34.0,
+    40.0,
+    50.0,
+    60.0,
+    60.0,
+    60.0,
+    60.0,
+    60.0
+   ],
+   "median_cheapest_20": 29.0,
+   "n": 20
+  },
+  "crit chance + crit damage (spells) | no Very Large radius | quality 15+": {
+   "total": 2,
+   "cheapest_20": [
+    100.0,
+    688.0
+   ],
+   "median_cheapest_20": 394.0,
+   "n": 2
+  }
+ }
+}
