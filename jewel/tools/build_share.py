@@ -27,7 +27,8 @@ og = ('<meta property="og:type" content="website"><meta property="og:title" cont
 if base:
     og += '<meta property="og:url" content="%s"><meta property="og:image" content="%stheme/ehpic_banner.jpg"><meta name="twitter:image" content="%stheme/ehpic_banner.jpg">' % (base, base, base)
 html = html.replace("<title>Jewel crafting simulator</title>", "<title>%s</title>\n%s" % (title, og), 1)
-html = re.sub(r"<a href=\"http://127\.0\.0\.1:87\d\d/[^\"]*\">[^<]*</a>( &middot; )?", "", html)   # links to other tools (local hub) are not part of the shared copy
+html = re.sub(r"<a href=\"http://127\.0\.0\.1:87\d\d/[^\"]*\"[^>]*>[^<]*</a>( &middot; )?", "", html)   # links to other tools (local hub) are not part of the shared copy
+html = re.sub(r"<script src=\"toollinks\.js\"></script>\s*", "", html)   # its anchors are removed above, so the script is not needed
 (out / "index.html").write_text(html, encoding="utf-8")
 (out / "README.md").write_text("# eH_PiC Jewel Crafting Simulator\n\nStatic files; open `index.html` through any web server (or host the folder). Runs in the browser. "
                                "Prices are the snapshot in `prices.js`.\n", encoding="utf-8")
