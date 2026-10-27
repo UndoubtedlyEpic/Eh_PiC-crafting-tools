@@ -4,7 +4,7 @@ Three small web tools for Path of Exile 2 crafting. They run in your browser (as
 poe2db, the public trade site) and never ask for a login.
 
 ## Website or local?
-- **Website:** open the landing page (`index.html`; once the site is published, its address goes here). Nothing to install. Prices are refreshed about once an
+- **Website:** https://undoubtedlyepic.github.io/Eh_PiC-crafting-tools/ . Nothing to install. Prices are refreshed about once an
   hour; the jewel and tablet market tables are snapshots with their date shown. It cannot search the trade site for live listings and has no craft log.
 - **Local:** run a tool on your own computer for live prices, real listing lookups and the craft log (details below).
 
