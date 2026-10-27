@@ -26,5 +26,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Suggestions, bug reports and pull reques
 The code and writing in this repository are licensed under the GNU General Public License v3.0 (see [LICENSE](LICENSE)). You may use and change them, but anything
 you distribute that is built from them must stay open source under the same license.
 
-Not covered by that license: game and market data (it belongs to Grinding Gear Games and to the sites it comes from: poe2db, poe.ninja, Craft of Exile), and the
-eH_PiC banner artwork in each `theme/` folder.
+Not covered by that license:
+- Game and market data. It belongs to Grinding Gear Games and to the sites it comes from (poe2db, poe.ninja, Craft of Exile).
+- The eH_PiC name and the banner artwork in each `theme/` folder. They are the author's brand: all rights reserved. Copies of this repository may include them unchanged,
+  but please do not reuse them as branding for your own projects, and replace them with your own art if you publish a modified version.
