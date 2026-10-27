@@ -1,7 +1,12 @@
 # PoE2 crafting tools
 
-Three small local web tools for Path of Exile 2 crafting. They run on your own computer, read public market data (poe.ninja, poe2db, the public trade
-site) and never ask for a login.
+Three small web tools for Path of Exile 2 crafting. They run in your browser (as a website) or on your own computer, read public market data (poe.ninja,
+poe2db, the public trade site) and never ask for a login.
+
+## Website or local?
+- **Website:** open the landing page (`index.html`; once the site is published, its address goes here). Nothing to install. Prices are refreshed about once an
+  hour; the jewel and tablet market tables are snapshots with their date shown. It cannot search the trade site for live listings and has no craft log.
+- **Local:** run a tool on your own computer for live prices, real listing lookups and the craft log (details below).
 
 | Tool | What it does | Start it |
 |---|---|---|
@@ -11,6 +16,12 @@ site) and never ask for a login.
 
 Each tool is standalone: its own folder, README, launcher and copies of the shared files (`server.py`, `prices.js`, `theme/`). You need Python 3 only.
 `advisor/hub.html` is a small page that links the three while their servers are running.
+
+## How the website is built
+`site/build_site.py` fetches fresh prices (`advisor/tools/fetch_prices.py`, `fetch_league_prices.py`), copies only the files the pages load into `_site/`, and checks
+that every file a page refers to exists. The GitHub Actions workflow `.github/workflows/website.yml` runs it every hour and on every push to `main`, then publishes
+`_site/` to GitHub Pages (repository Settings > Pages > Source: GitHub Actions). Nothing is committed back. If a price fetch fails, the committed prices are used and the
+landing page shows their date. Try it locally with `python site/build_site.py` (or `--offline`), then serve `_site/` with `python -m http.server`.
 
 ## Things to know
 - Prices are asking prices from trade listings and poe.ninja, never sales. Rules in the simulators come from named sources and from player testing; they are
